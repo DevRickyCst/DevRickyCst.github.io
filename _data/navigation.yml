@@ -1,0 +1,8 @@
+- name: about me
+  link: /
+- name: skills
+  link: /skills
+- name: experiences
+  link: /experiences
+- name: projects
+  link: /projects

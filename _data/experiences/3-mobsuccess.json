@@ -1,0 +1,19 @@
+{
+  "id":3,
+  "title": "Data Engineer / Back-End Developper",
+  "compagny": "Mobsuccess",
+  "compagny_categ": "Adtech",
+  "from": "April 2021",
+  "to": "today",
+  "detail" : "Implement Meta,Google, Waze python connectorin orderto collect
+      data fromtheir platformin our Datalake daily.!
+
+      Development python script using AWS SDK and Athena to process ETL
+      in order to create a data warehouse.!
+
+      Implementation of adata restitution API Rest on AWS Lambda with
+      python Chalice used as Back-End of a web restitutionDashboard.!
+      
+      Create bash scripts using AWS CLI in orderto manage S3 data between
+      differentAWS environements.",
+}

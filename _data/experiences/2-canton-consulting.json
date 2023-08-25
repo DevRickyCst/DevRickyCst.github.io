@@ -1,0 +1,13 @@
+{
+    "id":2,
+    "title": "Fullstack Developer",
+    "compagny": "Canton-Consulting",
+    "compagny_categ": "FinTech",
+    "from": "Sept 2019",
+    "to": "Sept 2020",
+    "detail" : "Implementation and integration of an LDAP used as authentication on different python projects.!
+    
+    Add new features on a Web application using Python Flask and Dash.!
+
+    Implementation of CI/CD.",
+  }

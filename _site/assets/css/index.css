@@ -1,0 +1,19 @@
+.content {
+  padding: 5% 0;
+}
+
+.navbar {
+  background-color: rgb(226, 226, 226);
+}
+
+.div_intro {
+  text-align: center;
+}
+
+.footer {
+  border-top: 1px solid black;
+  padding-top: 4%;
+  text-align: center;
+}
+
+/*# sourceMappingURL=index.css.map */
