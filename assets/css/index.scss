@@ -2,6 +2,10 @@
 ---
 // styles.scss
 
+
+@use '_abount_me';
+@use '_skills';
+
 .header-link {
 
 }
@@ -10,10 +14,6 @@
 
 }
 
-// General
-.content{
-    padding: 5% 0;
-}
 
 
 
@@ -25,11 +25,30 @@
     background-color: rgb(226, 226, 226);
 }
 
+//body 
+/*
+.main_body{
+    width: 80%;
+    margin: auto;
+}*/
+
+
 // nav intro
 
 .div_intro{
+    padding-top :8%;
     text-align: center;
 }
+
+// abount me
+
+.div_abount_me{
+    background-color: rgb(212, 212, 212);
+    margin: 0 15%;
+    padding: 4% 4%;
+}
+
+
 
 // Footer
 
@@ -38,3 +57,16 @@
     padding-top: 4%;
     text-align: center;
 }
+
+
+
+
+
+
+
+// General end
+.content{
+    padding-bottom: 5%;
+}
+
+
