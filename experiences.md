@@ -4,6 +4,7 @@ title : experiences
 lable : experiences
 ---
 <div class="content div_experiences">
+    <h2 class="section-title blue bold"> Experiences</h2>
     {% for experience_id in site.data.experiences reversed %}
     {% assign experience = experience_id[1] %}
         <div>

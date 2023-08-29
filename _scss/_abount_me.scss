@@ -16,26 +16,32 @@
 
 
 .contact-block {
-    background-color: #ffffff6c;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-    padding: 20px;
-    text-align: center;
-    max-width: 300px;
-    margin-top: 8%;
-  }
+  background-color: #ffffff6c;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  text-align: center;
+  max-width: 300px;
+  margin-top: 8%;
+}
 
-  .contact-block h2 {
-    margin-top: 0;
-    color: #333;
-  }
+.contact-block h2 {
+  margin-top: 0;
+  color: #333;
+}
 
-  .contact-info {
-    margin-top: 20px;
-  }
+.contact-info {
+  margin-top: 20px;
+}
 
-  .contact-info p {
-    margin: 10px 0;
-    color: #777;
-  }
+.contact-info p {
+  margin: 10px 0;
+  color: #777;
+}
 
+.contact-info a {
+  color: #777;
+}
+.contact-info a:hover {
+  color: #1C6789;
+}

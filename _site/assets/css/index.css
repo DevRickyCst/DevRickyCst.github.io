@@ -43,6 +43,14 @@
   color: #777;
 }
 
+.contact-info a {
+  color: #777;
+}
+
+.contact-info a:hover {
+  color: #1C6789;
+}
+
 .div_skills {
   padding: 0 3%;
 }
@@ -83,7 +91,8 @@
 }
 
 .experience_header {
-  margin-bottom: 1.5%;
+  margin-bottom: 0.5%;
+  margin-top: 2%;
 }
 
 .experience_detail {
