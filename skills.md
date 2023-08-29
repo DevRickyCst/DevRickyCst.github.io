@@ -1,3 +1,8 @@
+---
+layout: index
+title : skills
+lable : skills
+---
 <div class='content div_skills'>
     <h2 class="section-title blue bold"> Skills</h2>
     <div class= 'div_skill row'>
@@ -7,7 +12,6 @@
                         <img src="/assets/image/python.svg" alt="python_logo">
                         <b class='skill_title'>Python</b>
                     </div>
-
                     <b>Python Core :</b> 
                     <p>Data Structure - Generators - Iterators - Exeptions - OOPs concepts -
                     Package management - Data Manipulation - Web Development - Database managment </p>

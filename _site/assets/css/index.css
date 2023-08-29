@@ -1,6 +1,22 @@
+.nav-item a:hover {
+  color: #1C6789;
+}
+
+.footer {
+  border-top: 1px solid black;
+  padding: 3% 0;
+  text-align: center;
+  margin-top: 3%;
+}
+
 .div_abount_me {
   background-color: rgba(212, 212, 212, 0.8);
   border-radius: 30px;
+  padding: 4%;
+}
+
+.div-about-me-content p {
+  line-height: 2em;
 }
 
 .contact-block {
@@ -50,10 +66,6 @@
   padding-top: 2%;
 }
 
-.nav-item a:hover {
-  color: #1C6789;
-}
-
 .blue {
   color: #1C6789;
 }
@@ -74,12 +86,12 @@
 .content {
   padding-bottom: 5%;
   width: 80%;
-  padding: 4%;
   margin: auto;
 }
 
 .div_intro {
-  padding-top: 8%;
+  padding-top: 7%;
+  padding-bottom: 3%;
   text-align: center;
 }
 
@@ -88,12 +100,6 @@
   padding-bottom: 1%;
   padding-left: 1%;
   border-bottom: 2px solid black;
-}
-
-.footer {
-  border-top: 1px solid black;
-  padding-top: 4%;
-  text-align: center;
 }
 
 .contact-block {

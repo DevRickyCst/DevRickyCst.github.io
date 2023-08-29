@@ -1,17 +1,11 @@
 ---
 ---
 // styles.scss
+@import 'header';
+@import 'footer';
+
 @import 'abount_me';
 @import 'skills';
-@import 'header';
-
-.header-link {
-
-}
-
-.header-link:hover {
-
-}
 
 
 .blue{
@@ -41,7 +35,6 @@
 .content{
   padding-bottom: 5%;
   width: 80%;
-  padding: 4%;
   margin: auto;
 }
 
@@ -49,7 +42,8 @@
 // nav intro
 
 .div_intro{
-    padding-top :8%;
+    padding-top :7%;
+    padding-bottom: 3%;
     text-align: center;
 }
 
@@ -61,42 +55,30 @@
   border-bottom: 2px solid black;
 }
 
-// Footer
-
-.footer{
-    border-top: 1px solid black; 
-    padding-top: 4%;
-    text-align: center;
-}
-
-
-
 //contact block
 
-
-
 .contact-block {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
-    max-width: 300px;
-  }
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  max-width: 300px;
+}
 
-  .contact-block h2 {
-    margin-top: 0;
-    color: #333;
-  }
+.contact-block h2 {
+  margin-top: 0;
+  color: #333;
+}
 
-  .contact-info {
-    margin-top: 20px;
-  }
+.contact-info {
+  margin-top: 20px;
+}
 
-  .contact-info p {
-    margin: 10px 0;
-    color: #777;
-  }
+.contact-info p {
+  margin: 10px 0;
+  color: #777;
+}
 
 
 
