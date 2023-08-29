@@ -1,9 +1,9 @@
 ---
 ---
 // styles.scss
-@use '_abount_me';
-@use '_skills';
-@use '_header';
+@import '_abount_me';
+@import '_skills';
+@import '_header';
 
 .header-link {
 
