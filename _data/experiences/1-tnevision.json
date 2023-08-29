@@ -1,11 +1,11 @@
 {
-    "id":1,
+    "id":"1",
     "title": "FullStack Developer",
     "compagny": "T&E Vision",
     "compagny_categ": "",
     "from": "April 2019",
     "to": "Aug 2019",
     "detail" : "<li>Data Exploration and processing with Python (Pandas, Numpy, Plotly).</li>
-    <li>Create a Web Interface using HTML, CSS, JS and PHP.</li>
-    <li>Deploy the application on a virtual machine on OVH. Handle domain name and server connection.</li>",
+    <li>Creation of a Web Interface using HTML, CSS, JS and PHP.</li>
+    <li>Deployement the application on a virtual machine on OVH. Handle domain name and server connection.</li>",
   }

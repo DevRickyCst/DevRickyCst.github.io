@@ -16,8 +16,7 @@ lable : skills
                     <p>Data Structure - Generators - Iterators - Exeptions - OOPs concepts -
                     Package management - Data Manipulation - Web Development - Database managment </p>
                     <b>Web development :</b> 
-                    <p>Data Structure - Generators - Iterators - Exeptions - OOPs concepts -
-                    Package management - Data Manipulation - Web Development - Database managment </p>
+                    <p></p>
                     <b>Data Processsing :</b> 
                     <p>Pandas, Numpy, PySpark, Airflow</p>
                     <b>Blockchain </b> 
@@ -48,7 +47,7 @@ lable : skills
                     <p>Infrastructure As Code (IAS), Microservice development, 
                     Serverless Computing Monitoring and Debugging</p>
                     <b>Database management :</b>
-                    <p></p>
+                    <p>Data models - SQL - Query Optimisation - Database Design - Parquet - Schema - Partitions </p>
                 </div>
             </div>
     </div>
