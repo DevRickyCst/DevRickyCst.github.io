@@ -3,6 +3,7 @@
 // styles.scss
 @use '_abount_me';
 @use '_skills';
+@use '_header';
 
 .header-link {
 
@@ -13,7 +14,13 @@
 }
 
 
+.blue{
+  color: #1C6789;
+}
 
+.bold {
+  font-weight: bold;
+}
 
 //Specific
 
@@ -47,7 +54,12 @@
 }
 
 
-
+.section-title{
+  margin-bottom: 3%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  border-bottom: 2px solid black;
+}
 
 // Footer
 
