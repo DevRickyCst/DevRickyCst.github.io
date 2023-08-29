@@ -43,6 +43,10 @@
   color: #777;
 }
 
+.div_skills {
+  padding: 0 3%;
+}
+
 .fa {
   font-size: 1.5vw;
 }
@@ -64,6 +68,34 @@
 
 .div_knowledge {
   padding-top: 2%;
+}
+
+.div_experiences {
+  padding: 0 3%;
+}
+
+.experience_information {
+  float: right;
+}
+
+.experience_header h4, .experience_header p {
+  display: inline;
+}
+
+.experience_header {
+  margin-bottom: 1.5%;
+}
+
+.experience_detail {
+  line-height: 2em;
+}
+
+.experience_detail ul {
+  padding-left: 0;
+}
+
+.experience_detail li {
+  margin-left: 3%;
 }
 
 .blue {

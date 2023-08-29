@@ -5,7 +5,7 @@
     "compagny_categ": "",
     "from": "April 2019",
     "to": "Aug 2019",
-    "detail" : "Data exploration and processingwith Python (Pandas,Numpy, Plotly).!
-    Create a Web interface usingHTML, CSS,JS and PHP.!
-    Create data visualisation with TableauDesktop.",
+    "detail" : "<li>Data Exploration and processing with Python (Pandas, Numpy, Plotly).</li>
+    <li>Create a Web Interface using HTML, CSS, JS and PHP.</li>
+    <li>Deploy the application on a virtual machine on OVH. Handle domain name and server connection.</li>",
   }

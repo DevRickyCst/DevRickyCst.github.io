@@ -5,9 +5,7 @@
     "compagny_categ": "FinTech",
     "from": "Sept 2019",
     "to": "Sept 2020",
-    "detail" : "Implementation and integration of an LDAP used as authentication on different python projects.!
-    
-    Add new features on a Web application using Python Flask and Dash.!
-
-    Implementation of CI/CD.",
+    "detail" : "<li>Implementation and integration of a LDAP used as authentication on different projects.(Python, JS).</li>
+    <li>Develop new features on a web reporting Dashboard with python Flask and Dash.</li>
+    <li>Implement Shell script in order to perform Continuous Integration and Deployment of a Flask application.</li>",
   }
