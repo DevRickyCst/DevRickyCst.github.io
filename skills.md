@@ -16,15 +16,13 @@ lable : skills
                     <p>Data Structure - Generators - Iterators - Exeptions - OOPs concepts -
                     Package management - Data Manipulation - Web Development - Database managment </p>
                     <b>Web development :</b> 
-                    <p></p>
+                    <p>Web Framework (Flask, Django, FastAPI) - Front-end development - RESTful APIs - Authentification and Authorization - Deployment and Hosting</p>
                     <b>Data Processsing :</b> 
                     <p>Pandas, Numpy, PySpark, Airflow</p>
                     <b>Blockchain </b> 
                     <p>Web3.py, Smart contract developpment with Brownies</p>
                     <div class='div_langages'>
                         <b>Other langage :</b> 
-                            <img src="/assets/image/javascript.svg" alt="javascript_logo">
-                            SQL, 
                             <img src="/assets/image/javascript.svg" alt="javascript_logo">
                             Javascript, 
                             <img src="/assets/image/solidity.svg" alt="solidity_logo">
@@ -38,7 +36,7 @@ lable : skills
                 <div class='div_knowledge col-6'>
                     <div class='skill_header'>Other knowledge</div>
                     <b>Developper knowledge:</b> 
-                    <p>Version control (Git) - REST API development - Testing - 
+                    <p>Version control (Git) - Testing - 
                         Performance and Optimisation - Collaborations Tools </p>
                     <b>Devops Development :</b> 
                     <p>Infrastructure Automation - Automated Testing - 
