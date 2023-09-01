@@ -13,12 +13,12 @@ lable : competences
                         <b class='skill_title'>Python</b>
                     </div>
                     <b>Python Core :</b> 
-                    <p>Structure de donnée - Generateurs - Iterateurs - Exeptions - OOPs concepts -
-                    Création et gestion de Package - Data Manipulation - Developpement Web - Gestion de database</p>
+                    <p>Structure de donnée - Generateurs - Iterateurs - Exeptions - Programmation orienté objet -
+                    Création et gestion de Package - Manipulation de donnée - Developpement Web - Gestion de BDD</p>
                     <b>Developpement Web :</b> 
-                    <p>Framework Web (Flask, Django, FastAPI) - Developpement Front-end - RESTful APIs - Authentification et Authorisation - Deploiement et hébergement</p>
-                    <b>Data Processsing :</b> 
-                    <p>Pandas, Numpy, PySpark, Airflow</p>
+                    <p>Framework Web (Flask, Django, FastAPI) - Developpement Front-end - RESTful APIs - Authentification et authorisation - Deploiement et hébergement</p>
+                    <b>Manipulation de donnée :</b> 
+                    <p>Package Data (Pandas, Numpy, PySpark) - Exploration de donnée - Data visualisation (Power BI, Tableau ..) - Mise en plàce d'ETL</p>
                     <b>Blockchain </b> 
                     <p>Web3.py, developpement de Smart contract avec Brownies</p>
                     <div class='div_langages'>
@@ -35,17 +35,17 @@ lable : competences
             </div>
                 <div class='div_knowledge col-6'>
                     <div class='skill_header'>Autres connaissances</div>
-                    <b>Developper knowledge:</b> 
-                    <p>Version control (Git) - Testing - 
-                        Performance and Optimisation - Collaborations Tools </p>
+                    <b>Compétences de développement:</b> 
+                    <p>Control de Version (Git) - Test - 
+                        Performance et optimisation - Outil de collaboration </p>
                     <b>Devops Development :</b> 
-                    <p>Infrastructure Automation - Automated Testing - 
-                        Containerization and Orchestration - Continuous Integration and Deployment (CI/CD) </p>
+                    <p>Automatisation d'infrastructure - Test automatique - 
+                        Conteneurisation et orchestration - Integration et déploiment en continue (CI/CD) </p>
                     <b>Cloud developpement :</b> 
-                    <p>Infrastructure As Code (IAS), Microservice development, 
-                    Serverless Computing Monitoring and Debugging</p>
-                    <b>Database management :</b>
-                    <p>Data models - SQL - Query Optimisation - Database Design - Parquet - Schema - Partitions </p>
+                    <p>Infrastructure As Code (IAS), Développement de microservice - 
+                    Serverless Computing - Monitoring et débugage</p>
+                    <b>Gestion de BDD :</b>
+                    <p>Modèle de donnée - SQL - Optimisation de requête - Design de BDD - Parquet - Schéma - Partitions </p>
                 </div>
             </div>
     </div>

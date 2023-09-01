@@ -21,11 +21,6 @@ lable : about
             <div class="div-about-me-content">
                 <h2 class="section-title blue bold">A propos</h2>
                     <p>
-                        Mon expertise s'étend du développement backend au DevOps, en passant par les aspects liés aux données, 
-                        créant un mélange unique de compétences techniques et de savoir-faire pratique. Mon parcours dans le domaine du développement m'a non seulement permis de me familiariser avec toute une série de langages et de frameworks, mais aussi de cultiver une innovante pour relever des défis complexes dans un environnement en nuage.
-                    </p>
-                    <p>
-                    Qu'il s'agisse de créer des microservices performants ou de mettre en place des pipelines DevOps, mon engagement pour l'excellence est au cœur de chaque projet que j'entreprends. 
                     </p>
             </div>
         </div>
