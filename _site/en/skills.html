@@ -10,6 +10,86 @@
 <!-- Import CSS -->
 <link rel="stylesheet" href="/assets/css/index.css">
 
+<!-- Import JQuery-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+
+ // Parse current path
+ var currentFullPath = window.location.pathname;
+var [, currentPrefix, currentPath] = currentFullPath.split('/');
+
+
+
+
+$(document).ready(function() {
+
+    //Handle link btw Frensh version and english version
+    $('a.swap_name').on('click', function(event) {
+        event.preventDefault();
+        // Parse destination path
+        var destinationFullPath = $(this).attr('href');
+        var [, destinationPrefix, destinationPath] = destinationFullPath.split('/');
+            
+        if (currentPrefix == destinationPrefix){
+            console.log("currentPrefix == destinationPrefix" + currentPrefix == destinationPrefix);
+            outputLocation = destinationFullPath;
+        }else{
+            outputLocation = destinationPrefix + '/'
+            console.log((currentPrefix == 'en' && currentPath == 'skills'))
+            if (currentPrefix == 'en' && currentPath == 'skills') {
+                outputLocation = '/fr/competences';
+            } else if(currentPrefix == 'fr' && currentPath == 'competences'){
+                outputLocation = '/en/skills';
+            }else{
+                outputLocation = '/' + outputLocation + currentPath;
+            }
+            
+        }
+
+        console.log([currentFullPath, currentPrefix, currentPath])
+        console.log([destinationFullPath, destinationPrefix, destinationPath])
+
+        console.log(outputLocation)
+
+        console.log(window.location.hostname)
+
+        window.location.href = outputLocation;
+  
+    });
+
+    //Handle classique link to autoadapt with current link
+  $('a.header-link').on('click', function(event) {
+        event.preventDefault();
+
+        // Parse destination path
+        var destinationFullPath = $(this).attr('href');
+        var [, destinationPrefix, destinationPath] = destinationFullPath.split('/');
+
+        var outputLocation = destinationFullPath;
+        
+        if (currentPrefix == 'fr'){
+            outputLocation = '/' + currentPrefix;
+            outputLocation = (destinationPath == "skills") ? outputLocation + '/competences' : outputLocation + '/' + destinationPath;
+        }
+
+        window.location.href = outputLocation;
+    });
+
+
+    //Handle naming in headers    
+    var $skillsLink = $('a[href="' + "/en/skills" + '"]');
+    var $aboutmeLink = $('a[href="' + "/en/" + '"]');
+    var $posteTitle = $('h3.poste');
+
+    if (currentPrefix == 'fr'){
+        $skillsLink.text('Compétences')
+        $aboutmeLink.text('A propos')
+        $posteTitle.text('Développeur Python - Back End / Devops')
+    }
+});
+
+</script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,34 +97,41 @@
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg fixed-top" >
+    
+
+    
+
+<nav class="navbar navbar-expand-lg fixed-top" >
 
     <div class="container-fluid">
     
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-    
             <ul class="navbar-nav nav-underline justify-content-center">
-
                 
-                <li class="nav-item">
                     
-                    <a class="nav-link mx-5 header-link" href="/">  About me</a>
+                    <a class="nav-link mx-5 header-link" href="/en/">  About me</a>
                     
                 </li>
                 
-                <li class="nav-item">
                     
-                    <a class="nav-link mx-5 header-link" href="/skills">  Skills</a>
+                    <a class="nav-link mx-5 header-link" href="/en/skills">  Skills</a>
                     
                 </li>
                 
-                <li class="nav-item">
                     
-                    <a class="nav-link mx-5 header-link" href="/experiences">  Experiences</a>
+                    <a class="nav-link mx-5 header-link" href="/en/experiences">  Experiences</a>
                     
                 </li>
                 
             </ul>
+        </div>
+        <div class="language_link">
+            <a href="/fr" class="swap_name">
+                <img src="/assets/image/france.png" alt="Drapeau Francais" width="50" height="30">
+            </a> 
+            <a href="/en" class="swap_name">
+                <img src="/assets/image/UK.png" alt="Drapeau Anglais" width="50" height="30">
+            </a>
         </div>
     </div>
 </nav>
@@ -53,7 +140,7 @@
 
         <div class="div_intro content">
             <h1 class="blue bold"> Aymeric Creusot</h1>
-            <h3 class="bold"> Python developper - Back-end / DevOps</h3>
+            <h3 class="bold poste"> Python developper - Back-end / DevOps</h3>
         </div>
         <div class="content div_skills">
     <h2 class="section-title blue bold"> Skills</h2>

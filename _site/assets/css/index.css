@@ -2,6 +2,11 @@
   color: #1C6789;
 }
 
+.language_link a {
+  display: block;
+  display: inline-block;
+}
+
 .footer {
   border-top: 1px solid black;
   padding: 3% 0;
