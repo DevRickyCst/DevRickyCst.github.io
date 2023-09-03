@@ -18,7 +18,7 @@ lable : competences
                     <b>Developpement Web :</b> 
                     <p>Framework Web (Flask, Django, FastAPI) - Developpement Front-end - RESTful APIs - Authentification et authorisation - Deploiement et hébergement</p>
                     <b>Manipulation de donnée :</b> 
-                    <p>Package Data (Pandas, Numpy, PySpark) - Exploration de donnée - Data visualisation (Power BI, Tableau ..) - Mise en plàce d'ETL</p>
+                    <p>Package Data (Pandas, Numpy, PySpark) - Exploration de donnée - Data visualisation (Power BI, Tableau ..) - Mise en place d'ETL</p>
                     <b>Blockchain </b> 
                     <p>Web3.py, developpement de Smart contract avec Brownies</p>
                     <div class='div_langages'>
@@ -36,7 +36,7 @@ lable : competences
                 <div class='div_knowledge col-6'>
                     <div class='skill_header'>Autres connaissances</div>
                     <b>Compétences de développement:</b> 
-                    <p>Control de Version (Git) - Test - 
+                    <p>Algorithmie - Control de Version (Git) - Test - 
                         Performance et optimisation - Outil de collaboration </p>
                     <b>Devops Development :</b> 
                     <p>Automatisation d'infrastructure - Test automatique - 
