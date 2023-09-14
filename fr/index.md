@@ -18,7 +18,7 @@ lable : about
             </div>
             <div class="left-block">
                 <p><b>Français</b> : Maternelle</p>
-                <p><b>Englais</b> : Professionnel</p>
+                <p><b>Anglais</b> : Professionnelle</p>
             </div>
             <div class="left-block download">
                 <button class="btn btn-light">
