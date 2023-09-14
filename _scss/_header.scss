@@ -1,3 +1,9 @@
-.nav-item a:hover {
+.nav-link:hover {
     color: #1C6789;
+}
+
+.language_link a{
+    display: block;
+    display: inline-block;
+    margin: 1px;
 }

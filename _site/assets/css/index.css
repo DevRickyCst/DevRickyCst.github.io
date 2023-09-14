@@ -1,5 +1,11 @@
-.nav-item a:hover {
+.nav-link:hover {
   color: #1C6789;
+}
+
+.language_link a {
+  display: block;
+  display: inline-block;
+  margin: 1px;
 }
 
 .footer {
@@ -19,13 +25,14 @@
   line-height: 2em;
 }
 
-.contact-block {
-  background-color: rgba(255, 255, 255, 0.4235294118);
+.left-block {
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   padding: 20px;
   text-align: center;
   max-width: 300px;
+  margin: auto;
   margin-top: 8%;
 }
 
@@ -49,6 +56,15 @@
 
 .contact-info a:hover {
   color: #1C6789;
+}
+
+.apropos a {
+  color: black;
+  font-style: bold;
+}
+
+.download {
+  overflow: auto;
 }
 
 .div_skills {

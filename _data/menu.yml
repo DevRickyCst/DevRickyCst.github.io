@@ -1,0 +1,9 @@
+# menu.yml
+en:
+  home: Home
+  about: About
+  portfolio: Portfolio
+fr:
+  home: Accueil
+  about: À propos
+  portfolio: Portfolio
