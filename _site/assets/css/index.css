@@ -8,6 +8,19 @@
   margin: 1px;
 }
 
+/* Custom CSS to add lines between menu items on small screens */
+@media (max-width: 768px) {
+  .nav-item {
+    border-bottom: 1px solid #000000; /* You can adjust the color as needed */
+  }
+  .flag_div {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  .nav-link:hover {
+    text-decoration: none;
+  }
+}
 .footer {
   border-top: 1px solid black;
   padding: 3% 0;
