@@ -7,16 +7,6 @@
     <div class="container-fluid ">
     
         <div id="navbarSupportedContent" class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <div class="flag_div mx-5">
-                <a href="/fr" class="swap_name">
-                    <img src="/assets/image/france.png" alt="Drapeau Francais" width="50" height="30">
-                </a> 
-                <a href="/en" class="swap_name">
-                    <img src="/assets/image/UK.png" alt="Drapeau Anglais" width="50" height="30">
-                </a>
-            </div>
-
- 
             <ul class="navbar-nav nav-underline justify-content-center mr-auto">
                 {% for item in site.data.navigation %}
                 <li class="nav-item">
@@ -28,6 +18,15 @@
                 </li>
                 {% endfor %}
             </ul>
+            
+            <div class="flag_div mx-5">
+                <a href="/fr" class="swap_name">
+                    <img src="/assets/image/france.png" alt="Drapeau Francais" width="50" height="30">
+                </a> 
+                <a href="/en" class="swap_name">
+                    <img src="/assets/image/UK.png" alt="Drapeau Anglais" width="50" height="30">
+                </a>
+            </div>
 
 
         </div>
