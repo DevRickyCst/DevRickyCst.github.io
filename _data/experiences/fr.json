@@ -1,51 +1,81 @@
-{ "experiences": [
+{
+    "experiences": [
         {
-            "id":"1",
-            "title": "Développeur FullStack",
-            "compagny": "T&E Vision",
-            "compagny_categ": "",
-            "from": "Avril 2019",
-            "to": "Aout 2019",
-            "details" : {
-            "": ["Exploration et traitement de données avec Python (Pandas, Numpy, Plotly).",
-                    "Création d'une interface web en utilisant HTML, CSS, JS et PHP.",
-                    "Déploiement de l'application sur une machine virtuelle sur OVH. Gestion du domaine et de la connexion au serveur."]
+            "id": "0",
+            "title": "Data Scientist",
+            "compagny": "National Chiao Tung University",
+            "compagny_categ": "Internship",
+            "linkedin_url": "https://www.linkedin.com/school/national-chiao-tung-university/",
+            "from": "Juin 2018",
+            "to": "Septembre 2018",
+            "details": {
+                "": [
+                    "Analyse et appréhension de données sous formes de coordonnées (x,y,z) en fonction du temps grâce à différents G Censors placés sur des personnes faisant des exercices à la salle de sport.",
+                    "Utilisation du Déformation Temporelle Dynamique (ou Dynamic Time Warping) appliqué sur chaque axe comme critère de comparaison.",
+                    "Traitement en python afin de mettre un algorithme en place à partir des différentes valeurs trouvées avec la méthode DTW (pandas, numpy, dtw-python, scikit-learn)."
+                ]
             }
         },
         {
-            "id":"2",
+            "id": "1",
+            "title": "Développeur FullStack",
+            "compagny": "T&E Vision",
+            "compagny_categ": "Internship",
+            "from": "Avril 2019",
+            "to": "Aout 2019",
+            "details": {
+                "Creation d'un MVP de reporting web d'analyse de donnée provenant du secteur du 'Travel & Expense'": [
+                    "Exploration, traitement de donnée avec python (pandas, numpy)",
+                    "Création d'une interface Web avec un système d'authentication (HTML, JS, PHP)",
+                    "Allocation d'une machine virtuel dédié connecté à un DNS afin de mettre en ligne l'interface "
+                ]
+            }
+        },
+        {
+            "id": "2",
             "title": "Développeur FullStack",
             "compagny": "Canton-Consulting",
             "compagny_categ": "FinTech",
-            "linkedin_url":"https://www.linkedin.com/company/canton-consulting/",
+            "linkedin_url": "https://www.linkedin.com/company/canton-consulting/",
             "from": "Sept 2019",
             "to": "Sept 2020",
-            "details" : {
-            "":[
-                "Implémentation et intégration d'un LDAP utilisé comme authentification sur différents projets (Python, JS).",
-                "Développement de nouvelles fonctionnalités outil de reporting web fonctionnant avec python Flask et Dash.",
-                "Implémentation de scripts Shell afin de réaliser l'intégration et le déploiement continues d'une application Flask."
-            ]
+            "details": {
+                "Maintenance et mise à jour d'une application web de reporting d'analyse de frais bancaire": [
+                    "Développement de nouvelles features d'information de connection et de gestion de compte avec un système d'authentification LDAP (Python dash, flask, python-ldap)",
+                    "Maintenance de CI/CD sur nos serveurs internes avec github CI/CD"
+                ],
+                "Installation et intégration d'un LDAP dédié aux différents projets internes.": [
+                    "Compréhension des notions, installation et sécurisation d'un LDAP pour différents besoins",
+                    "Intégration d'un LDAP en temps que système d'authentification pour différents projets (Python, JS)",
+                ],
+                "Responsable DPO (Data Protection Officer)": [
+                    "Vérification que l'utilisation des données de projets internes soit conforme à la RGPD"
+                ],
+                "Netoyage d'une base de donnée lors qu'une mission cliente avec python (regex, pandas, numpy)": []
             }
         },
         {
-            "id":"3",
+            "id": "3",
             "title": "Data Engineer / Back-End Developer",
             "compagny": "Mobsuccess",
             "compagny_categ": "Adtech",
-            "linkedin_url":"https://www.linkedin.com/company/canton-consulting/",
+            "linkedin_url": "https://www.linkedin.com/company/canton-consulting/",
             "from": "April 2021",
             "to": "Present",
-            "details" : {
-            "Mise en œuvre de pipelines de données pour extraire, traiter et importer quotidiennement de grandes quantités de données provenant de différentes sources.": [
-                "Développement de scripts python orchestrés avec MWAA afin de stocker les données des plateformes publicitaires dans un Datalake.",
-                "Création d'ETL avec des requêtes AWS Athena et des scripts Python déclenchés avec MWAA afin de créer un entrepôt de données.",
-                "Gestion de base de données avec AWS S3 en utilisant des partitions afin de rendre chaque tâche Airflow idempotente et optimisée pour les requêtes."
-            ],
-            "Déploiement d'une application python afin de faciliter l'accès aux données internes.": [
-                "Déploiement d'un package python interne sur AWS CodeArtifact afin d'interagir avec les API de différentes plateformes publicitaires (google-ads, Facebook Buisness, Waze Ads).",
-                "Développement et déploiement d'une Api REST sur AWS lambda avec Chalice afin de récupérer des données pour le front end d'un tableau de bord web."
-            ]
+            "details": {
+                "Mise en œuvre de pipelines de données pour extraire, traiter et importer quotidiennement de grandes quantités de données provenant de différentes sources.": [
+                    "Développement de scripts python orchestrés avec MWAA afin de stocker les données des plateformes publicitaires dans un Datalake.",
+                    "Création d'ETL avec des requêtes AWS Athena et des scripts Python déclenchés avec MWAA afin de créer un entrepôt de données.",
+                    "Gestion de base de données avec AWS S3 en utilisant des partitions afin de rendre chaque tâche Airflow idempotente et optimisée pour les requêtes."
+                ],
+                "Déploiement d'une application python afin de faciliter l'accès aux données internes.": [
+                    "Développement et déploiement d'une Api REST sur AWS lambda avec Chalice afin de récupérer des données pour le front end d'un tableau de bord web.",
+                ],
+                "Développement d'un package python interne intéragir avec différentes API de plateformes publicitaires": [
+                    "Développement d'une interface python afin de récupérer les datas directements depuis les platformes Facebook ads, Google ads pour plusieurs granularités, KPI différents.",
+                    "Respect des différentes normes des packages python ainsi que la gestion des différentes dépendances.",
+                    "Maintenance de CI/CD afin de déployer automatiquement ce package sur AWS CodeArtifact."
+                ]
             }
         }
     ]

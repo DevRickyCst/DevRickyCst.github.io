@@ -1,51 +1,82 @@
-{ "experiences": [
+{
+  "experiences": [
     {
-        "id":"1",
-        "title": "FullStack Developer",
-        "compagny": "T&E Vision",
-        "compagny_categ": "",
-        "from": "April 2019",
-        "to": "Aug 2019",
-        "details" : {
-          "": ["Data Exploration and processing with Python (Pandas, Numpy, Plotly).",
-                "Creation of a Web Interface using HTML, CSS, JS and PHP.",
-                "Deployement the application on a virtual machine on OVH. Handle domain name and server connection."]
-        }
+      "id": "0",
+      "title": "Data Scientist",
+      "compagny": "National Chiao Tung University",
+      "compagny_categ": "Internship",
+      "linkedin_url": "https://www.linkedin.com/school/national-chiao-tung-university/",
+      "from": "June 2018",
+      "to": "September 2018",
+      "details": {
+        "": [
+          "Acquisition of data in the form of coordinates as a function of time using various G Censors placed on people exercising at the gym.",
+          "Use Dynamic Time Warping applied to each axis as a comparison criterion.",
+          "Processing in python to implement an algorithm based on the different values found with the DTW method (pandas, numpy, dtw-python, scikit-learn)."
+        ]
+      }
     },
     {
-        "id":"2",
-        "title": "FullStack Developer",
-        "compagny": "Canton-Consulting",
-        "compagny_categ": "FinTech",
-        "linkedin_url":"https://www.linkedin.com/company/canton-consulting/",
-        "from": "Sept 2019",
-        "to": "Sept 2020",
-        "details" : {
-        "":[
-            "Implementation and integration of a LDAP used as authentication on different projects.(Python, JS).",
-            "Development new features on a web reporting Dashboard with python Flask and Dash.",
-            "Implementation Shell scripts in order to perform Continuous Integration and Deployment of a Flask application."
+      "id": "1",
+      "title": "FullStack Developer",
+      "compagny": "T&E Vision",
+      "compagny_categ": "Internship",
+      "from": "April 2019",
+      "to": "Aug 2019",
+      "details": {
+        "Creation of a web reporting MVP for data analysis in the Travel & Expense sector": [
+          "Data exploration and processing with python (pandas, numpy).",
+          "Creating a Web interface with an authentication system (HTML, JS, PHP).",
+          "Allocation of a dedicated virtual machine connected to a DNS to bring the interface online."
         ]
-        }
-    },{
-        "id":"3",
-        "title": "Data Engineer / Back-End Developer",
-        "compagny": "Mobsuccess",
-        "compagny_categ": "Adtech",
-        "linkedin_url":"https://www.linkedin.com/company/canton-consulting/",
-        "from": "April 2021",
-        "to": "Present",
-        "details" : {
-          "Implementation of data pipelines to extract, process and import daily large amount of data from different sources.": [
+      }
+    },
+    {
+      "id": "2",
+      "title": "FullStack Developer",
+      "compagny": "Canton-Consulting",
+      "compagny_categ": "FinTech",
+      "linkedin_url": "https://www.linkedin.com/company/canton-consulting/",
+      "from": "Sept 2019",
+      "to": "Sept 2020",
+      "details": {
+        "Maintenance and updating of a web application for reporting and analyzing bank charges": [
+          "Development of new connection information and account management features with an LDAP authentication system (Python dash, flask, python-ldap).",
+          "Maintenance de CI/CD sur nos serveurs internes avec github CI/CD."
+        ],
+        "Installation and integration of an LDAP dedicated to various internal projects.": [
+          "Understanding LDAP concepts, installation and security for different needs.",
+          "Integration of LDAP as an authentication system for various projects (Python, JS).",
+        ],
+        "DPO (Data Protection Officer)": [
+          "Verification that the use of internal project data complies with the GDPR."
+        ],
+        "Netoyage of a database for a client needs with python (regex, pandas, numpy)": []
+      }
+    },
+    {
+      "id": "3",
+      "title": "Data Engineer / Back-End Developer",
+      "compagny": "Mobsuccess",
+      "compagny_categ": "Adtech",
+      "linkedin_url": "https://www.linkedin.com/company/canton-consulting/",
+      "from": "April 2021",
+      "to": "Present",
+      "details": {
+        "Implementation of data pipelines to extract, process and import daily large amount of data from different sources.": [
           "Development python scripts orchestrated with MWAA in order to store data from advertising platforms into a Datalake.",
           "Creation of ETL with AWS Athena queries and Python Script triggered with MWAA in order to create a data Warehouse.",
           "Database management with AWS S3 using partitions in order to make each Airflow job idempotent and optimised for querying."
-          ],
+        ],
         "Deployement of python application in order to make easy access for internal data.": [
-          "Deployement internal python package on AWS CodeArtifact in order to interact with APIs from different advertising's platform (google-ads, Facebook Buisness, Waze Ads).",
           "Development and deployement a REST Api on AWS lambda with Chalice in order to retrieve data for a front-end web dashboard."
-          ]
-        }
+        ],
+        "": [
+          "IDevelopment of a python interface to retrieve data directly from the Facebook ads and Google ads platforms for different granularities and KPIs.",
+          "Compliance with python package standards and dependency management.",
+          "CI/CD maintenance to automatically deploy this package on AWS CodeArtifact."
+        ]
+      }
     }
-]
+  ]
 }
