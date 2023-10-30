@@ -1,0 +1,51 @@
+{ "experiences": [
+    {
+        "id":"1",
+        "title": "FullStack Developer",
+        "compagny": "T&E Vision",
+        "compagny_categ": "",
+        "from": "April 2019",
+        "to": "Aug 2019",
+        "details" : {
+          "": ["Data Exploration and processing with Python (Pandas, Numpy, Plotly).",
+                "Creation of a Web Interface using HTML, CSS, JS and PHP.",
+                "Deployement the application on a virtual machine on OVH. Handle domain name and server connection."]
+        }
+    },
+    {
+        "id":"2",
+        "title": "FullStack Developer",
+        "compagny": "Canton-Consulting",
+        "compagny_categ": "FinTech",
+        "linkedin_url":"https://www.linkedin.com/company/canton-consulting/",
+        "from": "Sept 2019",
+        "to": "Sept 2020",
+        "details" : {
+        "":[
+            "Implementation and integration of a LDAP used as authentication on different projects.(Python, JS).",
+            "Development new features on a web reporting Dashboard with python Flask and Dash.",
+            "Implementation Shell scripts in order to perform Continuous Integration and Deployment of a Flask application."
+        ]
+        }
+    },{
+        "id":"3",
+        "title": "Data Engineer / Back-End Developer",
+        "compagny": "Mobsuccess",
+        "compagny_categ": "Adtech",
+        "linkedin_url":"https://www.linkedin.com/company/canton-consulting/",
+        "from": "April 2021",
+        "to": "Present",
+        "details" : {
+          "Mise en œuvre de pipelines de données pour extraire, traiter et importer quotidiennement de grandes quantités de données provenant de différentes sources.": [
+            "Développement de scripts python orchestrés avec MWAA afin de stocker les données des plateformes publicitaires dans un Datalake.",
+            "Création d'ETL avec des requêtes AWS Athena et des scripts Python déclenchés avec MWAA afin de créer un entrepôt de données.",
+            "Gestion de base de données avec AWS S3 en utilisant des partitions afin de rendre chaque tâche Airflow idempotente et optimisée pour les requêtes."
+          ],
+          "Déploiement d'une application python afin de faciliter l'accès aux données internes.": [
+            "Déploiement d'un package python interne sur AWS CodeArtifact afin d'interagir avec les API de différentes plateformes publicitaires (google-ads, Facebook Buisness, Waze Ads).",
+            "Développement et déploiement d'une Api REST sur AWS lambda avec Chalice afin de récupérer des données pour le front end d'un tableau de bord web."
+          ]
+        }
+    }
+]
+}
