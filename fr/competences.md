@@ -34,7 +34,7 @@ lable : competences
                 </div>    
             </div>
                 <div class='div_knowledge col-6'>
-                    <div class='skill_header'>Autres connaissances</div>
+                    <h5 class='skill_header'>Autres connaissances</h5>
                     <b>Compétences de développement:</b> 
                     <p>Algorithmie - Control de Version (Git) - Test - 
                         Performance et optimisation - Outil de collaboration </p>

@@ -1,32 +1,35 @@
-.nav-link:hover {
-    color: #1C6789;
+/* Style pour la barre de navigation */
+.navbar {
+    background-color: #333; /* Couleur de fond de la barre de navigation (gris foncé) */
+    color: #fff; /* Couleur du texte (blanc) */
 }
 
-.language_link a{
-    display: block;
+.navbar-toggler {
+    background-color: #175b7a; /* Couleur de fond du bouton de bascule (gris foncé) */
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; /* Couleur de l'icône de bascule (blanc) */
+}
+
+/* Style pour les liens de navigation */
+.nav-link {
+    color: #317FA8; /* Couleur du texte des liens (blanc) */
+    margin: 0 5px; /* Espacement horizontal entre les liens */
+}
+
+.nav-link.active {
+    text-decoration: underline; /* Souligner le lien actif */
+}
+
+/* Style pour la section des drapeaux */
+.flag_div {
+    text-align: center; /* Centrer les éléments */
+    margin: 10px 0; /* Espacement autour de la section des drapeaux */
+}
+
+.swap_name {
     display: inline-block;
-    margin: 1px;
+    margin: 0 10px; /* Espacement horizontal entre les drapeaux */
 }
-nav{
-    -webkit-box-shadow: 0 4px 6px -6px #222;
-    -moz-box-shadow: 0 4px 6px -6px #222;
-    box-shadow: 0 4px 6px -6px #222;
-  
-}
-
-/* Custom CSS to add lines between menu items on small screens */
-@media (max-width: $breakpoint-md) {
-    .nav-item {
-      border-top: 1px solid #000000; /* You can adjust the color as needed */
-    }
-    #navbarSupportedContent{
-        padding-top: 1em;
-        padding-bottom: 1em;
-    }
-    .nav-link:hover {
-        text-decoration: none;
-    }
-    .flag_div{
-        margin-top: 1em;
-    }
-  }

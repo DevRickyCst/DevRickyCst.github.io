@@ -1,27 +1,78 @@
-.div_experiences{
-    padding: 0 3%;
+/* Style de la section d'expériences */
+.section-title {
+  font-size: 28px;
+  color: #0077b5; /* Couleur LinkedIn par défaut */
+  margin-bottom: 20px;
 }
 
-.experience_information{
-    float: right;
+/* Style des expériences individuelles */
+.div_experience {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.experience_header h4, .experience_header p {
-    display: inline;
-}
 .experience_header {
-    margin-bottom: 0.5%;
-    margin-top: 2%;
+  margin-bottom: 10px;
 }
 
-.experience_detail{
-    line-height: 2em;
+.experience_header h4 {
+  font-size: 20px;
+  margin: 0;
 }
 
-.experience_detail ul{
-    padding-left: 0;
+.experience_company_info {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 5px; /* Ajout de marge pour séparer le titre et l'information de l'entreprise */
 }
 
-.experience_detail li{
-    margin-left: 3%;
+.experience_company_info a {
+  text-decoration: none;
+  color: #0077b5; /* Couleur LinkedIn par défaut */
+}
+
+.experience_company_info a:hover {
+  text-decoration: underline;
+}
+
+.experience_date {
+  font-size: 14px;
+  color: #555;
+}
+
+.experience_detail ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+/* Style du titre en bleu */
+.blue {
+  color: #0077b5; /* Bleu LinkedIn par défaut */
+}
+
+/* Style en gras */
+.bold {
+  font-weight: bold;
+}
+
+.experience_detail ul {
+  list-style-type: circle; /* Supprimez les puces de la liste */
+  padding-left: 0; /* Supprimez le retrait à gauche */
+}
+
+.experience_detail p {
+  font-weight: bold;
+  color: #3a3e41; /* Couleur LinkedIn par défaut */
+  margin-bottom: 5px;
+}
+
+.experience_detail li {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
 }

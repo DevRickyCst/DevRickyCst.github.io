@@ -3,15 +3,20 @@
   "title": "Data Engineer / Back-End Developer",
   "compagny": "Mobsuccess",
   "compagny_categ": "Adtech",
+  "linkedin_url":"https://www.linkedin.com/company/mobsuccess/",
   "from": "April 2021",
   "to": "Present",
-  "detail" : "<b>Implementation of data pipelines to extract, process and import daily large amount of data from different sources</b>
-  <li>Development python scripts orchestrated with MWAA in order to store data from advertising platforms into a Datalake.</li>
-  <li>Creation of ETL with AWS Athena queries and Python Script triggered with MWAA in order to create a data Warehouse.</li>
-  <li>Database management with AWS S3 using partitions in order to make each Airflow job idempotent and
-  optimised for querying.</li>
-  <b>Deployement of python application in order to make easy access for internal data.</b>
-  <li>Deployement internal python package on AWS CodeArtifact in order to interact with APIs from different advertising’s
-  platform (google-ads, Facebook Buisness, Waze Ads).</li>
-  <li>Development and deployement a REST Api on AWS lambda with Chalice in order to retrieve data for a front-end web dashboard.</li>"
+  "details" : {
+    "Implementation of data pipelines to extract, process and import daily large amount of data from different sources": [
+      "Development python scripts orchestrated with MWAA in order to store data from advertising platforms into a Datalake.",
+      "Creation of ETL with AWS Athena queries and Python Script triggered with MWAA in order to create a data Warehouse.",
+      "Database management with AWS S3 using partitions in order to make each Airflow job idempotent and
+      optimised for querying."
+    ],
+    "Deployement of python application in order to make easy access for internal data.": [
+      "Deployement internal python package on AWS CodeArtifact in order to interact with APIs from different advertising
+      platform (google-ads, Facebook Buisness, Waze Ads).",
+      "Development and deployement a REST Api on AWS lambda with Chalice in order to retrieve data for a front-end web dashboard."
+    ]
+  }
 }

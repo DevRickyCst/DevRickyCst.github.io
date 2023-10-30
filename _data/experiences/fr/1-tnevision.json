@@ -3,9 +3,12 @@
     "title": "Développeur FullStack",
     "compagny": "T&E Vision",
     "compagny_categ": "",
+    "linkedin_url":"https://www.linkedin.com/company/canton-consulting/",
     "from": "Avril 2019",
     "to": "Aout 2019",
-    "detail" : "<li>Exploration et traitement de données avec Python (Pandas, Numpy, Plotly).</li>
-    <li>Création d'une interface web en utilisant HTML, CSS, JS et PHP.</li>
-    <li>Déploiement de l'application sur une machine virtuelle sur OVH. Gestion du domaine et de la connexion au serveur.</li>",
-  }
+    "details" : {
+      "": ["Exploration et traitement de données avec Python (Pandas, Numpy, Plotly).",
+            "Création d'une interface web en utilisant HTML, CSS, JS et PHP.",
+            "Déploiement de l'application sur une machine virtuelle sur OVH. Gestion du domaine et de la connexion au serveur."]
+    }
+}

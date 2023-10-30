@@ -1,35 +1,40 @@
-.nav-link:hover {
-  color: #1C6789;
+@charset "UTF-8";
+/* Style pour la barre de navigation */
+.navbar {
+  background-color: #333; /* Couleur de fond de la barre de navigation (gris foncé) */
+  color: #fff; /* Couleur du texte (blanc) */
 }
 
-.language_link a {
-  display: block;
+.navbar-toggler {
+  background-color: #175b7a; /* Couleur de fond du bouton de bascule (gris foncé) */
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff; /* Couleur de l'icône de bascule (blanc) */
+}
+
+/* Style pour les liens de navigation */
+.nav-link {
+  color: #317FA8; /* Couleur du texte des liens (blanc) */
+  margin: 0 5px; /* Espacement horizontal entre les liens */
+}
+
+.nav-link.active {
+  text-decoration: underline; /* Souligner le lien actif */
+}
+
+/* Style pour la section des drapeaux */
+.flag_div {
+  text-align: center; /* Centrer les éléments */
+  margin: 10px 0; /* Espacement autour de la section des drapeaux */
+}
+
+.swap_name {
   display: inline-block;
-  margin: 1px;
+  margin: 0 10px; /* Espacement horizontal entre les drapeaux */
 }
 
-nav {
-  -webkit-box-shadow: 0 4px 6px -6px #222;
-  -moz-box-shadow: 0 4px 6px -6px #222;
-  box-shadow: 0 4px 6px -6px #222;
-}
-
-/* Custom CSS to add lines between menu items on small screens */
-@media (max-width: 768px) {
-  .nav-item {
-    border-top: 1px solid #000000; /* You can adjust the color as needed */
-  }
-  #navbarSupportedContent {
-    padding-top: 1em;
-    padding-bottom: 1em;
-  }
-  .nav-link:hover {
-    text-decoration: none;
-  }
-  .flag_div {
-    margin-top: 1em;
-  }
-}
 .footer {
   border-top: 1px solid black;
   padding: 3% 0;
@@ -37,112 +42,220 @@ nav {
   margin-top: 3%;
 }
 
-.div_abount_me {
-  background-color: rgba(212, 212, 212, 0.8);
-  border-radius: 30px;
-  padding: 4%;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
 }
 
-.div-about-me-content p {
-  line-height: 2em;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-4 {
+  width: 33.33%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.col-8 {
+  width: 66.66%;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .left-block {
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  background-color: #f5f5f5;
   padding: 20px;
-  text-align: center;
-  max-width: 300px;
-  margin: auto;
-  margin-top: 8%;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
 }
 
-.contact-block h2 {
-  margin-top: 0;
-  color: #333;
-}
-
-.contact-info {
-  margin-top: 20px;
+.section-title {
+  color: #007BFF;
 }
 
 .contact-info p {
-  margin: 10px 0;
-  color: #777;
+  margin: 5px 0;
 }
 
 .contact-info a {
-  color: #777;
+  text-decoration: none;
+  color: #007BFF;
 }
 
 .contact-info a:hover {
-  color: #1C6789;
+  text-decoration: underline;
 }
 
-.apropos a {
-  color: black;
-  font-style: bold;
+.download button {
+  background-color: #007BFF;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.download button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.download button a:hover {
+  text-decoration: underline;
 }
 
 .download {
-  overflow: auto;
+  text-align: center;
 }
 
+.download button {
+  display: inline-block;
+}
+
+/* Style pour la section des compétences */
 .div_skills {
-  padding: 0 3%;
+  background-color: #f5f5f5;
+  padding: 20px;
 }
 
-.fa {
-  font-size: 1.5vw;
+.section-title {
+  color: #007BFF;
+}
+
+.div_skill {
+  padding: 20px;
 }
 
 .skill_header {
-  margin-bottom: 1.5vw;
-  font-size: 1.5vw;
+  display: flex;
+  align-items: center;
 }
 
-.div_skills img {
-  height: 1.5vw;
-  width: auto;
-  margin-left: 0.3vw;
+.skill_header img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
 }
 
-.div_langages {
-  margin-top: 2vw;
+.skill_title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.div_langages img {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
 }
 
 .div_knowledge {
-  padding-top: 2%;
+  background-color: #fff;
+  padding: 20px;
 }
 
-.div_experiences {
-  padding: 0 3%;
+/* Style pour les listes à puces */
+.div_skill b {
+  font-weight: bold;
+  margin: 10px 0;
 }
 
-.experience_information {
-  float: right;
+.div_skill p {
+  margin: 0 0 10px;
 }
 
-.experience_header h4, .experience_header p {
-  display: inline;
+.div_knowledge b {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.div_knowledge p {
+  margin: 0 0 10px;
+}
+
+/* Style de la section d'expériences */
+.section-title {
+  font-size: 28px;
+  color: #0077b5; /* Couleur LinkedIn par défaut */
+  margin-bottom: 20px;
+}
+
+/* Style des expériences individuelles */
+.div_experience {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .experience_header {
-  margin-bottom: 0.5%;
-  margin-top: 2%;
+  margin-bottom: 10px;
 }
 
-.experience_detail {
-  line-height: 2em;
+.experience_header h4 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.experience_company_info {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 5px; /* Ajout de marge pour séparer le titre et l'information de l'entreprise */
+}
+
+.experience_company_info a {
+  text-decoration: none;
+  color: #0077b5; /* Couleur LinkedIn par défaut */
+}
+
+.experience_company_info a:hover {
+  text-decoration: underline;
+}
+
+.experience_date {
+  font-size: 14px;
+  color: #555;
 }
 
 .experience_detail ul {
-  padding-left: 0;
+  list-style-type: disc;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+/* Style du titre en bleu */
+.blue {
+  color: #0077b5; /* Bleu LinkedIn par défaut */
+}
+
+/* Style en gras */
+.bold {
+  font-weight: bold;
+}
+
+.experience_detail ul {
+  list-style-type: circle; /* Supprimez les puces de la liste */
+  padding-left: 0; /* Supprimez le retrait à gauche */
+}
+
+.experience_detail p {
+  font-weight: bold;
+  color: #3a3e41; /* Couleur LinkedIn par défaut */
+  margin-bottom: 5px;
 }
 
 .experience_detail li {
-  margin-left: 3%;
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.p {
+  font-family: "Lato Bold";
 }
 
 .blue {

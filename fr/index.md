@@ -26,7 +26,15 @@ lable : about
                 </button>
             </div>
         </div>
-        <div class="col-8">
+        <div class="about_me_r_div col-8">
+            <div class="div-about-me-content apropos">
+                <h2 class="section-title blue bold">Education</h2>
+                <ul>
+                    <li>
+                        <a href="https://cytech.cyu.fr/formations-cy-tech/ingenieurs">CY-Tech</a> (ex: EISTI), Diplôme d'ingénieur en Mathématiques Appliqués, Spécialité : Fintech - 2015 - 2020
+                    </li>
+                </ul>
+            </div>
             <div class="div-about-me-content apropos">
                 <h2 class="section-title blue bold">A propos</h2>
                     <p>
