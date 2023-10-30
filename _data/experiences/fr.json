@@ -72,7 +72,7 @@
                     "Développement et déploiement d'une Api REST sur AWS lambda avec Chalice afin de récupérer des données pour le front end d'un tableau de bord web.",
                 ],
                 "Développement d'un package python interne intéragir avec différentes API de plateformes publicitaires": [
-                    "Développement d'une interface python afin de récupérer les datas directements depuis les platformes Facebook ads, Google ads pour plusieurs granularités, KPI différents.",
+                    "Développement d'une interface python afin de récupérer les datas directements depuis les platformes Facebook ads, Google ads pour différentes granularités, KPI.",
                     "Respect des différentes normes des packages python ainsi que la gestion des différentes dépendances.",
                     "Maintenance de CI/CD afin de déployer automatiquement ce package sur AWS CodeArtifact."
                 ]
