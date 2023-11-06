@@ -9,9 +9,9 @@
       "from": "June 2018",
       "to": "September 2018",
       "details": {
-        "": [
-          "Acquisition of data in the form of coordinates as a function of time using various G Censors placed on people exercising at the gym.",
-          "Use Dynamic Time Warping applied to each axis as a comparison criterion.",
+        "Subject: Detecting the Exercise Being Performed at the Gym from Data Recorded by Position Sensors on an Individual.": [
+          "Analysis and understanding of coordinate data (x, y, z) over time.",
+          "Utilization of Dynamic Time Warping (DTW) applied to each axis as a comparison criterion.",
           "Processing in python to implement an algorithm based on the different values found with the DTW method (pandas, numpy, dtw-python, scikit-learn)."
         ]
       }
@@ -42,7 +42,7 @@
       "details": {
         "Maintenance and updating of a web application for reporting and analyzing bank charges": [
           "Development of new connection information and account management features with an LDAP authentication system (Python dash, flask, python-ldap).",
-          "Maintenance de CI/CD sur nos serveurs internes avec github CI/CD."
+          "Maintenance of CI/CD on our internal servers with GitHub CI/CD"
         ],
         "Installation and integration of an LDAP dedicated to various internal projects.": [
           "Understanding LDAP concepts, installation and security for different needs.",
@@ -51,7 +51,7 @@
         "DPO (Data Protection Officer)": [
           "Verification that the use of internal project data complies with the GDPR."
         ],
-        "Netoyage of a database for a client needs with python (regex, pandas, numpy)": []
+        "Netoyage of a database for a client needs using python (regex, pandas, numpy)": []
       }
     },
     {
@@ -63,17 +63,17 @@
       "from": "April 2021",
       "to": "Present",
       "details": {
-        "Implementation of data pipelines to extract, process and import daily large amount of data from different sources.": [
-          "Development python scripts orchestrated with MWAA in order to store data from advertising platforms into a Datalake.",
-          "Creation of ETL with AWS Athena queries and Python Script triggered with MWAA in order to create a data Warehouse.",
-          "Database management with AWS S3 using partitions in order to make each Airflow job idempotent and optimised for querying."
+        "Implementation of data pipelines to extract, process, and import large amounts of data from various sources on a daily basis.": [
+          "Development of Python scripts orchestrated with MWAA to store data from advertising platforms into a Data Lake.",
+          "Creation of ETL processes using AWS Athena queries and Python scripts triggered with MWAA to create a data warehouse.",
+          "Database management with AWS S3 using partitions to make each Airflow job idempotent and optimized for querying."
         ],
         "Deployement of python application in order to make easy access for internal data.": [
-          "Development and deployement a REST Api on AWS lambda with Chalice in order to retrieve data for a front-end web dashboard."
+          "Development and deployment of a REST API on AWS Lambda using Chalice to retrieve data for a front-end web dashboard."
         ],
-        "Development of an internal python package to interact with various advertising platform APIs.": [
-          "Development of a python interface to retrieve data directly from the Facebook ads and Google ads platforms for different granularities and KPIs.",
-          "Compliance with python package standards and dependency management.",
+        "Development of an internal Python package to interact with various advertising platform APIs.": [
+          "Development of a Python interface to retrieve data directly from the Facebook Ads and Google Ads platforms for different granularities and KPIs.",
+          "Adherence to Python package standards and dependency management..",
           "CI/CD maintenance to automatically deploy this package on AWS CodeArtifact."
         ]
       }

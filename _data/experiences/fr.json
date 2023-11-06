@@ -9,10 +9,10 @@
             "from": "Juin 2018",
             "to": "Septembre 2018",
             "details": {
-                "": [
-                    "Analyse et appréhension de données sous formes de coordonnées (x,y,z) en fonction du temps grâce à différents G Censors placés sur des personnes faisant des exercices à la salle de sport.",
-                    "Utilisation du Déformation Temporelle Dynamique (ou Dynamic Time Warping) appliqué sur chaque axe comme critère de comparaison.",
-                    "Traitement en python afin de mettre un algorithme en place à partir des différentes valeurs trouvées avec la méthode DTW (pandas, numpy, dtw-python, scikit-learn)."
+                "Sujet : Détecter, à partir des donnée provenant de capteurs de positions placés sur un individu, quel exercice pratique t-il à la salle de sport ?": [
+                    "Analyse et compréhension du type de données coordonnées (x,y,z) en fonction du temps.",
+                    "Utilisation de la Déformation Temporelle Dynamique (ou Dynamic Time Warping) appliquée sur chaque axe comme critère de comparaison.",
+                    "Traitement en python afin de mettre en place un algorithme à partir des différentes valeurs trouvées avec DTW (pandas, numpy, dtw-python, scikit-learn)."
                 ]
             }
         },
@@ -24,10 +24,10 @@
             "from": "Avril 2019",
             "to": "Aout 2019",
             "details": {
-                "Creation d'un MVP de reporting web d'analyse de donnée provenant du secteur du 'Travel & Expense'": [
-                    "Exploration, traitement de donnée avec python (pandas, numpy)",
-                    "Création d'une interface Web avec un système d'authentication (HTML, JS, PHP)",
-                    "Allocation d'une machine virtuel dédié connecté à un DNS afin de mettre en ligne l'interface "
+                "Creation d'un MVP de reporting web d'analyse de données provenant du secteur du 'Travel & Expense'": [
+                    "Exploration, traitement de données avec python (pandas, numpy)",
+                    "Création d'une interface Web avec un système d'authentification (HTML, JS, PHP)",
+                    "Allocation d'une machine virtuel dédiée connectée à un DNS afin de mettre en ligne l'interface."
                 ]
             }
         },
@@ -41,17 +41,17 @@
             "to": "Sept 2020",
             "details": {
                 "Maintenance et mise à jour d'une application web de reporting d'analyse de frais bancaire": [
-                    "Développement de nouvelles features d'information de connection et de gestion de compte avec un système d'authentification LDAP (Python dash, flask, python-ldap)",
+                    "Développement de nouvelles features d'information de connexion et de gestion de compte avec un système d'authentification LDAP (Python dash, flask, python-ldap)",
                     "Maintenance de CI/CD sur nos serveurs internes avec github CI/CD"
                 ],
-                "Installation et intégration d'un LDAP dédié aux différents projets internes.": [
-                    "Compréhension des notions, installation et sécurisation d'un LDAP pour différents besoins",
-                    "Intégration d'un LDAP en temps que système d'authentification pour différents projets (Python, JS)",
+                "Installation et intégration d'un LDAP dédié à différents projets.": [
+                    "Compréhension des notions, sécurisation et installation d'un LDAP pour différents besoins",
+                    "Intégration d'un LDAP en tant que système d'authentification pour différents projets (Python, JS)"
                 ],
                 "Responsable DPO (Data Protection Officer)": [
-                    "Vérification que l'utilisation des données de projets internes soit conforme à la RGPD"
+                    "Vérification que l'utilisation de données de projets internes soit conforme à la RGPD"
                 ],
-                "Netoyage d'une base de donnée lors qu'une mission cliente avec python (regex, pandas, numpy)": []
+                "Nettoyage d'une base de donnéed lors pour une mission cliente avec python (regex, pandas, numpy)": []
             }
         },
         {
@@ -68,11 +68,11 @@
                     "Création d'ETL avec des requêtes AWS Athena et des scripts Python déclenchés avec MWAA afin de créer un entrepôt de données.",
                     "Gestion de base de données avec AWS S3 en utilisant des partitions afin de rendre chaque tâche Airflow idempotente et optimisée pour les requêtes."
                 ],
-                "Déploiement d'une application python afin de faciliter l'accès aux données internes.": [
-                    "Développement et déploiement d'une Api REST sur AWS lambda avec Chalice afin de récupérer des données pour le front end d'un tableau de bord web.",
+                "Déploiement d'une application python afin de faciliter l'accès aux données interne.": [
+                    "Développement et déploiement d'une Api REST sur AWS Lambda avec Chalice afin de récupérer des données pour le front end d'un tableau de bord web.",
                 ],
-                "Développement d'un package python interne intéragir avec différentes API de plateformes publicitaires": [
-                    "Développement d'une interface python afin de récupérer les datas directements depuis les platformes Facebook ads, Google ads pour différentes granularités, KPI.",
+                "Développement d'un package python interne afin d'interagir avec différentes API de plateformes publicitaires": [
+                    "Développement d'une interface python afin de récupérer des datas directement depuis les platformes Facebook Ads, Google Ads pour différentes granularités, KPI.",
                     "Respect des différentes normes des packages python ainsi que la gestion des différentes dépendances.",
                     "Maintenance de CI/CD afin de déployer automatiquement ce package sur AWS CodeArtifact."
                 ]
