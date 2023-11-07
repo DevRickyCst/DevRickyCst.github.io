@@ -1,59 +1,88 @@
-/* Style pour la section des compétences */
+/* Styles for the .div_skills container */
 .div_skills {
-    background-color: #f5f5f5;
-    padding: 20px;
-  }
-  
-  .section-title {
-    color: #007BFF;
-  }
-  
-  .div_skill {
-    padding: 20px;
-  }
-  
-  .skill_header {
-    display: flex;
-    align-items: center;
-  }
-  
-  .skill_header img {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-  }
-  
-  .skill_title {
-    font-weight: bold;
-    font-size: 24px;
-  }
-  
-  .div_langages img {
-    width: 20px;
-    height: 20px;
-    margin: 0 5px;
-  }
-  
-  .div_knowledge {
-    background-color: #fff;
-    padding: 20px;
-  }
-  
-  /* Style pour les listes à puces */
-  .div_skill b {
-    font-weight: bold;
-    margin: 10px 0;
-  }
-  
-  .div_skill p {
-    margin: 0 0 10px;
-  }
-  
-  .div_knowledge b {
-    font-weight: bold;
-    margin: 10px 0;
-  }
-  
-  .div_knowledge p {
-    margin: 0 0 10px;
-  }
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the section title */
+.section-title {
+  font-size: 24px;
+  color: #0070c0;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Styles for the skill containers */
+.div_skill {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styles for the skill header (Python) */
+.skill_header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.skill_header img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.skill_title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Styles for the skill descriptions */
+.competence_header {
+  font-weight: bold;
+}
+
+.competence_value {
+  margin-bottom: 10px;
+}
+
+/* Styles for other languages */
+.div_langages img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+/* Styles for other knowledge section */
+.div_knowledge {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Styles for skill header in other knowledge section */
+.skill_header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Styles for skill descriptions in other knowledge section */
+.competence_header {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.checked {
+  color: gold;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.div_langages b {
+  margin-bottom: 100px;
+}

@@ -1,0 +1,78 @@
+{
+    "competences": {
+        "competences_python": {
+            "Python Core": {
+                "competences": [
+                    "Structure de donnée",
+                    "Generateurs",
+                    "Iterateurs",
+                    "Exeptions",
+                    "Programmation orienté objet",
+                    "Création et gestion de Package",
+                    "Manipulation de donnée",
+                    "Developpement Web",
+                    "Gestion de BDD"
+                ]
+            },
+            "Developpement Web": {
+                "competences": [
+                    "Framework Web (Flask, Django, FastAPI)",
+                    "Developpement Front-end",
+                    "RESTful APIs",
+                    "Authentification et authorisation",
+                    "Deploiement et hébergement"
+                ]
+            },
+            "Manipulation de donnée": {
+                "competences": [
+                    "Package Data (Pandas, Numpy, PySpark)",
+                    "Exploration de donnée",
+                    "Data visualisation (Power BI, Tableau, ...)",
+                    "Mise en place d'ETL"
+                ]
+            },
+            "Blockchain": {
+                "competences": [
+                    "Web3.py",
+                    "Developpement de Smart contract avec Brownies"
+                ]
+            }
+        },
+        "autres_langage": {
+            "javascript": 3,
+            "solidity": 3,
+            "ruby": 2,
+            "html": 4
+        },
+        "autre_competences": {
+            "Compétences de développement": [
+                "Algorithmie",
+                "Control de Version (Git)",
+                "Test",
+                "Performance et optimisation",
+                "Outil de collaboration"
+            ],
+            "Developpement Devops": [
+                "Automatisation d'infrastructure",
+                "Test automatique",
+                "Conteneurisation et orchestration",
+                "Integration et déploiment en continue (CI/CD)"
+            ],
+            "Cloud developpement": [
+                "Infrastructure As Code (IAS)",
+                "Développement de microservice",
+                "Serverless Computing",
+                "Monitoring et débugage"
+            ],
+            "Gestion de BDD": [
+                "Modèle de donnée",
+                "SQL",
+                "Optimisation de requête",
+                "Design de BDD",
+                "Parquet",
+                "Schéma",
+                "Partitions"
+            ]
+        }
+    }
+}

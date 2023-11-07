@@ -12,40 +12,37 @@ lable : competences
                         <img src="/assets/image/python.svg" alt="python_logo">
                         <b class='skill_title'>Python</b>
                     </div>
-                    <b>Python Core :</b> 
-                    <p>Structure de donnée - Generateurs - Iterateurs - Exeptions - Programmation orienté objet -
-                    Création et gestion de Package - Manipulation de donnée - Developpement Web - Gestion de BDD</p>
-                    <b>Developpement Web :</b> 
-                    <p>Framework Web (Flask, Django, FastAPI) - Developpement Front-end - RESTful APIs - Authentification et authorisation - Deploiement et hébergement</p>
-                    <b>Manipulation de donnée :</b> 
-                    <p>Package Data (Pandas, Numpy, PySpark) - Exploration de donnée - Data visualisation (Power BI, Tableau ..) - Mise en place d'ETL</p>
-                    <b>Blockchain </b> 
-                    <p>Web3.py, developpement de Smart contract avec Brownies</p>
+                    <div class="python_competences">
+                    {% for competences_id in site.data.competences.fr.competences.competences_python %}
+                    {% assign experience = competences_id %}
+                        <div class="competence_header">
+                        <b >{{ experience[0] }} :</b>
+                        </div>
+                        <p class="competence_value">
+                        {% for item in experience[1].competences %}
+                            {{ item }} -
+                        {% endfor %}
+                        </p>
+                    {% endfor %}
+                    </div>
                     <div class='div_langages'>
-                        <b>Autre langage :</b> 
-                            <img src="/assets/image/javascript.svg" alt="javascript_logo">
-                            Javascript, 
-                            <img src="/assets/image/solidity.svg" alt="solidity_logo">
-                            Solidity,
-                            <img src="/assets/image/ruby.svg" alt="ruby_logo">
-                            Ruby, 
-                            <img src="/assets/image/html.svg" alt="html_logo">
-                            HTML 
-                </div>    
+                        <b>Autre langage :</b>
+                        {% for langage in site.data.competences.fr.competences.autres_langage %}
+                            <img src="/assets/image/{{ langage[0] }}.svg" alt="html_logo">
+                        {% endfor %}
+                    </div>    
             </div>
                 <div class='div_knowledge col-6'>
                     <h5 class='skill_header'>Autres connaissances</h5>
-                    <b>Compétences de développement:</b> 
-                    <p>Algorithmie - Control de Version (Git) - Test - 
-                        Performance et optimisation - Outil de collaboration </p>
-                    <b>Devops Development :</b> 
-                    <p>Automatisation d'infrastructure - Test automatique - 
-                        Conteneurisation et orchestration - Integration et déploiment en continue (CI/CD) </p>
-                    <b>Cloud developpement :</b> 
-                    <p>Infrastructure As Code (IAS), Développement de microservice - 
-                    Serverless Computing - Monitoring et débugage</p>
-                    <b>Gestion de BDD :</b>
-                    <p>Modèle de donnée - SQL - Optimisation de requête - Design de BDD - Parquet - Schéma - Partitions </p>
+                    {% for competences_id in site.data.competences.fr.competences.autre_competences %}
+                    {% assign experience = competences_id %}
+                        <b class="competence_header">{{ experience[0] }} :</b>
+                        <p class="competence_value">
+                        {% for item in experience[1] %}
+                            {{ item }} -
+                        {% endfor %}
+                        </p>
+                    {% endfor %}
                 </div>
             </div>
     </div>

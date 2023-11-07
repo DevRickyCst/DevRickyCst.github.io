@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     {% include import.html %}
@@ -8,10 +9,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Developper Python - Aymeric CREUSOT</title>
 </head>
+
 <body>
-    
+
     {% for item in site.data.menu[page.lang] %}
-        <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+    <li><a href="{{ item.url }}">{{ item.label }}</a></li>
     {% endfor %}
 
     {% include header.html %}
@@ -19,10 +21,10 @@
     <div class="main_body">
 
         <div class="div_intro content">
-            <h1 class="blue bold"> Aymeric Creusot</h1>
-            <h3 class="bold poste"> Python developper - Back-end / DevOps</h3>
+            <h1 class="blue bold">Aymeric Creusot</h1>
+            <h3 class="bold poste">Python Software / Back-end Developper</h3>
         </div>
-        {{ content }} 
+        {{ content }}
 
         {% include footer.html %}
 
@@ -31,4 +33,5 @@
 
 
 </body>
+
 </html>
