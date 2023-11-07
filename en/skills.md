@@ -4,7 +4,7 @@ title : competences
 lable : competences
 ---
 <div class='content div_skills'>
-    <h2 class="section-title blue bold"> Compétences</h2>
+    <h2 class="section-title blue bold">Skills</h2>
     <div class= 'div_skill row'>
         <div class="row">
             <div class="col-6">
@@ -26,14 +26,14 @@ lable : competences
                     {% endfor %}
                     </div>
                     <div class='div_langages'>
-                        <b>Autre langage :</b>
+                        <b>Others langages :</b>
                         {% for langage in site.data.competences.en.competences.autres_langage %}
                             <img src="/assets/image/{{ langage[0] }}.svg" alt="html_logo">
                         {% endfor %}
                     </div>    
             </div>
                 <div class='div_knowledge col-6'>
-                    <h5 class='skill_header'>Autres connaissances</h5>
+                    <h5 class='skill_header'>Others knowledge</h5>
                     {% for competences_id in site.data.competences.en.competences.autre_competences %}
                     {% assign experience = competences_id %}
                         <b class="competence_header">{{ experience[0] }} :</b>
