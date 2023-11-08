@@ -3,6 +3,7 @@ layout: index
 title : competences
 lable : competences
 ---
+{% assign competences = site.data.competences.fr.competences%}
 <div class='content div_skills'>
     <h2 class="section-title blue bold"> Compétences</h2>
     <div class= 'div_skill row'>
@@ -13,13 +14,12 @@ lable : competences
                         <b class='skill_title'>Python</b>
                     </div>
                     <div class="python_competences">
-                    {% for competences_id in site.data.competences.fr.competences.competences_python %}
-                    {% assign experience = competences_id %}
+                    {% for competence in competences.competences_python %}
                         <div class="competence_header">
-                        <b >{{ experience[0] }} :</b>
+                        <b >{{ competence[0] }} :</b>
                         </div>
                         <p class="competence_value">
-                        {% for item in experience[1].competences %}
+                        {% for item in competence[1].competences %}
                             {{ item }} -
                         {% endfor %}
                         </p>
@@ -27,18 +27,20 @@ lable : competences
                     </div>
                     <div class='div_langages'>
                         <b>Autre langage :</b>
-                        {% for langage in site.data.competences.fr.competences.autres_langage %}
+                        <div>
+                        {% for langage in competences.autres_langage %}
+                            {{ langage[0] | capitalize }}
                             <img src="/assets/image/{{ langage[0] }}.svg" alt="html_logo">
                         {% endfor %}
+                        </div>
                     </div>    
             </div>
                 <div class='div_knowledge col-6'>
                     <h5 class='skill_header'>Autres connaissances</h5>
-                    {% for competences_id in site.data.competences.fr.competences.autre_competences %}
-                    {% assign experience = competences_id %}
-                        <b class="competence_header">{{ experience[0] }} :</b>
+                    {% for competences in competences.autre_competences %}
+                        <b class="competence_header">{{ competences[0] }} :</b>
                         <p class="competence_value">
-                        {% for item in experience[1] %}
+                        {% for item in competences[1] %}
                             {{ item }} -
                         {% endfor %}
                         </p>

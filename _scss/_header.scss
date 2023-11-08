@@ -1,35 +1,50 @@
 /* Style pour la barre de navigation */
 .navbar {
-    background-color: #333; /* Couleur de fond de la barre de navigation (gris foncé) */
-    color: #fff; /* Couleur du texte (blanc) */
+    background-color: #333;
+    /* Couleur de fond de la barre de navigation (gris foncé) */
+    color: #fff;
+    /* Couleur du texte (blanc) */
 }
 
 .navbar-toggler {
-    background-color: #175b7a; /* Couleur de fond du bouton de bascule (gris foncé) */
+    background-color: #ffffff;
+    /* Couleur de fond du bouton de bascule (gris foncé) */
     border: none;
 }
 
 .navbar-toggler-icon {
-    background-color: #fff; /* Couleur de l'icône de bascule (blanc) */
+    background-color: #fff;
+    /* Couleur de l'icône de bascule (blanc) */
 }
 
 /* Style pour les liens de navigation */
 .nav-link {
-    color: #317FA8; /* Couleur du texte des liens (blanc) */
-    margin: 0 5px; /* Espacement horizontal entre les liens */
+    color: #317FA8;
+    /* Couleur du texte des liens (blanc) */
+    margin: 0 5px;
+    /* Espacement horizontal entre les liens */
+}
+
+.navbar-toggler-icon {
+    color: #175b7a;
+    background-color: #ffffff;
 }
 
 .nav-link.active {
-    text-decoration: underline; /* Souligner le lien actif */
+    text-decoration: underline;
+    /* Souligner le lien actif */
 }
 
 /* Style pour la section des drapeaux */
 .flag_div {
-    text-align: center; /* Centrer les éléments */
-    margin: 10px 0; /* Espacement autour de la section des drapeaux */
+    text-align: center;
+    /* Centrer les éléments */
+    margin: 10px 0;
+    /* Espacement autour de la section des drapeaux */
 }
 
 .swap_name {
     display: inline-block;
-    margin: 0 10px; /* Espacement horizontal entre les drapeaux */
+    margin: 0 10px;
+    /* Espacement horizontal entre les drapeaux */
 }

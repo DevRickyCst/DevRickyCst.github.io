@@ -3,10 +3,10 @@ layout: index
 title : experiences
 lable : experiences
 ---
+{% assign experiences = site.data.experiences.fr.experiences %}
 <div class="content div_experiences">
     <h2 class="section-title blue bold"> Expériences</h2>
-    {% for experience_id in site.data.experiences.fr.experiences reversed%}
-    {% assign experience = experience_id %}
+    {% for experience in experiences reversed%}
         <div class="div_experience">
             <div class='experience_header'>
                 <h4 class= "blue">{{ experience.title }}</h4>
