@@ -64,9 +64,10 @@
       "to": "Present",
       "details": {
         "Implementation of data pipelines to extract, process, and import large amounts of data from various sources on a daily basis.": [
-          "Development of Python scripts orchestrated with MWAA to store data from advertising platforms into a Data Lake.",
-          "Creation of ETL processes using AWS Athena queries and Python scripts triggered with MWAA to create a data warehouse.",
-          "Database management with AWS S3 using partitions to make each Airflow job idempotent and optimized for querying."
+          "Creation of ETL using AWS Athena queries and Python scripts triggered with MWAA to create a data warehouse.",
+          "Database management with AWS S3 using partitions to make each Airflow job idempotent and optimized for querying."´
+          "Python script optimization to reduce meta datalake import time by a factor of 4."
+          "Development of Python operator on Aiflow to import daily data from advertising campaigns on Waze."
         ],
         "Deployement of python application in order to make easy access for internal data.": [
           "Development and deployment of a REST API on AWS Lambda using Chalice to retrieve data for a front-end web dashboard."
