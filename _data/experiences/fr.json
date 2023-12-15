@@ -18,7 +18,7 @@
         },
         {
             "id": "1",
-            "title": "Développeur FullStack",
+            "title": "Développeur FullStack / Data Analyst",
             "compagny": "T&E Vision",
             "compagny_categ": "Internship",
             "from": "Avril 2019",
@@ -27,6 +27,7 @@
                 "Creation d'un MVP de reporting web d'analyse de données provenant du secteur du 'Travel & Expense'": [
                     "Exploration, traitement de données avec python (pandas, numpy)",
                     "Création d'une interface Web avec un système d'authentification (HTML, JS, PHP)",
+                    "Dévelopement de dashboard avec Tableau Desktop",
                     "Allocation d'une machine virtuel dédiée connectée à un DNS afin de mettre en ligne l'interface."
                 ]
             }
