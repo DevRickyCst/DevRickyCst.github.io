@@ -51,7 +51,7 @@
         "DPO (Data Protection Officer)": [
           "Verification that the use of internal project data complies with the GDPR."
         ],
-        "Netoyage of a database for a client needs using python (regex, pandas, numpy)": []
+        "Cleaning of a database for a client needs using python (regex, pandas, numpy)": []
       }
     },
     {
