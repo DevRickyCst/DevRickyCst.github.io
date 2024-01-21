@@ -14,7 +14,7 @@ lable : experiences
                     <a href="{{ experience.linkedin_url }}"> {{ experience.compagny }}</a>
                  ({{ experience.compagny_categ }})</b> 
                 <div class= "experience_date">
-                    {{ experience.from }} –>  {{ experience.to }}
+                    <b>{{ experience.from }} –>  {{ experience.to }}</b>
                 </div>
             </div>
             <div class="stack">
