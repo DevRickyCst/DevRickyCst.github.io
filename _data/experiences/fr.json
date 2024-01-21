@@ -14,6 +14,21 @@
                     "Utilisation de la Déformation Temporelle Dynamique (ou Dynamic Time Warping) appliquée sur chaque axe comme critère de comparaison.",
                     "Traitement en python afin de mettre en place un algorithme à partir des différentes valeurs trouvées avec DTW (pandas, numpy, dtw-python, scikit-learn)."
                 ]
+            },
+            "stack": {
+                "green": [
+                    "Python",
+                    "Machine Learning",
+                    "DTW (Dynamic Time Warping)"
+                ],
+                "teal": [
+                    "Pandas",
+                    "Numpy"
+                ],
+                "grey": [
+                    "Data Exploration",
+                    "Data Analysis"
+                ]
             }
         },
         {
@@ -29,6 +44,23 @@
                     "Création d'une interface Web avec un système d'authentification (HTML, JS, PHP)",
                     "Dévelopement de dashboard avec Tableau Desktop",
                     "Allocation d'une machine virtuel dédiée connectée à un DNS afin de mettre en ligne l'interface."
+                ]
+            },
+            "stack": {
+                "green": [
+                    "Python",
+                    "HTML/JS",
+                    "PHP",
+                    "Tableau Desktop"
+                ],
+                "teal": [
+                    "Pandas",
+                    "Numpy"
+                ],
+                "grey": [
+                    "Data Analysis",
+                    "Web Development",
+                    "Deployment"
                 ]
             }
         },
@@ -53,6 +85,25 @@
                     "Vérification que l'utilisation de données de projets internes soit conforme à la RGPD"
                 ],
                 "Nettoyage d'une base de donnéed lors pour une mission cliente avec python (regex, pandas, numpy)": []
+            },
+            "stack": {
+                "green": [
+                    "Python",
+                    "Linux",
+                    "LDAP"
+                ],
+                "teal": [
+                    "Flask",
+                    "Dash",
+                    "Sqlalchemy",
+                    "Pandas",
+                    "Numpy"
+                ],
+                "grey": [
+                    "Web development",
+                    "Testing",
+                    "CI/CD"
+                ]
             }
         },
         {
@@ -76,6 +127,24 @@
                     "Développement d'une interface python afin de récupérer des datas directement depuis les platformes Facebook Ads, Google Ads pour différentes granularités, KPI.",
                     "Respect des différentes normes des packages python ainsi que la gestion des différentes dépendances.",
                     "Maintenance de CI/CD afin de déployer automatiquement ce package sur AWS CodeArtifact."
+                ]
+            },
+            "stack": {
+                "green": [
+                    "AWS (Amazon Web Service)",
+                    "Python"
+                ],
+                "teal": [
+                    "Airflow",
+                    "AWS Chalice",
+                    "Pyspark"
+                ],
+                "grey": [
+                    "Microservice",
+                    "DevOps",
+                    "Data engineering",
+                    "API REST",
+                    "Packaging"
                 ]
             }
         }

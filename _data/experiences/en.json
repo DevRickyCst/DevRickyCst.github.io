@@ -14,6 +14,21 @@
           "Utilization of Dynamic Time Warping (DTW) applied to each axis as a comparison criterion.",
           "Processing in python to implement an algorithm based on the different values found with the DTW method (pandas, numpy, dtw-python, scikit-learn)."
         ]
+      },
+      "stack": {
+        "green": [
+          "Python",
+          "Machine Learning",
+          "DTW (Dynamic Time Warping)"
+        ],
+        "teal": [
+          "Pandas",
+          "Numpy"
+        ],
+        "grey": [
+          "Data Exploration",
+          "Data Analysis"
+        ]
       }
     },
     {
@@ -28,6 +43,23 @@
           "Data exploration and processing with python (pandas, numpy).",
           "Creating a Web interface with an authentication system (HTML, JS, PHP).",
           "Allocation of a dedicated virtual machine connected to a DNS to bring the interface online."
+        ]
+      },
+      "stack": {
+        "green": [
+          "Python",
+          "HTML/JS",
+          "PHP",
+          "Tableau Desktop"
+        ],
+        "teal": [
+          "Pandas",
+          "Numpy"
+        ],
+        "grey": [
+          "Data Analysis",
+          "Web Development",
+          "Deployment"
         ]
       }
     },
@@ -52,6 +84,25 @@
           "Verification that the use of internal project data complies with the GDPR."
         ],
         "Cleaning of a database for a client needs using python (regex, pandas, numpy)": []
+      },
+      "stack": {
+        "green": [
+          "Python",
+          "Linux",
+          "LDAP"
+        ],
+        "teal": [
+          "Flask",
+          "Dash",
+          "Sqlalchemy",
+          "Pandas",
+          "Numpy"
+        ],
+        "grey": [
+          "Web development",
+          "Testing",
+          "CI/CD"
+        ]
       }
     },
     {
@@ -76,6 +127,24 @@
           "Development of a Python interface to retrieve data directly from the Facebook Ads and Google Ads platforms for different granularities and KPIs.",
           "Adherence to Python package standards and dependency management..",
           "CI/CD maintenance to automatically deploy this package on AWS CodeArtifact."
+        ]
+      },
+      "stack": {
+        "green": [
+          "AWS (Amazon Web Service)",
+          "Python"
+        ],
+        "teal": [
+          "Airflow",
+          "AWS Chalice",
+          "Pyspark"
+        ],
+        "grey": [
+          "Microservice",
+          "DevOps",
+          "Data engineering",
+          "API REST",
+          "Packaging"
         ]
       }
     }

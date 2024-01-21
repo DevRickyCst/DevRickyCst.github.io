@@ -17,6 +17,17 @@ lable : experiences
                     {{ experience.from }} –>  {{ experience.to }}
                 </div>
             </div>
+            <div class="stack">
+                {% for stack in experience.stack.green reversed%}
+                    <span class="badge rounded-pill text-bg-success">{{ stack }}</span>
+                {% endfor %}
+                {% for stack in experience.stack.teal reversed%}
+                    <span class="badge rounded-pill text-bg-info">{{ stack }}</span>
+                {% endfor %}
+                {% for stack in experience.stack.grey reversed%}
+                <span class="badge rounded-pill text-bg-secondary">{{ stack }}</span>
+                {% endfor %}
+            </div>
             <div class="experience_detail">
                 {% for detail in experience.details %}
                 {% assign detail_h = detail[0] %}

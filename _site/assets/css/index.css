@@ -282,7 +282,8 @@ p {
 /* Style de la section d'expériences */
 .section-title {
   font-size: 28px;
-  color: #0077b5; /* Couleur LinkedIn par défaut */
+  color: #0077b5;
+  /* Couleur LinkedIn par défaut */
   margin-bottom: 20px;
 }
 
@@ -308,12 +309,14 @@ p {
 .experience_company_info {
   font-weight: bold;
   font-size: 16px;
-  margin-top: 5px; /* Ajout de marge pour séparer le titre et l'information de l'entreprise */
+  margin-top: 5px;
+  /* Ajout de marge pour séparer le titre et l'information de l'entreprise */
 }
 
 .experience_company_info a {
   text-decoration: none;
-  color: #0077b5; /* Couleur LinkedIn par défaut */
+  color: #0077b5;
+  /* Couleur LinkedIn par défaut */
 }
 
 .experience_company_info a:hover {
@@ -333,7 +336,8 @@ p {
 
 /* Style du titre en bleu */
 .blue {
-  color: #0077b5; /* Bleu LinkedIn par défaut */
+  color: #0077b5;
+  /* Bleu LinkedIn par défaut */
 }
 
 /* Style en gras */
@@ -342,13 +346,16 @@ p {
 }
 
 .experience_detail ul {
-  list-style-type: circle; /* Supprimez les puces de la liste */
-  padding-left: 0; /* Supprimez le retrait à gauche */
+  list-style-type: circle;
+  /* Supprimez les puces de la liste */
+  padding-left: 0;
+  /* Supprimez le retrait à gauche */
 }
 
 .experience_detail p {
   font-weight: bold;
-  color: #3a3e41; /* Couleur LinkedIn par défaut */
+  color: #3a3e41;
+  /* Couleur LinkedIn par défaut */
   margin-bottom: 5px;
 }
 
@@ -356,6 +363,10 @@ p {
   margin: 5px 0;
   font-size: 14px;
   color: #555;
+}
+
+.stack {
+  margin-bottom: 10px;
 }
 
 .p {
