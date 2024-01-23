@@ -1,42 +1,34 @@
 {
     "competences": {
-        "competences": {
-            "Python Core": {
-                "competences": [
-                    "Structure de donnée",
-                    "Generateurs",
-                    "Iterateurs",
-                    "Exeptions",
-                    "Programmation orienté objet",
-                    "Création et gestion de Package",
-                    "Manipulation de donnée",
-                    "Developpement Web",
-                    "Gestion de BDD"
-                ]
-            },
-            "Developpement Web": {
-                "competences": [
-                    "Framework Web (Flask, Django, FastAPI)",
-                    "Developpement Front-end",
-                    "RESTful APIs",
-                    "Authentification et authorisation",
-                    "Deploiement et hébergement"
-                ]
-            },
-            "Manipulation de donnée": {
-                "competences": [
-                    "Package Data (Pandas, Numpy, PySpark)",
-                    "Exploration de donnée",
-                    "Data visualisation (Power BI, Tableau, ...)",
-                    "Mise en place d'ETL"
-                ]
-            },
-            "Blockchain": {
-                "competences": [
-                    "Web3.py",
-                    "Developpement de Smart contract avec Brownies"
-                ]
-            }
+        "competences_python": {
+            "Python Core": [
+                "Structure de donnée",
+                "Generateurs",
+                "Iterateurs",
+                "Exeptions",
+                "Programmation orienté objet",
+                "Création et gestion de Package",
+                "Manipulation de donnée",
+                "Developpement Web",
+                "Gestion de BDD"
+            ],
+            "Developpement Web": [
+                "Framework Web (Flask, Django, FastAPI)",
+                "Developpement Front-end",
+                "RESTful APIs",
+                "Authentification et authorisation",
+                "Deploiement et hébergement"
+            ],
+            "Manipulation de donnée": [
+                "Package Data (Pandas, Numpy, PySpark)",
+                "Exploration de donnée",
+                "Data visualisation (Power BI, Tableau, ...)",
+                "Mise en place d'ETL"
+            ],
+            "Blockchain": [
+                "Web3.py",
+                "Developpement de Smart contract avec Brownies"
+            ]
         },
         "autres_langage": {
             "javascript": 3,

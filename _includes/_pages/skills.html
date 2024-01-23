@@ -3,59 +3,21 @@
 {% assign competences = site.data.competences[lang].competences%}
 <div class='content div_experiences'>
     <h2 class="section-title">Skills</h2>
-    {% for competence in competences.competences %}
+    {% for competence in competences%}
     <div class="div_experience">
         <div class="header">
             <img src="/assets/image/python.svg" alt="python_logo">
-            <h3 class= "blue">{{ competence[0] }}</h3>   
+            <h3 class="blue">{{ competence[0] }}</h3>
         </div>
         <div class="section">
             {% for value in competence[1] %}
-                <h6>{{ value[0] }}</h6>
-                <p class="competence_value">
-                    {% for item in value[1].competences %}
-                        {{ item }} -
-                    {% endfor %}
-                    </p>
+            <h6>{{ value[0] }}</h6>
+            <p class="competence_value">
+                {% for item in value[1] %}
+                {{ item }} -
+                {% endfor %}
+            </p>
             {% endfor %}
         </div>
     </div>
     {% endfor %}
-
-
-
-    <div class="div_experience">
-        <div class="header">
-            <img src="/assets/image/python.svg" alt="python_logo">
-            <h3 class= "blue">Others langages </h3>   
-        </div>
-        <div class="section">
-            <div>
-            {% for langage in competences.autres_langage %}
-                {{ langage[0] | capitalize }}
-                <img src="/assets/image/{{ langage[0] }}.svg" alt="html_logo">
-            {% endfor %}
-            </div>
-        </div>
-    </div>
-
-
-
-
-    <div class="div_experience">
-        <div class="header">
-            <img src="/assets/image/python.svg" alt="python_logo">
-            <h3 class= "blue">Others knowledge</h3>   
-        </div>
-        <div class="section">
-            {% for competence in competences.autre_competences %}
-                <h5>{{ competence[0] }} :</h5>
-                <p class="competence_value">
-                {% for item in competence[1] %}
-                    {{ item }} -
-                {% endfor %}
-                </p>
-            {% endfor %}
-
-        </div>
-    </div>

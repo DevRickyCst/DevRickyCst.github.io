@@ -186,7 +186,8 @@ p {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.header img, .header h3 {
+.header img,
+.header h3 {
   display: inline-block;
 }
 
@@ -316,8 +317,8 @@ p {
 }
 
 .div_intro {
-  padding-top: 7%;
-  padding-bottom: 3%;
+  padding-top: 7em;
+  padding-bottom: 2em;
   text-align: center;
 }
 
