@@ -1,42 +1,45 @@
 {
     "competences": {
-        "competences_python": {
-            "Python Core": {
-                "competences": [
-                    "Data Structure",
-                    "Generators",
-                    "Iterators",
-                    "Exeptions",
-                    "OOPs concepts",
-                    "Package management",
-                    "Data Manipulation",
-                    "Web Development",
-                    "Database managment"
-                ]
-            },
-            "Web development": {
-                "competences": [
-                    "Web Framework (Flask, Django, FastAPI)",
-                    "Front-end Development",
-                    "API REST",
-                    "Authentification and Authorization",
-                    "Deployment and Hosting"
-                ]
-            },
-            "Data Processsing": {
-                "competences": [
-                    "Data package (Pandas, Numpy, PySpark)",
-                    "Data exploration",
-                    "Data visualisation (Power BI, Tableau, ...)",
-                    "ETL Development"
-                ]
-            },
-            "Blockchain": {
-                "competences": [
-                    "Web3.py",
-                    "Smart contract developpment with Brownies"
-                ]
+        "competences": {
+            "Python" :{
+                "Python Core": {
+                    "competences": [
+                        "Data Structure",
+                        "Generators",
+                        "Iterators",
+                        "Exeptions",
+                        "OOPs concepts",
+                        "Package management",
+                        "Data Manipulation",
+                        "Web Development",
+                        "Database managment"
+                    ]
+                },
+                "Web development": {
+                    "competences": [
+                        "Web Framework (Flask, Django, FastAPI)",
+                        "Front-end Development",
+                        "API REST",
+                        "Authentification and Authorization",
+                        "Deployment and Hosting"
+                    ]
+                },
+                "Data Processsing": {
+                    "competences": [
+                        "Data package (Pandas, Numpy, PySpark)",
+                        "Data exploration",
+                        "Data visualisation (Power BI, Tableau, ...)",
+                        "ETL Development"
+                    ]
+                },
+                "Blockchain": {
+                    "competences": [
+                        "Web3.py",
+                        "Smart contract developpment with Brownies"
+                    ]
+                }
             }
+        
         },
         "autres_langage": {
             "javascript": 3,

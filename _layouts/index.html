@@ -11,27 +11,25 @@
 </head>
 
 <body>
-
     {% for item in site.data.menu[page.lang] %}
     <li><a href="{{ item.url }}">{{ item.label }}</a></li>
     {% endfor %}
-
     {% include header.html %}
-
     <div class="main_body">
-
         <div class="div_intro content">
             <h1 class="blue bold">Aymeric Creusot</h1>
             <h3 class="bold poste">Data Engineer / Back-end Developer (Python)</h3>
         </div>
+        {% if page.title == "experiences"   %}
+            {% include _pages/experience.html  %}
+        {% elsif page.title == "skills"   %}
+            {% include _pages/skills.html  %}
+        {% else %}
         {{ content }}
+        {% endif %}   
 
         {% include footer.html %}
 
     </div>
-
-
-
 </body>
-
 </html>
