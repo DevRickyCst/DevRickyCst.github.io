@@ -187,7 +187,7 @@ p {
 }
 
 .header img,
-.header h3 {
+.header h3, h4, h5 {
   display: inline-block;
 }
 
@@ -305,11 +305,6 @@ p {
   background-color: rgb(226, 226, 226);
 }
 
-/*
-.main_body{
-    width: 80%;
-    margin: auto;
-}*/
 .content {
   padding-bottom: 5%;
   width: 80%;

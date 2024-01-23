@@ -1,69 +1,109 @@
 {
     "competences": {
-        "competences_python": {
-            "Python Core": [
-                "Data Structure",
-                "Generators",
-                "Iterators",
-                "Exeptions",
-                "OOPs concepts",
-                "Package management",
-                "Data Manipulation",
-                "Web Development",
-                "Database managment"
-            ],
-            "Web development": [
-                "Web Framework (Flask, Django, FastAPI)",
-                "Front-end Development",
-                "API REST",
-                "Authentification and Authorization",
-                "Deployment and Hosting"
-            ],
-            "Data Processsing": [
-                "Data package (Pandas, Numpy, PySpark)",
-                "Data exploration",
-                "Data visualisation (Power BI, Tableau, ...)",
-                "ETL Development"
-            ],
-            "Blockchain": [
-                "Web3.py",
-                "Smart contract developpment with Brownies"
-            ]
+        "Python Knowledge": {
+            "logo" : "/assets/image/python.svg",
+            "competences" : {
+                "Python Core": [
+                    "Data Structure",
+                    "Generators",
+                    "Iterators",
+                    "Exeptions",
+                    "OOPs concepts",
+                    "Package management",
+                    "Data Manipulation",
+                    "Web Development",
+                    "Database managment"
+                ],
+                "Web development": [
+                    "Web Framework (Flask, Django, FastAPI)",
+                    "Front-end Development",
+                    "API REST",
+                    "Authentification and Authorization",
+                    "Deployment and Hosting"
+                ],
+                "Data Processsing": [
+                    "Data package (Pandas, Numpy, PySpark)",
+                    "Data exploration",
+                    "Data visualisation (Power BI, Tableau, ...)",
+                    "ETL Development"
+                ],
+                "Blockchain": [
+                    "Web3.py",
+                    "Smart contract developpment with Brownies"
+                ]
+            }
         },
-        "autres_langage": {
-            "javascript": 3,
-            "solidity": 3,
-            "ruby": 2,
-            "html": 4
+        "Data Engineering": {
+            "logo" : "/assets/image/data.svg",
+            "competences" : {
+                "Data processing": [
+                    "Extract, Transform, Load (ETL)",
+                    "Data Pipelines",
+                    "SQL langage",
+                    "DBT"
+                ],
+                "Big Data" : [
+                    "Hadoop et écosystème (ex. HDFS, MapReduce)",
+                    "Apache Spark"
+                ],
+                "Databases": [
+                    "Data models",
+                    "SQL",
+                    "Query Optimisation",
+                    "Database Design",
+                    "Parquet",
+                    "Schema",
+                    "Partitions"
+                ]
+            }
         },
-        "autre_competences": {
-            "Developper knowledge": [
-                "Version control (Git)",
-                "Testing",
-                "Performance and Optimisation",
-                "Collaborations Tools"
-            ],
-            "Devops Development": [
-                "Infrastructure Automation",
-                "Automated Testing",
-                "Containerization and Orchestration",
-                "Continuous Integration and Deployment (CI/CD)"
-            ],
-            "Cloud developpement": [
-                "Infrastructure As Code (IAS)",
-                "Microservice development",
-                "Serverless Computing",
-                "Monitoring and Debugging"
-            ],
-            "Database gestion": [
-                "Data models",
-                "SQL",
-                "Query Optimisation",
-                "Database Design",
-                "Parquet",
-                "Schema",
-                "Partitions"
-            ]
+        "Devops": {
+            "logo" : "/assets/image/cicd.svg",
+            "competences" : {
+                "Intégration Continue (CI)": [
+                    "CI/CD Tools (ex. Jenkins, Travis CI, GitLab CI)",
+                    "Automated Tests and Lint",
+                    "Continuous deployment strategies"
+                ],
+                "Containerization" : [
+                    "Docker and its concepts"
+                ],
+                "Collaboration Tools" : [
+                    "Github",
+                    "Slack",
+                    "Asana",
+                    "Linear"
+                ],
+                "Cloud Computing" : [
+                    "Cloud basics", 
+                    "Cloud services (AWS, Google Cloud)",
+                    "Infrastructure As A Code (Terraform, AWS Cloudformation)",
+                    "Microservices"
+                ]
+            }
+        },
+        "Javascript": {
+            "logo" : "/assets/image/javascript.svg",
+            "competences" : {
+                "React JS": [
+                    "Props",
+                    "JSX",
+                    "State",
+                    "Hook",
+                    "Memo",
+                    "React Router",
+                    "Redux"
+                ],
+                "Node JS": [
+                    "Props",
+                    "JSX",
+                    "State",
+                    "Hook",
+                    "Memo",
+                    "React Router",
+                    "Redux"
+                ]
+            }
         }
     }
 }

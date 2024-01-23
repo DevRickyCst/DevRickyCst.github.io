@@ -3,14 +3,14 @@
 {% assign competences = site.data.competences[lang].competences%}
 <div class='content div_experiences'>
     <h2 class="section-title">Skills</h2>
-    {% for competence in competences%}
+    {% for competence in competences %}
     <div class="div_experience">
         <div class="header">
-            <img src="/assets/image/python.svg" alt="python_logo">
-            <h3 class="blue">{{ competence[0] }}</h3>
+            <img src="{{ competence[1].logo }}" alt="python_logo">
+            <h4 class="blue">{{ competence[0] }}</h4>
         </div>
         <div class="section">
-            {% for value in competence[1] %}
+            {% for value in competence[1].competences %}
             <h6>{{ value[0] }}</h6>
             <p class="competence_value">
                 {% for item in value[1] %}
