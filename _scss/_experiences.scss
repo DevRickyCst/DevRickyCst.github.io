@@ -1,9 +1,12 @@
 /* Style de la section d'expériences */
 .section-title {
   font-size: 28px;
-  color: #0077b5;
-  /* Couleur LinkedIn par défaut */
-  margin-bottom: 20px;
+  color: #1C6789;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  margin-bottom: 3%;
+  padding-bottom: 1%;
+  padding-left: 1%;
 }
 
 /* Style des expériences individuelles */
@@ -57,11 +60,6 @@
 .blue {
   color: #0077b5;
   /* Bleu LinkedIn par défaut */
-}
-
-/* Style en gras */
-.bold {
-  font-weight: bold;
 }
 
 .experience_detail ul {

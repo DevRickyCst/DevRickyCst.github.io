@@ -15,10 +15,6 @@
   font-family:"Lato Bold"
 }
 
-.blue{
-  color: #1C6789;
-}
-
 .bold {
   font-weight: bold;
 }
@@ -31,13 +27,6 @@
     background-color: rgb(226, 226, 226);
 }
 
-//body 
-/*
-.main_body{
-    width: 80%;
-    margin: auto;
-}*/
-
 // General end
 .content{
   padding-bottom: 5%;
@@ -49,17 +38,9 @@
 // nav intro
 
 .div_intro{
-    padding-top :7%;
-    padding-bottom: 3%;
+    padding-top :7em;
+    padding-bottom: 2em;
     text-align: center;
-}
-
-
-.section-title{
-  margin-bottom: 3%;
-  padding-bottom: 1%;
-  padding-left: 1%;
-  border-bottom: 2px solid black;
 }
 
 //contact block

@@ -1,78 +1,93 @@
 {
     "competences": {
-        "competences_python": {
-            "Python Core": {
-                "competences": [
-                    "Structure de donnée",
-                    "Generateurs",
-                    "Iterateurs",
-                    "Exeptions",
-                    "Programmation orienté objet",
-                    "Création et gestion de Package",
-                    "Manipulation de donnée",
-                    "Developpement Web",
-                    "Gestion de BDD"
-                ]
-            },
-            "Developpement Web": {
-                "competences": [
+        "Python Developpement": {
+            "logo" : "/assets/image/python.svg",
+            "competences" : {
+                "Python Core": [
+                    "Structure de données",
+                    "Générateurs",
+                    "Itérateurs",
+                    "Exceptions ",
+                    "Programmation orientée objet",
+                    "Création et gestion de packages"
+                ],
+                "Developpement Web": [
                     "Framework Web (Flask, Django, FastAPI)",
                     "Developpement Front-end",
                     "RESTful APIs",
                     "Authentification et authorisation",
-                    "Deploiement et hébergement"
-                ]
-            },
-            "Manipulation de donnée": {
-                "competences": [
+                    "Déploiement et hébergement"
+                ],
+                "Manipulation de donnée": [
                     "Package Data (Pandas, Numpy, PySpark)",
-                    "Exploration de donnée",
+                    "Exploration de données",
                     "Data visualisation (Power BI, Tableau, ...)",
                     "Mise en place d'ETL"
-                ]
-            },
-            "Blockchain": {
-                "competences": [
+                ],
+                "Blockchain": [
                     "Web3.py",
-                    "Developpement de Smart contract avec Brownies"
+                    "Developpement de Smart contracts avec Brownies"
                 ]
             }
         },
-        "autres_langage": {
-            "javascript": 3,
-            "solidity": 3,
-            "ruby": 2,
-            "html": 4
+        "Data Engineering": {
+            "logo" : "/assets/image/data.svg",
+            "competences" : {
+                "Traitement de données": [
+                    "Extraction, Transformation, et Chargement (ETL)",
+                    "Pipelines de données",
+                    "langage SQL",
+                    "DBT",
+                    "Apache Spark",
+                    "Apache Airflow"
+                ],
+                "Big Data" : [
+                    "Hadoop et son écosystème (ex. HDFS, MapReduce)",
+                    "PySpark",
+                    "AWS EMR"
+                ],
+                "Gestion de BDD": [
+                    "Modèle de données",
+                    "SQL/NoSQL",
+                    "Optimisation de requêtes",
+                    "Design de BDD",
+                    "Parquet",
+                    "Schéma",
+                    "Partitions"
+                ]
+            }
         },
-        "autre_competences": {
-            "Compétences de développement": [
-                "Algorithmie",
-                "Control de Version (Git)",
-                "Test",
-                "Performance et optimisation",
-                "Outil de collaboration"
-            ],
-            "Developpement Devops": [
-                "Automatisation d'infrastructure",
-                "Test automatique",
-                "Conteneurisation et orchestration",
-                "Integration et déploiment en continue (CI/CD)"
-            ],
-            "Cloud developpement": [
-                "Infrastructure As Code (IAS)",
-                "Développement de microservice",
-                "Serverless Computing",
-                "Monitoring et débugage"
-            ],
-            "Gestion de BDD": [
-                "Modèle de donnée",
-                "SQL",
-                "Optimisation de requête",
-                "Design de BDD",
-                "Parquet",
-                "Schéma",
-                "Partitions"
-            ]
+        "Devops": {
+            "logo" : "/assets/image/cicd.svg",
+            "competences" : {
+                "Intégration Continue (CI)": [
+                    "Outils CI/CD (ex. Jenkins, Travis CI, GitLab CI)",
+                    "Tests et Lint automatisés",
+                    "Stratégies de déploiement continu"
+                ],
+                "Conteneurisation" : [
+                    "Docker et ses concepts"
+                ],
+                "Outils de collaboration" : [
+                    "Github",
+                    "Slack",
+                    "Asana",
+                    "Linear"
+                ],
+                "Cloud Computing" : [
+                    "Concepts de base du cloud", 
+                    "Services cloud (AWS, Google Cloud)",
+                    "Infrastructure As A Code (Terraform, AWS Cloudformation)",
+                    "Microservices"
+                ]
+            }
+        },
+        "Autre langage": {
+            "logo" : "/assets/image/programing.svg",
+            "competences" : {
+                "Javascript, C, Solidity, HTML/CSS, PHP, C++, Java": [
+                ]
+            }
         }
     }
 }
