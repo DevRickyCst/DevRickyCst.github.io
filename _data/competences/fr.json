@@ -1,55 +1,55 @@
 {
     "competences": {
-        "Python": {
+        "Python Developpement": {
             "logo" : "/assets/image/python.svg",
             "competences" : {
                 "Python Core": [
-                    "Structure de donnée",
-                    "Generateurs",
-                    "Iterateurs",
-                    "Exeptions",
-                    "Programmation orienté objet",
-                    "Création et gestion de Package",
-                    "Manipulation de donnée",
-                    "Developpement Web",
-                    "Gestion de BDD"
+                    "Structure de données",
+                    "Générateurs",
+                    "Itérateurs",
+                    "Exceptions ",
+                    "Programmation orientée objet",
+                    "Création et gestion de packages"
                 ],
                 "Developpement Web": [
                     "Framework Web (Flask, Django, FastAPI)",
                     "Developpement Front-end",
                     "RESTful APIs",
                     "Authentification et authorisation",
-                    "Deploiement et hébergement"
+                    "Déploiement et hébergement"
                 ],
                 "Manipulation de donnée": [
                     "Package Data (Pandas, Numpy, PySpark)",
-                    "Exploration de donnée",
+                    "Exploration de données",
                     "Data visualisation (Power BI, Tableau, ...)",
                     "Mise en place d'ETL"
                 ],
                 "Blockchain": [
                     "Web3.py",
-                    "Developpement de Smart contract avec Brownies"
+                    "Developpement de Smart contracts avec Brownies"
                 ]
             }
         },
         "Data Engineering": {
             "logo" : "/assets/image/data.svg",
             "competences" : {
-                "Traitement de donnée": [
+                "Traitement de données": [
                     "Extraction, Transformation, et Chargement (ETL)",
                     "Pipelines de données",
-                    "SQL langage",
-                    "DBT"
+                    "langage SQL",
+                    "DBT",
+                    "Apache Spark",
+                    "Apache Airflow"
                 ],
                 "Big Data" : [
-                    "Hadoop et écosystème (ex. HDFS, MapReduce)",
-                    "Apache Spark"
+                    "Hadoop et son écosystème (ex. HDFS, MapReduce)",
+                    "PySpark",
+                    "AWS EMR"
                 ],
                 "Gestion de BDD": [
-                    "Modèle de donnée",
+                    "Modèle de données",
                     "SQL/NoSQL",
-                    "Optimisation de requête",
+                    "Optimisation de requêtes",
                     "Design de BDD",
                     "Parquet",
                     "Schéma",
@@ -82,26 +82,10 @@
                 ]
             }
         },
-        "Javascript": {
-            "logo" : "/assets/image/javascript.svg",
+        "Autre langage": {
+            "logo" : "/assets/image/programing.svg",
             "competences" : {
-                "React JS": [
-                    "Props",
-                    "JSX",
-                    "State",
-                    "Hook",
-                    "Memo",
-                    "React Router",
-                    "Redux"
-                ],
-                "Node JS": [
-                    "Props",
-                    "JSX",
-                    "State",
-                    "Hook",
-                    "Memo",
-                    "React Router",
-                    "Redux"
+                "Javascript, C, Solidity, HTML/CSS, PHP, C++, Java": [
                 ]
             }
         }

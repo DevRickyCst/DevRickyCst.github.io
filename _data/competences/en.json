@@ -1,18 +1,15 @@
 {
     "competences": {
-        "Python Knowledge": {
+        "Python Development": {
             "logo" : "/assets/image/python.svg",
             "competences" : {
                 "Python Core": [
                     "Data Structure",
                     "Generators",
                     "Iterators",
-                    "Exeptions",
+                    "Exceptions",
                     "OOPs concepts",
-                    "Package management",
-                    "Data Manipulation",
-                    "Web Development",
-                    "Database managment"
+                    "Package Management"
                 ],
                 "Web development": [
                     "Web Framework (Flask, Django, FastAPI)",
@@ -24,12 +21,12 @@
                 "Data Processsing": [
                     "Data package (Pandas, Numpy, PySpark)",
                     "Data exploration",
-                    "Data visualisation (Power BI, Tableau, ...)",
+                    "Data visualization (Power BI, Tableau, ...)",
                     "ETL Development"
                 ],
                 "Blockchain": [
                     "Web3.py",
-                    "Smart contract developpment with Brownies"
+                    "Smart contract development with Brownies"
                 ]
             }
         },
@@ -40,11 +37,13 @@
                     "Extract, Transform, Load (ETL)",
                     "Data Pipelines",
                     "SQL langage",
-                    "DBT"
+                    "DBT",
+                    "Apache Airflow"
                 ],
                 "Big Data" : [
-                    "Hadoop et écosystème (ex. HDFS, MapReduce)",
-                    "Apache Spark"
+                    "Hadoop and its ecosystem (ex. HDFS, MapReduce)",
+                    "Apache Spark",
+                    "AWS EMR"
                 ],
                 "Databases": [
                     "Data models",
@@ -82,26 +81,10 @@
                 ]
             }
         },
-        "Javascript": {
-            "logo" : "/assets/image/javascript.svg",
+        "Other language": {
+            "logo" : "/assets/image/programing.svg",
             "competences" : {
-                "React JS": [
-                    "Props",
-                    "JSX",
-                    "State",
-                    "Hook",
-                    "Memo",
-                    "React Router",
-                    "Redux"
-                ],
-                "Node JS": [
-                    "Props",
-                    "JSX",
-                    "State",
-                    "Hook",
-                    "Memo",
-                    "React Router",
-                    "Redux"
+                "Javascript, C, Solidity, HTML/CSS, PHP, C++, Java": [
                 ]
             }
         }
