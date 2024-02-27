@@ -115,9 +115,9 @@
       "to": "Present",
       "details": {
         "Development of an internal API to share data with Back-End and Front-End teams": [
-            "Utilization of the Python library AWS Chalice to set up a web structure with AWS Lambda and API Gateway.",
-            "Creation of Blueprints and services to adapt to various needs.",
-            "Addition of adapters to verify input and output parameter types using decorators."
+            "Usage of the Python library AWS Chalice to set up a web structure with AWS Lambda and API Gateway.",
+            "Designed blueprints and services to accommodate diverse needs.",
+            "Implemented adapters to validate input and output parameter types using decorators."
         ],
         "Setup, development, and maintenance of an MWAA (Airflow) instance on AWS": [
             "Development of an Airflow stack with AWS CloudFormation and SAM.",
@@ -133,7 +133,10 @@
             "Creation of scripts with Pyspark to meet various data processing needs.",
             "Use of EMR Studio and CloudWatch for development."
         ],
-        "Creation and deployment of multiple AWS Lambdas for internal needs with SAM": ""
+        "Creation and deployment of AWS Lambdas for internal needs with SAM": [
+          "In the MWAA stack, deployed a Lambda function to fetch an authentication token from AWS CodeArtifact and save it for MWAA integration every 10 hours due to token expiration.",
+          ""
+        ]
     }
     ,
       "stack": {
