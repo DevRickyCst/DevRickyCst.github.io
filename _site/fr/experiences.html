@@ -181,9 +181,9 @@
                     <span class="badge rounded-pill text-bg-success">AWS (Amazon Web Service)</span>
                 
                 
-                    <span class="badge rounded-pill text-bg-info">Pyspark</span>
+                    <span class="badge rounded-pill text-bg-info">DBT</span>
                 
-                    <span class="badge rounded-pill text-bg-info">AWS Chalice</span>
+                    <span class="badge rounded-pill text-bg-info">Pyspark</span>
                 
                     <span class="badge rounded-pill text-bg-info">Airflow</span>
                 
@@ -203,33 +203,53 @@
                 
                 
                 <ul>
-                    <p>Mise en œuvre de pipelines de données pour extraire, traiter et importer quotidiennement de grandes quantités de données provenant de différentes sources.</p>
+                    <p>Développement d'une API interne afin de partager les données Data aux équipes Back-End et Front-End</p>
                     
-                        <li> Développement de scripts python orchestrés avec MWAA afin de stocker les données des plateformes publicitaires dans un Datalake.</li>
+                        <li> Utilisation de la librairie python AWS Chalice afin de mettre en place une structure Web avec AWS Lambda et API Gateway</li>
                     
-                        <li> Création d'ETL avec des requêtes AWS Athena et des scripts Python déclenchés avec MWAA afin de créer un entrepôt de données.</li>
+                        <li> Création de Blueprints et de services afin de pouvoir s'adapter aux différents besoins</li>
                     
-                        <li> Gestion de base de données avec AWS S3 en utilisant des partitions afin de rendre chaque tâche Airflow idempotente et optimisée pour les requêtes.</li>
-                    
-                </ul>
-                
-                
-                <ul>
-                    <p>Déploiement d'une application python afin de faciliter l'accès aux données interne.</p>
-                    
-                        <li> Développement et déploiement d'une Api REST sur AWS Lambda avec Chalice afin de récupérer des données pour le front end d'un tableau de bord web.</li>
+                        <li> Ajout d'adapter afin de vérifier les types des paramètre d'entrée et de sortie grâce aux décorateurs</li>
                     
                 </ul>
                 
                 
                 <ul>
-                    <p>Développement d'un package python interne afin d'interagir avec différentes API de plateformes publicitaires</p>
+                    <p>Mise en place, développement et maintenance d'une instance MWAA (Airflow) sur AWS </p>
                     
-                        <li> Développement d'une interface python afin de récupérer des datas directement depuis les platformes Facebook Ads, Google Ads pour différentes granularités, KPI.</li>
+                        <li> Développement d'une stack Airflow avec AWS Cloudformation et SAM.</li>
                     
-                        <li> Respect des différentes normes des packages python ainsi que la gestion des différentes dépendances.</li>
+                        <li> Création de scripts bash et de CI/CD afin d'automatiser le déploiement de la Stack.</li>
                     
-                        <li> Maintenance de CI/CD afin de déployer automatiquement ce package sur AWS CodeArtifact.</li>
+                        <li> Mise en place de dag afin d'orchestrer différents jobs Data. (DBT, EMR)</li>
+                    
+                        <li> Développement de scripts afin d'importer des datas en interne venant de diverses API. (Facebook Ads, Google Ads ...).</li>
+                    
+                </ul>
+                
+                
+                <ul>
+                    <p>Création et déploiement de package interne afin d'interagir avec les librairies Facebook Ads et google Ads</p>
+                    
+                        <li> Développement de package en suivant les normes Python afin de l'héberger sur AWS CodeArtifact.</li>
+                    
+                        <li> Mise en place de CI/CD afin d'automatiser le déploiement et le testing.</li>
+                    
+                </ul>
+                
+                
+                <ul>
+                    <p>Développement de jobs Spark afin de mettre en place des pipelines de données sur AWS EMR</p>
+                    
+                        <li> Création de scripts avec Pyspark afin de mettre en place différents besoins de traitement de données.</li>
+                    
+                        <li> Utilisation de EMR Studio et CloudWatch pour le développement.</li>
+                    
+                </ul>
+                
+                
+                <ul>
+                    <p>Créations et déploiement de plusieurs AWS Lambda pour des besoins interne avec SAM</p>
                     
                 </ul>
                 

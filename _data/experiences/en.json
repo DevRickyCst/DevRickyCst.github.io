@@ -114,21 +114,28 @@
       "from": "April 2021",
       "to": "Present",
       "details": {
-        "Implementation of data pipelines to extract, process, and import large amounts of data from various sources on a daily basis.": [
-          "Creation of ETL using AWS Athena queries and Python scripts triggered with MWAA to create a data warehouse.",
-          "Database management with AWS S3 using partitions to make each Airflow job idempotent and optimized for querying.",
-          "Python script optimization to reduce meta datalake import time by a factor of 4.",
-          "Development of Python operator on Aiflow to import daily data from advertising campaigns on Waze."
+        "Development of an internal API to share data with Back-End and Front-End teams": [
+            "Utilization of the Python library AWS Chalice to set up a web structure with AWS Lambda and API Gateway.",
+            "Creation of Blueprints and services to adapt to various needs.",
+            "Addition of adapters to verify input and output parameter types using decorators."
         ],
-        "Deployement of python application in order to make easy access for internal data.": [
-          "Development and deployment of a REST API on AWS Lambda using Chalice to retrieve data for a front-end web dashboard."
+        "Setup, development, and maintenance of an MWAA (Airflow) instance on AWS": [
+            "Development of an Airflow stack with AWS CloudFormation and SAM.",
+            "Creation of bash scripts and CI/CD to automate the deployment of the stack.",
+            "Implementation of DAGs to orchestrate various data jobs (DBT, EMR).",
+            "Development of scripts to import internal data from various APIs (Facebook Ads, Google Ads, etc.)."
         ],
-        "Development of an internal Python package to interact with various advertising platform APIs.": [
-          "Development of a Python interface to retrieve data directly from the Facebook Ads and Google Ads platforms for different granularities and KPIs.",
-          "Adherence to Python package standards and dependency management..",
-          "CI/CD maintenance to automatically deploy this package on AWS CodeArtifact."
-        ]
-      },
+        "Creation and deployment of internal packages to interact with Facebook Ads and Google Ads libraries": [
+            "Development of packages following Python standards to host them on AWS CodeArtifact.",
+            "Establishment of CI/CD to automate deployment and testing."
+        ],
+        "Development of Spark jobs to set up data pipelines on AWS EMR": [
+            "Creation of scripts with Pyspark to meet various data processing needs.",
+            "Use of EMR Studio and CloudWatch for development."
+        ],
+        "Creation and deployment of multiple AWS Lambdas for internal needs with SAM": ""
+    }
+    ,
       "stack": {
         "green": [
           "AWS (Amazon Web Service)",
