@@ -115,19 +115,26 @@
             "from": "April 2021",
             "to": "Present",
             "details": {
-                "Mise en œuvre de pipelines de données pour extraire, traiter et importer quotidiennement de grandes quantités de données provenant de différentes sources.": [
-                    "Développement de scripts python orchestrés avec MWAA afin de stocker les données des plateformes publicitaires dans un Datalake.",
-                    "Création d'ETL avec des requêtes AWS Athena et des scripts Python déclenchés avec MWAA afin de créer un entrepôt de données.",
-                    "Gestion de base de données avec AWS S3 en utilisant des partitions afin de rendre chaque tâche Airflow idempotente et optimisée pour les requêtes."
+                "Développement d'une API interne afin de partager les données Data aux équipes Back-End et Front-End." : [
+                    "Utilisation de la librairie python AWS Chalice afin de mettre en place une structure Web avec AWS Lambda et API Gateway",
+                    "Création de Blueprints et de services afin de pouvoir s'adapter aux différents besoins",
+                    "Ajout d'adapter afin de vérifier les types des paramètre d'entrée et de sortie grâce aux décorateurs"
                 ],
-                "Déploiement d'une application python afin de faciliter l'accès aux données interne.": [
-                    "Développement et déploiement d'une Api REST sur AWS Lambda avec Chalice afin de récupérer des données pour le front end d'un tableau de bord web.",
+                "Mise en place, développement et maintenance d'une instance MWAA (Airflow) sur AWS.": [
+                    "Développement d'une stack Airflow avec AWS Cloudformation et SAM.",
+                    "Création de scripts bash et de CI/CD afin d'automatiser le déploiement de la Stack.",
+                    "Mise en place de dag afin d'orchestrer différents jobs Data. (DBT, EMR)",
+                    "Développement de scripts afin d'importer des datas en interne venant de diverses API. (Facebook Ads, Google Ads ...)."
                 ],
-                "Développement d'un package python interne afin d'interagir avec différentes API de plateformes publicitaires": [
-                    "Développement d'une interface python afin de récupérer des datas directement depuis les platformes Facebook Ads, Google Ads pour différentes granularités, KPI.",
-                    "Respect des différentes normes des packages python ainsi que la gestion des différentes dépendances.",
-                    "Maintenance de CI/CD afin de déployer automatiquement ce package sur AWS CodeArtifact."
-                ]
+                "Création et déploiement de package interne afin d'interagir avec les librairies Facebook Ads et google Ads." : [
+                    "Développement de package en suivant les normes Python afin de l'héberger sur AWS CodeArtifact.",
+                    "Mise en place de CI/CD afin d'automatiser le déploiement et le testing."
+                ],
+                "Développement de jobs Spark afin de mettre en place des pipelines de données sur AWS EMR." : [
+                    "Création de scripts avec Pyspark afin de mettre en place différents besoins de traitement de données.",
+                    "Utilisation de EMR Studio et CloudWatch pour le développement."
+                ],
+                "Créations et déploiement de plusieurs AWS Lambda pour des besoins interne avec SAM.":""
             },
             "stack": {
                 "green": [
@@ -136,8 +143,8 @@
                 ],
                 "teal": [
                     "Airflow",
-                    "AWS Chalice",
-                    "Pyspark"
+                    "Pyspark",
+                    "DBT"
                 ],
                 "grey": [
                     "Microservice",
