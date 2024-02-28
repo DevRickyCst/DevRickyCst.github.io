@@ -7,7 +7,7 @@ lable : about
         <div class="row">
             <div class="col-4">
                 <div class="left-block">
-                    <h4 class="blue">Contact</h4>
+                    <h3 class="blue">Contact</h3>
                     <div class="contact-info">
                       <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aymeric-creusot-099a70172/" target="_blank">Creusot Aymeric</a></p>
                       <p><strong>Github:</strong> <a href="https://github.com/DevRickyCst" target="_blank">DevRickyCst</a></p>
