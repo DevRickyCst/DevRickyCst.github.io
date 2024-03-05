@@ -3,30 +3,33 @@
   "projects" : {
     "Telegram Bots Manager" : {
         "link": "https://github.com/DevRickyCst/telegramBotsManager",
-        "descrition": "Application Web développée avec AWS Chalice afin de déployer une infrastruture légère et scalable pour le développent de Bots Télégram",
+        "descrition": "Webhook afin de déployer une infrastructure légère, scalable et peu coûteuse pour le développent et gestion de multiples bots Télégram.",
         "stack": {
             "green": ["Amazon Web Service (Lambda, Gateway)"],
             "teal": ["AWS Chalice", "python-telegram-bot", "openai", "web3.py"],
             "grey": ["Python development", "DevOps"]
           },
         "detail":[
-            "Utilisation de la bibliothèque AWS Chalice afin de mettre en place une infrastructure WEB utilisant AWS Lambda et AWS Api-Gateway",
-            "Création d'une interface bot afin de simplifier et personaliser la manipulation globale de bots Télégram",
-            "Utilisation de divers API (telegram, openweathermap, coinmarketcap) et packages pythons (python-telegram-bot, open-ai, gmail, web3)",
-            "Mise en place de CI avec github CI/CD afin de vérifier le linting de chaque pull request"
+            "Utilisation de la bibliothèque AWS Chalice afin de mettre en place une infrastructure WEB utilisant AWS Lambda et AWS Api-Gateway.",
+            "Création d'une interface bot afin de simplifier et personaliser la manipulation des bots Télégram.",
+            "Création de différents bost d'exemples utilisant divers APIs. (Openwheatermap, CoinmarketCap, Open-ai, Web3.py).",
+            "Mise en place de workflow github CI/CD afin d'améliorer le developpement en continue (linting, test) et d'automatiser le deploiement."
         ]
 
     },
     "Etherum Block Explorer" : {
         "link": "https://github.com/DevRickyCst/ethBlockExplorer",
-        "descrition": "Application Web développée avec AWS Chalice afin de déployer une infrastruture légère et scalable pour le développent de Bots Télégram",
+        "descrition": "Application Web3 afin d'explorer la blockchain Etherum et intéragir avec son portefeuille externe Metamask.",
         "stack": {
             "green": ["Python", "Etherum Blockchain", "Javascript"],
             "teal": ["Python flask", "web3.py"],
             "grey": ["Web Development"]
           },
         "detail":[
-            
+            "Developpement d'une applicaton Web avec la librarie python Flask.",
+            "Intégration de la bibliothèque web3.py pour permettre l'interaction avec la blockchain Ethereum via Infura en tant que fournisseur.",
+            "Développement de fonctions JavaScript pour permettre l'interaction avec des extensions de portefeuille blockchain dans le navigateur, telles que MetaMask.",
+            "Implémentation de diverses fonctionnalités telles que l'exploration des blocs, les transactions sur Ethereum, et la possibilité de se connecter au portefeuille MetaMask et d'effectuer des transferts d'Ether."
         ]
     }
 }}

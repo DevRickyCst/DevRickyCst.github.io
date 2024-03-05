@@ -11,9 +11,11 @@
         "Pour plus d'informations n'hésitez pas à me contacter via LinkedIn ou Github."
     ],
     "title-2":"Formation",
-    "education" : {
-        "diplome": "Ingénieur en mathématiques appliquées et en Informatique",
-        "specialite": "Fintech",
+    "educations" : {
+        "diplome": "Ingénieur en mathématiques appliquées et Informatique",
+        "specialite": {
+            "Spécialité": "Fintech"
+        },        
         "university": "CY-Tech",
         "university_link": "https://cytech.cyu.fr/formations-cy-tech/ingenieurs"
     }

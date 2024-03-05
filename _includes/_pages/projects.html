@@ -29,11 +29,12 @@
                 </div>
             </div>
             <div class="section_detail">
-                {% for detail in project[1].detail %}
+                <p>{{ project[1].descrition }}</p>
                 <ul>
-                    <li> {{ detail }}</li>
+                    {% for detail in project[1].detail %}
+                        <li> {{ detail }}</li>
+                    {% endfor %}
                 </ul>
-                {% endfor %}
             </div>
         </div>
     {% endfor %}

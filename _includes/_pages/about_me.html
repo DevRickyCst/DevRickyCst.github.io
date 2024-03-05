@@ -32,10 +32,12 @@
                     <p>{{ paragraphe }}</p>
                 {% endfor %}
                 <h2 class="content-title">{{ about_me.title-2 }}</h2>
-                {% assign education = about_me.education %}
+                {% assign education = about_me.educations %}
 
                 <b class ='degree'>{{ education.diplome }}</b>
-                <p>Spécialisation : {{ education.specialite }}</p>
+                {%  for specialite in education.specialite %}
+                <p> {{ specialite[0] }} : {{ specialite[1] }}</p>
+                {% endfor %}
                 <p class ='degreeschool'><a href="{{ education.university_link }}" target="_blank">{{ education.university }}</a> (Ex: EISTI)  -  2015 -> 2020</p>
             </div>
         </div>
