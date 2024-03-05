@@ -1,8 +1,9 @@
 {
+    "title": "Compétences",
     "competences": {
         "Python Developpement": {
-            "logo" : "/assets/image/python.svg",
-            "competences" : {
+            "logo": "/assets/image/python.svg",
+            "competences": {
                 "Python Core": [
                     "Structure de données",
                     "Générateurs",
@@ -31,8 +32,8 @@
             }
         },
         "Data Engineering": {
-            "logo" : "/assets/image/data.svg",
-            "competences" : {
+            "logo": "/assets/image/data.svg",
+            "competences": {
                 "Traitement de données": [
                     "Extraction, Transformation, et Chargement (ETL)",
                     "Pipelines de données",
@@ -41,7 +42,7 @@
                     "Apache Spark",
                     "Apache Airflow"
                 ],
-                "Big Data" : [
+                "Big Data": [
                     "Hadoop et son écosystème (ex. HDFS, MapReduce)",
                     "PySpark",
                     "AWS EMR"
@@ -58,24 +59,24 @@
             }
         },
         "Devops": {
-            "logo" : "/assets/image/cicd.svg",
-            "competences" : {
+            "logo": "/assets/image/cicd.svg",
+            "competences": {
                 "Intégration Continue (CI)": [
                     "Outils CI/CD (ex. Jenkins, Travis CI, GitLab CI)",
                     "Tests et Lint automatisés",
                     "Stratégies de déploiement continu"
                 ],
-                "Conteneurisation" : [
+                "Conteneurisation": [
                     "Docker et ses concepts"
                 ],
-                "Outils de collaboration" : [
+                "Outils de collaboration": [
                     "Github",
                     "Slack",
                     "Asana",
                     "Linear"
                 ],
-                "Cloud Computing" : [
-                    "Concepts de base du cloud", 
+                "Cloud Computing": [
+                    "Concepts de base du cloud",
                     "Services cloud (AWS, Google Cloud)",
                     "Infrastructure As A Code (Terraform, AWS Cloudformation)",
                     "Microservices"
@@ -83,10 +84,9 @@
             }
         },
         "Autre langage": {
-            "logo" : "/assets/image/programing.svg",
-            "competences" : {
-                "Javascript, C, Solidity, HTML/CSS, PHP, C++, Java": [
-                ]
+            "logo": "/assets/image/programing.svg",
+            "competences": {
+                "Javascript, C, Solidity, HTML/CSS, PHP, C++, Java": []
             }
         }
     }

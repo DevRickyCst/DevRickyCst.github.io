@@ -1,0 +1,101 @@
+@import 'vars';
+
+/* Style du titre en bleu */
+.blue {
+    color: $title_color;
+    /* Bleu LinkedIn par défaut */
+  }
+  
+.div_intro h1, h3{
+    font-weight: bold;
+}
+  
+  
+
+// Conteneur des différentes pages
+.content{
+    padding-bottom: 5%;
+    width: 80%;
+    margin: auto;
+}
+
+// IN PAGE
+
+// Titre de la page (Skills, Expériences,
+.content-title {
+    width: 100%;
+    color: $title_color;
+    //font-weight: bold;
+    border-bottom: 2px solid black;
+    margin-bottom: 3%;
+    padding-bottom: 1%;
+    padding-left: 1%;  
+}
+
+/* Style des section individuelles */
+.section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section_div_header{
+    margin-bottom: 1em;
+}
+.section_div_header .title{
+    color: $title_color;
+}
+
+.section_div_header img ,
+.section_div_header h3,h4,h5 {
+  display: inline-block;
+}
+  
+.section_div_header .skills_logo{
+    width: 2em;
+    height: 2em;
+    margin-right: 0.5em;
+}
+
+.section_div_header .stack{
+    margin: 0.5em 0;
+}
+
+.section_div_header a{
+    color: #007bff; /* Couleur du texte du lien */
+    text-decoration: none; /* Supprime le soulignement par défaut */
+    transition: color 0.3s ease; /* Animation de transition pour le changement de couleur */
+}
+
+.section_div_header a:hover{
+    color: $title_color; /* Nouvelle couleur du texte lors du survol */
+}
+
+.section_div_header .github{
+    padding-right: 0;
+}
+
+// Todo: Delete (used in skills.html)
+.section2 {
+    padding: 0 2.5em;
+}
+
+.section_detail ul {
+    list-style-type: circle;
+    padding-bottom: 0.5em;
+  }
+
+  .section_detail p {
+    font-weight: bold;
+    color: #3a3e41;
+    /* Couleur LinkedIn par défaut */
+    margin-bottom: 5px;
+  }
+
+.section_detail li {
+    margin: 5px 0;
+    color: #555;
+  }

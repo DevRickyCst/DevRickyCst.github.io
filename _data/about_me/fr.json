@@ -1,0 +1,22 @@
+{
+    "langues": {
+        "Français": "Maternelle",
+        "Anglais": "Professionnelle"
+    },
+    "title-1":"A propos",
+    "introduction": [
+        "Passionné par la technologie et le développement, j'ai pu acquérir un ensemble de compétences qui m'ont permis de renforcer mes connaissances en Python afin de développer diverses applications.(Package Python, API REST, Microservice, Site Web, Chatbot). Ayant de fortes appétences pour le Cloud, je suis monté en compétence sur des environnements tels qu'AWS et GCP, sur lesquels j'ai pu me familiariser et m'enrichir de ces méthodes de travail innovantes.",
+        "Expérimenté dans le data engineering, je suis capable de mettre en place des pipepines de traitements de données avec des outils tel que Airflow, ou Spark. Je suis également familier avec les bases de données, le SQL et tout ce qui concerne l'ingestion et traitement de données quotidiennes.",
+        "Curieux et avide de challenges, je suis capable de monter rapidement en compétences afin de comprendre et résoudre de nouveaux problèmes. Sachant être autonome, je sais également travailler en équipe et utiliser les outils collaboratifs.",
+        "Pour plus d'informations n'hésitez pas à me contacter via LinkedIn ou Github."
+    ],
+    "title-2":"Formation",
+    "educations" : {
+        "diplome": "Ingénieur en mathématiques appliquées et Informatique",
+        "specialite": {
+            "Spécialité": "Fintech"
+        },        
+        "university": "CY-Tech",
+        "university_link": "https://cytech.cyu.fr/formations-cy-tech/ingenieurs"
+    }
+}

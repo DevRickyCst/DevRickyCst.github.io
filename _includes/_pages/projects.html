@@ -1,0 +1,42 @@
+{% assign url = page.url | split: '/' %}
+{% assign lang = url[1]%}
+{% assign projects = site.data.projects[lang] %}
+
+
+    
+    
+<div class="content">
+    <h2 class ="content-title">{{ projects.title }}</h2>
+    {% for project in projects.projects %}
+        <div class="section">
+
+            <div class='section_div_header'>
+                <h4 class= "title">{{ project[0] }}</h4>
+                <div class="row">
+                    <img class="col-auto github" src="/assets/image/github.svg" alt="github_logo">
+                    <div class="col"><b>Github link : </b> <a href="{{  project[1].link  }}">{{  project[1].link  }}</a></div>
+                </div>
+                <div class="stack">
+                    {% for stack in project[1].stack.green %}
+                        <span class="badge rounded-pill text-bg-success">{{ stack }}</span>
+                    {% endfor %}
+                    {% for stack in project[1].stack.teal %}
+                        <span class="badge rounded-pill text-bg-info">{{ stack }}</span>
+                    {% endfor %}
+                    {% for stack in project[1].stack.grey %}
+                    <span class="badge rounded-pill text-bg-secondary">{{ stack }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="section_detail">
+                <p>{{ project[1].descrition }}</p>
+                <ul>
+                    {% for detail in project[1].detail %}
+                        <li> {{ detail }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+

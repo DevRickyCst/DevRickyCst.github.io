@@ -1,18 +1,20 @@
 {% assign url = page.url | split: '/' %}
 {% assign lang = url[1]%}
-{% assign competences = site.data.competences[lang].competences%}
-<div class='content div_experiences'>
-    <h2 class="section-title">Skills</h2>
-    {% for competence in competences %}
-    <div class="div_experience">
-        <div class="header">
-            <img src="{{ competence[1].logo }}" alt="python_logo">
-            <h4 class="blue">{{ competence[0] }}</h4>
+{% assign competences = site.data.competences[lang] %}
+
+{{ competences[0] }}
+<div class='content'>
+    <h2 class="content-title">{{ competences.title }}</h2>
+    {% for competence in competences.competences %}
+    <div class="section">
+        <div class="section_div_header">
+            <img src="{{ competence[1].logo }}" class="skills_logo" alt="python_logo">
+            <h4 class="title">{{ competence[0] }}</h4>
         </div>
-        <div class="section">
+        <div class="section2">
             {% for value in competence[1].competences %}
             <h6>{{ value[0] }}</h6>
-            <p class="competence_value">
+            <p>
                 {% for item in value[1] %}
                 {{ item }} -
                 {% endfor %}

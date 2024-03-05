@@ -1,0 +1,45 @@
+@import 'vars';
+
+.navbar {
+    background-color: rgb(226, 226, 226);
+    padding: 1em 2em;
+}
+
+
+// Padding top du menu en mode mobile pour ne pas être coller au logo
+.navbar-nav {
+  @media (max-width: $breakpoint-md) {
+    padding-top: 1em;
+  }
+}
+
+//Logo pour afficher le menu en mode avion
+.navbar-toggler {
+    background-color: #ffffff;
+}
+
+.nav-link {
+    font-weight: bold;
+    margin: 0 2em;
+    @media (max-width: $breakpoint-lg) and (min-width: $breakpoint-md) {
+        margin: 0;
+    }
+}
+
+.nav-link:hover {
+    color: $title_color;
+}
+
+/* Style pour la section des drapeaux */
+.flag_div {
+    text-align: center;
+    /* Centrer les éléments */
+    margin: 10px 0;
+    /* Espacement autour de la section des drapeaux */
+}
+
+.swap_name {
+    display: inline-block;
+    margin: 0 10px;
+    /* Espacement horizontal entre les drapeaux */
+}

@@ -1,5 +1,13 @@
+$title_color: #006db5;
+
+
+
 $breakpoint-xs: 0;         // Extra Small (xs)
 $breakpoint-sm: 576px;     // Small (sm)
 $breakpoint-md: 768px;     // Medium (md)
 $breakpoint-lg: 992px;     // Large (lg)
 $breakpoint-xl: 1200px;    // Extra Large (xl)
+
+
+
+$navbar-expand-md: $breakpoint-md;

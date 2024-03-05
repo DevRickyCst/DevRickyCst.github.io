@@ -1,4 +1,5 @@
 {
+    "title": "Expériences",
     "experiences": [
         {
             "id": "0",
@@ -16,19 +17,9 @@
                 ]
             },
             "stack": {
-                "green": [
-                    "Python",
-                    "Machine Learning",
-                    "DTW (Dynamic Time Warping)"
-                ],
-                "teal": [
-                    "Pandas",
-                    "Numpy"
-                ],
-                "grey": [
-                    "Data Exploration",
-                    "Data Analysis"
-                ]
+                "green": ["Python", "Machine Learning", "DTW (Dynamic Time Warping)"],
+                "teal": [ "Pandas", "Numpy"],
+                "grey": ["Data Exploration", "Data Analysis"]
             }
         },
         {
@@ -47,21 +38,9 @@
                 ]
             },
             "stack": {
-                "green": [
-                    "Python",
-                    "HTML/JS",
-                    "PHP",
-                    "Tableau Desktop"
-                ],
-                "teal": [
-                    "Pandas",
-                    "Numpy"
-                ],
-                "grey": [
-                    "Data Analysis",
-                    "Web Development",
-                    "Deployment"
-                ]
+                "green": [ "Python", "HTML/JS", "PHP", "Tableau Desktop"],
+                "teal": ["Pandas", "Numpy"],
+                "grey": ["Data Analysis", "Web Development", "Deployment"]
             }
         },
         {
@@ -87,23 +66,9 @@
                 "Nettoyage d'une base de donnéed lors pour une mission cliente avec python (regex, pandas, numpy)": []
             },
             "stack": {
-                "green": [
-                    "Python",
-                    "Linux",
-                    "LDAP"
-                ],
-                "teal": [
-                    "Flask",
-                    "Dash",
-                    "Sqlalchemy",
-                    "Pandas",
-                    "Numpy"
-                ],
-                "grey": [
-                    "Web development",
-                    "Testing",
-                    "CI/CD"
-                ]
+                "green": ["Python", "Linux", "LDAP"],
+                "teal": ["Flask", "Dash", "Sqlalchemy", "Pandas", "Numpy"],
+                "grey": ["Web development", "Testing", "CI/CD"]
             }
         },
         {
@@ -134,25 +99,15 @@
                     "Création de scripts avec Pyspark afin de mettre en place différents besoins de traitement de données.",
                     "Utilisation de EMR Studio et CloudWatch pour le développement."
                 ],
-                "Créations et déploiement de plusieurs AWS Lambda pour des besoins interne avec SAM.":""
+                "Créations et déploiement de plusieurs AWS Lambda pour des besoins interne avec SAM." : [
+                    "Dans la stack MWAA, ajout d'une fonction lambda pour récupérer un token d'authentification depuis CodaArtifact pour l'enregistrer pour des besoins sur MWAA tous les 10 heures du à l'expiration du token.",
+                    "Création d'une Lambda afin de supprimer des données datant de plus de 3 mois contenant des données personnelles afin de repondre au beasoin RGPD."
+                ]
             },
             "stack": {
-                "green": [
-                    "AWS (Amazon Web Service)",
-                    "Python"
-                ],
-                "teal": [
-                    "Airflow",
-                    "Pyspark",
-                    "DBT"
-                ],
-                "grey": [
-                    "Microservice",
-                    "DevOps",
-                    "Data engineering",
-                    "API REST",
-                    "Packaging"
-                ]
+                "green": ["AWS (Amazon Web Service)", "Python"],
+                "teal": ["Airflow", "Pyspark", "DBT"],
+                "grey": ["Microservice", "DevOps", "Data engineering", "API REST", "Packaging"]
             }
         }
     ]

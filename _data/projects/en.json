@@ -1,0 +1,35 @@
+{
+    "title": "Personnal Projects",
+    "projects" : {
+    "Telegram Bots Manager" : {
+        "link": "https://github.com/DevRickyCst/telegramBotsManager",
+        "descrition": "Webhook to deploy a lightweight, scalable and inexpensive infrastructure for the development and management of multiple Telegram bots.",
+        "stack": {
+            "green": ["Amazon Web Service (Lambda, Gateway)"],
+            "teal": ["AWS Chalice", "python-telegram-bot", "openai", "web3.py"
+            ],
+            "grey": ["Python development", "DevOps"]
+          }, 
+          "detail":[
+            "Use of the AWS Chalice library to set up a WEB infrastructure using AWS Lambda and AWS Api-Gateway",
+            "Creation of a bot interface to simplify and personalize global handling of Telegram bots",
+            "Use of various APIs (telegram, openweathermap, coinmarketcap) and python packages (python-telegram-bot, open-ai, gmail, web3)",
+            "Setting up CI with github CI/CD to check the linting of each pull request"
+        ]     
+    },
+    "Etherum Block Explorer" : {
+        "link": "https://github.com/DevRickyCst/ethBlockExplorer",
+        "descrition": "Web3 application for exploring the Ethereum blockchain and interacting with external wallet MetaMask.",
+        "stack": {
+            "green": ["Python", "Etherum Blockchain", "Javascript"],
+            "teal": ["Python flask", "web3.py"],
+            "grey": ["Web Development"]
+          },
+        "detail":[
+            "Development of a Web application using the Python Flask library.",
+            "Integration of the web3.py library to facilitate querying the Ethereum blockchain via Infura as the provider.",
+            "Development of JavaScript functions to enable interaction with blockchain wallet extensions in the browser, such as MetaMask.",
+            "Implementation of various features including block exploration, Ethereum transactions, and the capability to connect to a MetaMask wallet and send Ether."
+        ]
+    }
+}}

@@ -1,5 +1,5 @@
 ---
 layout: index
-title : skills
+title : projects
 lang: fr
 ---

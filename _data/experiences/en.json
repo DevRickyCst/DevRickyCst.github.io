@@ -1,4 +1,5 @@
 {
+  "title": "Experiences",
   "experiences": [
     {
       "id": "0",
@@ -16,19 +17,9 @@
         ]
       },
       "stack": {
-        "green": [
-          "Python",
-          "Machine Learning",
-          "DTW (Dynamic Time Warping)"
-        ],
-        "teal": [
-          "Pandas",
-          "Numpy"
-        ],
-        "grey": [
-          "Data Exploration",
-          "Data Analysis"
-        ]
+        "green": ["Python", "Machine Learning", "DTW (Dynamic Time Warping)"],
+        "teal": ["Pandas", "Numpy"],
+        "grey": ["Data Exploration", "Data Analysis"]
       }
     },
     {
@@ -46,21 +37,9 @@
         ]
       },
       "stack": {
-        "green": [
-          "Python",
-          "HTML/JS",
-          "PHP",
-          "Tableau Desktop"
-        ],
-        "teal": [
-          "Pandas",
-          "Numpy"
-        ],
-        "grey": [
-          "Data Analysis",
-          "Web Development",
-          "Deployment"
-        ]
+        "green": ["Python", "HTML/JS", "PHP", "Tableau Desktop"],
+        "teal": ["Pandas", "Numpy"],
+        "grey": ["Data Analysis", "Web Development", "Deployment"]
       }
     },
     {
@@ -86,23 +65,9 @@
         "Cleaning of a database for a client needs using python (regex, pandas, numpy)": []
       },
       "stack": {
-        "green": [
-          "Python",
-          "Linux",
-          "LDAP"
-        ],
-        "teal": [
-          "Flask",
-          "Dash",
-          "Sqlalchemy",
-          "Pandas",
-          "Numpy"
-        ],
-        "grey": [
-          "Web development",
-          "Testing",
-          "CI/CD"
-        ]
+        "green": ["Python","Linux","LDAP" ],
+        "teal": ["Flask","Dash","Sqlalchemy","Pandas","Numpy"],
+        "grey": ["Web development","Testing","CI/CD"]
       }
     },
     {
@@ -135,27 +100,14 @@
         ],
         "Creation and deployment of AWS Lambdas for internal needs with SAM": [
           "In the MWAA stack, deployed a Lambda function to fetch an authentication token from AWS CodeArtifact and save it for MWAA integration every 10 hours due to token expiration.",
-          ""
+          "Creating a Lambda function to delete data older than 3 months containing personal information in order to comply with GDPR requirements."
         ]
     }
     ,
       "stack": {
-        "green": [
-          "AWS (Amazon Web Service)",
-          "Python"
-        ],
-        "teal": [
-          "Airflow",
-          "AWS Chalice",
-          "Pyspark"
-        ],
-        "grey": [
-          "Microservice",
-          "DevOps",
-          "Data engineering",
-          "API REST",
-          "Packaging"
-        ]
+        "green": ["AWS (Amazon Web Service)", "Python"],
+        "teal": ["Airflow", "AWS Chalice", "Pyspark" ],
+        "grey": ["Microservice", "DevOps", "Data engineering", "API REST", "Packaging"]
       }
     }
   ]
