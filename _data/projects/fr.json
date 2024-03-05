@@ -1,21 +1,13 @@
 {
+  "title": "Projets personnels",
+  "projects" : {
     "Telegram Bots Manager" : {
         "link": "https://github.com/DevRickyCst/telegramBotsManager",
         "descrition": "Application Web développée avec AWS Chalice afin de déployer une infrastruture légère et scalable pour le développent de Bots Télégram",
         "stack": {
-            "green": [
-              "Amazon Web Service (Lambda, Gateway)"
-            ],
-            "teal": [
-              "AWS Chalice",
-              "python-telegram-bot",
-              "openai",
-              "web3.py"
-            ],
-            "grey": [
-              "Python development",
-              "DevOps"
-            ]
+            "green": ["Amazon Web Service (Lambda, Gateway)"],
+            "teal": ["AWS Chalice", "python-telegram-bot", "openai", "web3.py"],
+            "grey": ["Python development", "DevOps"]
           },
         "detail":[
             "Utilisation de la bibliothèque AWS Chalice afin de mettre en place une infrastructure WEB utilisant AWS Lambda et AWS Api-Gateway",
@@ -29,21 +21,12 @@
         "link": "https://github.com/DevRickyCst/ethBlockExplorer",
         "descrition": "Application Web développée avec AWS Chalice afin de déployer une infrastruture légère et scalable pour le développent de Bots Télégram",
         "stack": {
-            "green": [
-              "Python",
-              "Etherum Blockchain",
-              "Javascript"
-            ],
-            "teal": [
-              "Python flask",
-              "web3.py "
-            ],
-            "grey": [
-                "Web Development"
-            ]
+            "green": ["Python", "Etherum Blockchain", "Javascript"],
+            "teal": ["Python flask", "web3.py"],
+            "grey": ["Web Development"]
           },
         "detail":[
             
         ]
     }
-}
+}}

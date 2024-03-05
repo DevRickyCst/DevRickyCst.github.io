@@ -1,0 +1,43 @@
+{% assign url = page.url | split: '/' %}
+{% assign lang = url[1]%}
+{% assign about_me = site.data.about_me[lang] %}
+<div class="container div_abount_me content">
+    <div class="row  about_me">
+        <div class="col-4">
+            <div class="left-block">
+                <h3 class="blue">Contact</h3>
+                <div class="contact-info">
+                  <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aymeric-creusot-099a70172/" target="_blank">Creusot Aymeric</a></p>
+                  <p><strong>Github:</strong> <a href="https://github.com/DevRickyCst" target="_blank">DevRickyCst</a></p>
+                  <p>dev.creusot.aym@gmail.com</p>
+                  <p>+33 7 49 46 23 04</p>
+                  <p>Courbevoie, France</p>
+                </div>
+            </div>
+            <div class="left-block language">
+                {% for langues in about_me.langues %}
+                    <p><b>{{ langues[0] }} :</b> {{ langues[1] }}</p>
+                {% endfor %}
+            </div>
+            <div class="left-block download">
+                <button class="btn btn-light">
+                    <a href="/assets/pdf/developpeurPython.pdf" target="_blank" >Télécharger CV</a>
+                </button>
+            </div>
+        </div>
+        <div class="col-8">
+            <div class="section_div_header">
+                <h2 class="content-title">{{ about_me.title-1 }}</h2>
+                {% for paragraphe in about_me.introduction%}
+                    <p>{{ paragraphe }}</p>
+                {% endfor %}
+                <h2 class="content-title">{{ about_me.title-2 }}</h2>
+                {% assign education = about_me.education %}
+
+                <b class ='degree'>{{ education.diplome }}</b>
+                <p>Spécialisation : {{ education.specialite }}</p>
+                <p class ='degreeschool'><a href="{{ education.university_link }}" target="_blank">{{ education.university }}</a> (Ex: EISTI)  -  2015 -> 2020</p>
+            </div>
+        </div>
+    </div>
+</div>

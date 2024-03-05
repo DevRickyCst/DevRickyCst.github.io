@@ -1,8 +1,10 @@
 ---
 layout: index
-title : about
-lable : about
+title : about_me
+lang : en
 ---
+
+
 <div class="container div_abount_me content">
         <div class="row">
             <div class="col-4">

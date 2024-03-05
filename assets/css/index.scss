@@ -4,12 +4,13 @@
 @import 'vars';
 
 // styles.scss
-@import 'header';
+@import 'navbar';
 @import 'footer';
 
 @import 'abount_me';
-@import 'skills';
-@import 'experiences';
+
+@import 'content';
+
 
 .p{
   font-family:"Lato Bold"
@@ -21,27 +22,14 @@
 
 //Specific
 
-//nav bar
-
-.navbar{
-    background-color: rgb(226, 226, 226);
-}
-
-// General end
-.content{
-  padding-bottom: 5%;
-  width: 80%;
-  margin: auto;
-}
-
-
 // nav intro
 
 .div_intro{
-    padding-top :7em;
+    padding-top :9em;
     padding-bottom: 2em;
     text-align: center;
 }
+
 
 //contact block
 
@@ -67,8 +55,6 @@
   margin: 10px 0;
   color: #777;
 }
-
-
 
 
 

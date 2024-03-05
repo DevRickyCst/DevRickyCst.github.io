@@ -5,14 +5,16 @@
 
     
     
-<div class="content div_experiences">
-    {% for project in projects %}
-        <div class="div_experience">
-            <div class='experience_header'>
-                <h4 class= "blue">{{ project[0] }}</h4>
-                <div>
-                    <img src="/assets/image/github.svg" alt="github_logo">
-                    <p>Github link: <a href="{{  project[1].link  }}">{{  project[1].link  }}</a></p>
+<div class="content">
+    <h2 class ="content-title">{{ projects.title }}</h2>
+    {% for project in projects.projects %}
+        <div class="section">
+
+            <div class='section_div_header'>
+                <h4 class= "title">{{ project[0] }}</h4>
+                <div class="row">
+                    <img class="col-auto github" src="/assets/image/github.svg" alt="github_logo">
+                    <div class="col"><b>Github link : </b> <a href="{{  project[1].link  }}">{{  project[1].link  }}</a></div>
                 </div>
                 <div class="stack">
                     {% for stack in project[1].stack.green %}
@@ -26,7 +28,7 @@
                     {% endfor %}
                 </div>
             </div>
-            <div class="experience_detail">
+            <div class="section_detail">
                 {% for detail in project[1].detail %}
                 <ul>
                     <li> {{ detail }}</li>

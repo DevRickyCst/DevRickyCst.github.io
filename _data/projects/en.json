@@ -1,21 +1,14 @@
 {
+    "title": "Personnal Projects",
+    "projects" : {
     "Telegram Bots Manager" : {
         "link": "https://github.com/DevRickyCst/telegramBotsManager",
         "descrition": "Web application developed with AWS Chalice to deploy a lightweight, scalable infrastructure for the development of Telegram Bots.",
         "stack": {
-            "green": [
-              "Amazon Web Service (Lambda, Gateway)"
+            "green": ["Amazon Web Service (Lambda, Gateway)"],
+            "teal": ["AWS Chalice", "python-telegram-bot", "openai", "web3.py"
             ],
-            "teal": [
-              "AWS Chalice",
-              "python-telegram-bot",
-              "openai",
-              "web3.py"
-            ],
-            "grey": [
-              "Python development",
-              "DevOps"
-            ]
+            "grey": ["Python development", "DevOps"]
           }, 
           "detail":[
             "Use of the AWS Chalice library to set up a WEB infrastructure using AWS Lambda and AWS Api-Gateway",
@@ -24,4 +17,4 @@
             "Setting up CI with github CI/CD to check the linting of each pull request"
         ]     
     }
-}
+}}
