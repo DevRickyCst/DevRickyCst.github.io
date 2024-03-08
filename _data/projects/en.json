@@ -13,8 +13,8 @@
           "detail":[
             "Use of the AWS Chalice library to set up a WEB infrastructure using AWS Lambda and AWS Api-Gateway",
             "Creation of a bot interface to simplify and personalize global handling of Telegram bots",
-            "Use of various APIs (telegram, openweathermap, coinmarketcap) and python packages (python-telegram-bot, open-ai, gmail, web3)",
-            "Setting up CI with github CI/CD to check the linting of each pull request"
+            "Creation of various example bosts using different APIs. (Openwheatermap, CoinmarketCap, Open-ai, Web3.py).",
+            "Implementation of github CI/CD workflows to improve continuous development (linting, testing) and automate deployment."
         ]     
     },
     "Etherum Block Explorer" : {
