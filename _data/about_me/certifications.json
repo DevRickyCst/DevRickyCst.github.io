@@ -1,0 +1,24 @@
+[
+    {
+        "title":"AWS Certified Cloud Practitioner (Expired)",
+        "from":"Amazon Web Service (AWS)",
+        "date": {
+            "fr":"Janv 2021",
+            "en":"Jan 2021"
+        },
+        "logo":"/assets/image/aws.svg",
+        "verif_url":"https://www.credly.com/badges/35dc8ab0-fe7a-4295-a3f8-fbd51a8f87c7?source=linked_in_profile",
+        "certif_description_url":"https://aws.amazon.com/fr/certification/certified-cloud-practitioner/"
+    },
+    {
+        "title":"PCAP™ – Certified Associate Python Programmer",
+        "from":"OpenEDG | Python Institute",
+        "date": {
+            "fr":"Mars 2024",
+            "en":"March 2024"
+        },
+        "logo":"/assets/image/python.svg",
+        "verif_url":"https://verify.openedg.org/?id=DnZ8.SFd7.Hb0g",
+        "certif_description_url":"https://pythoninstitute.org/pcap"
+    }
+]

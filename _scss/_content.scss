@@ -23,6 +23,8 @@
 
 // IN PAGE
 
+
+
 // Titre de la page (Skills, Expériences,
 .content-title {
     width: 100%;
@@ -66,14 +68,15 @@
     margin: 0.5em 0;
 }
 
-.section_div_header a{
-    color: #007bff; /* Couleur du texte du lien */
+a{
+    font-weight: bold;
+    color: $title_color; /* Couleur du texte du lien */
     text-decoration: none; /* Supprime le soulignement par défaut */
     transition: color 0.3s ease; /* Animation de transition pour le changement de couleur */
 }
 
 .section_div_header a:hover{
-    color: $title_color; /* Nouvelle couleur du texte lors du survol */
+    color: #8bc3e9; /* Nouvelle couleur du texte lors du survol */
 }
 
 .section_div_header .github{

@@ -15,8 +15,10 @@
             {% for value in competence[1].competences %}
             <h6>{{ value[0] }}</h6>
             <p>
-                {% for item in value[1] %}
-                {{ item }} -
+                {% assign items = value[1] %}
+
+                {% for item in items %}
+                  {{ item }}{% unless forloop.last %} - {% endunless %}
                 {% endfor %}
             </p>
             {% endfor %}

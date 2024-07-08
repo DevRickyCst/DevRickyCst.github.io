@@ -37,7 +37,7 @@
                 "Traitement de données": [
                     "Extraction, Transformation, et Chargement (ETL)",
                     "Pipelines de données",
-                    "langage SQL",
+                    "Langage SQL",
                     "DBT",
                     "Apache Spark",
                     "Apache Airflow"
