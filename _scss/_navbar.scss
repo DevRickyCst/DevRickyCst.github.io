@@ -1,45 +1,305 @@
 @import 'vars';
 
 .navbar {
-    background-color: rgb(226, 226, 226);
-    padding: 1em 2em;
-}
-
-
-// Padding top du menu en mode mobile pour ne pas être coller au logo
-.navbar-nav {
-  @media (max-width: $breakpoint-md) {
-    padding-top: 1em;
-  }
-}
-
-//Logo pour afficher le menu en mode avion
-.navbar-toggler {
-    background-color: #ffffff;
-}
-
-.nav-link {
-    font-weight: bold;
-    margin: 0 2em;
-    @media (max-width: $breakpoint-lg) and (min-width: $breakpoint-md) {
-        margin: 0;
+    background-color: rgba($background-white, 0.95);
+    padding: $spacing-sm $spacing-xl;
+    box-shadow: $shadow-sm;
+    position: sticky;
+    top: 0;
+    z-index: $z-index-sticky;
+    transition: all 0.3s ease;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+    &:hover {
+        box-shadow: $shadow-md;
     }
 }
 
-.nav-link:hover {
-    color: $title_color;
+// Styles pour le menu mobile
+@media (max-width: $breakpoint-md) {
+    .navbar-collapse {
+        position: absolute;
+        top: 90px;
+        left: 0;
+        right: 0;
+        background-color: $background-white;
+        padding: $spacing-md;
+        box-shadow: $shadow-sm;
+        z-index: $z-index-sticky;
+    }
+}
+
+// Padding top du menu en mode mobile pour ne pas être coller au logo
+.navbar-nav {
+    @media (max-width: $breakpoint-md) {
+        padding-top: $spacing-md;
+    }
+}
+
+//Bouton menu mobile moderne
+.navbar-toggler {
+    background-color: transparent;
+    border: none;
+    padding: $spacing-sm;
+    border-radius: $border-radius-sm;
+    transition: $transition-base;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    
+    &:focus {
+        box-shadow: none;
+        outline: none;
+    }
+
+    // Création des barres du hamburger
+    .navbar-toggler-icon {
+        position: relative;
+        width: 24px;
+        height: 2px;
+        background-color: $primary-color;
+        transition: all 0.3s ease-in-out;
+        
+        &::before,
+        &::after {
+            content: '';
+            position: absolute;
+            width: 24px;
+            height: 2px;
+            background-color: $primary-color;
+            transition: all 0.3s ease-in-out;
+            left: 0;
+        }
+
+        &::before {
+            transform: translateY(-8px);
+        }
+
+        &::after {
+            transform: translateY(8px);
+        }
+    }
+
+    // Animation quand le menu est ouvert
+    &[aria-expanded="true"] {
+        .navbar-toggler-icon {
+            background-color: transparent;
+            
+            &::before {
+                transform: translateY(0) rotate(45deg);
+                width: 24px;
+            }
+            
+            &::after {
+                transform: translateY(0) rotate(-45deg);
+                width: 24px;
+            }
+        }
+    }
+
+    &:hover {
+        .navbar-toggler-icon,
+        .navbar-toggler-icon::before,
+        .navbar-toggler-icon::after {
+            background-color: $primary-dark;
+        }
+    }
+}
+
+.nav-link {
+    font-weight: $font-weight-medium;
+    color: $text-primary;
+    margin: 0 $spacing-xl;
+    position: relative;
+    transition: $transition-base;
+    font-size: 1.25rem;
+    
+    @media (max-width: $breakpoint-lg) and (min-width: $breakpoint-md) {
+        margin: 0 $spacing-md;
+    }
+    
+    &:hover {
+        color: $primary-color;
+        
+        &::after {
+            width: 100%;
+            opacity: 1;
+        }
+    }
+    
+    &::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 3px;
+        bottom: -3px;
+        left: 0;
+        background-color: $primary-color;
+        transition: $transition-base;
+        opacity: 0;
+    }
+    
+    &.active {
+        color: $primary-color;
+        font-weight: $font-weight-bold;
+        
+        &::after {
+            width: 100%;
+            opacity: 1;
+        }
+    }
 }
 
 /* Style pour la section des drapeaux */
 .flag_div {
     text-align: center;
-    /* Centrer les éléments */
-    margin: 10px 0;
-    /* Espacement autour de la section des drapeaux */
+    margin: $spacing-lg 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: $spacing-md;
 }
 
 .swap_name {
-    display: inline-block;
-    margin: 0 10px;
-    /* Espacement horizontal entre les drapeaux */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: $spacing-md;
+    padding: $spacing-sm;
+    border-radius: $border-radius-sm;
+    transition: $transition-base;
+    width: 48px;
+    height: 48px;
+    
+    &:hover {
+        background-color: $background-light;
+    }
+    
+    img {
+        width: 44px;
+        height: 32px;
+        transition: $transition-base;
+        object-fit: cover;
+        border-radius: 4px;
+        
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+/* Style pour le bouton de mode sombre/clair */
+.theme-toggle {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: $background-light;
+    border: 1px solid $border-color;
+    cursor: pointer;
+    transition: $transition-base;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: $spacing-md;
+    
+    &:hover {
+        background-color: $primary-light;
+        transform: scale(1.05);
+    }
+    
+    &::before {
+        content: '🌙';
+        font-size: 1.5rem;
+        transition: $transition-base;
+    }
+    
+    &.dark-mode::before {
+        content: '☀️';
+    }
+}
+
+/* Mode sombre */
+body.dark-mode {
+    background-color: $dark-background;
+    color: $dark-text;
+
+    .navbar {
+        background-color: rgba($dark-background, 0.85);
+        border-bottom: 1px solid rgba($dark-border, 0.1);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+
+        &:hover {
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+        }
+    }
+
+    .nav-link {
+        color: $dark-text;
+
+        &:hover {
+            color: $dark-primary;
+        }
+
+        &.active {
+            color: $dark-primary;
+        }
+    }
+
+    .theme-toggle {
+        background-color: rgba($dark-primary-light, 0.3);
+        border-color: rgba($dark-border, 0.2);
+        
+        &:hover {
+            background-color: rgba($dark-primary, 0.3);
+            transform: scale(1.05);
+        }
+    }
+
+    .navbar-toggler {
+        .navbar-toggler-icon,
+        .navbar-toggler-icon::before,
+        .navbar-toggler-icon::after {
+            background-color: $dark-text;
+        }
+
+        &:hover {
+            .navbar-toggler-icon,
+            .navbar-toggler-icon::before,
+            .navbar-toggler-icon::after {
+                background-color: $dark-primary;
+            }
+        }
+
+        &[aria-expanded="true"] {
+            .navbar-toggler-icon {
+                background-color: transparent;
+            }
+        }
+    }
+
+    // Style pour le menu mobile en mode sombre
+    .navbar-collapse {
+        background-color: rgba($dark-background, 0.95);
+        border: 1px solid rgba($dark-border, 0.1);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+
+    .swap_name {
+        &:hover {
+            background-color: rgba($dark-primary-light, 0.5);
+        }
+    }
 }

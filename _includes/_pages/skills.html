@@ -2,25 +2,25 @@
 {% assign lang = url[1]%}
 {% assign competences = site.data.competences[lang] %}
 
-{{ competences[0] }}
 <div class='content'>
     <h2 class="content-title">{{ competences.title }}</h2>
     {% for competence in competences.competences %}
-    <div class="section">
+    <div class="section accordion">
         <div class="section_div_header">
-            <img src="{{ competence[1].logo }}" class="skills_logo" alt="python_logo">
-            <h4 class="title">{{ competence[0] }}</h4>
+            <div class="logo-container">
+                <img src="{{ competence[1].logo }}" class="icon" alt="{{ competence[0] }}_logo">
+                <h4 class="title">{{ competence[0] }}</h4>
+            </div>
         </div>
-        <div class="section2">
+        <div class="section_detail">
             {% for value in competence[1].competences %}
             <h6>{{ value[0] }}</h6>
-            <p>
+            <ul>
                 {% assign items = value[1] %}
-
                 {% for item in items %}
-                  {{ item }}{% unless forloop.last %} - {% endunless %}
+                    <li>{{ item }}</li>
                 {% endfor %}
-            </p>
+            </ul>
             {% endfor %}
         </div>
     </div>

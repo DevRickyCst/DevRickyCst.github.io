@@ -5,7 +5,9 @@
     },
     "download_link": "Télécharger CV",
     "title-1":"A propos",
-    "introduction": [],
+    "introduction": [
+        "Data Engineer spécialisé dans l'architecture des données et le développement backend. Mon expertise principale réside dans la conception et l'implémentation de pipelines de données robustes, combinée à de solides compétences en développement d'applications. Cette double compétence me permet de créer des solutions complètes, de l'ingestion des données jusqu'à leur exploitation dans des applications performantes."
+    ],
     "title-2":"Formation",
     "educations" : {
         "diplome": "Ingénieur en mathématiques appliquées et Informatique",

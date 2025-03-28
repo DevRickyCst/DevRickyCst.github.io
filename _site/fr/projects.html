@@ -100,6 +100,11 @@
 
 </script>
 
+<!-- Import accordion script -->
+<script src="/assets/js/accordion.js"></script>
+
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - CREUSOT Aymeric</title>
@@ -107,8 +112,17 @@
 
 <body>
     
-    
-
+    <script>
+  // Exécuté avant le chargement de la page
+  (function() {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'dark') {
+      document.documentElement.classList.add('dark-mode');
+      document.body.classList.add('dark-mode');
+    }
+  })();
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 <nav class="navbar navbar-expand-md fixed-top" >
     <button class="navbar-toggler mx-5 p-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -132,13 +146,13 @@
                 
                 <li class="nav-item">
                     
-                    <a class="nav-link js_header-link" href="/en/experiences">  Experiences</a>
+                    <a class="nav-link js_header-link" href="/en/projects">  Projects</a>
                     
                 </li>
                 
                 <li class="nav-item">
                     
-                    <a class="nav-link js_header-link" href="/en/projects">  Projects</a>
+                    <a class="nav-link js_header-link" href="/en/experiences">  Experiences</a>
                     
                 </li>
                 
@@ -151,16 +165,18 @@
                 <a href="/en" class="swap_name">
                     <img src="/assets/image/UK.png" alt="Drapeau Anglais" width="50" height="30">
                 </a>
+                <button class="theme-toggle" aria-label="Changer le thème"></button>
             </div>
 
 
         </div>
     </div>
 </nav>
+<script src="/assets/js/theme.js"></script>
     <div class="main_body">
         <div class="div_intro content">
             <h1 class="blue ">Aymeric Creusot</h1>
-            <h3 class="">Cloud Data Engineer / Back-end Developer (Python)</h3>
+            <h3 class="">Cloud Data Engineer / Back-end Developer</h3>
         </div>
         
             
@@ -173,8 +189,7 @@
 <div class="content">
     <h2 class ="content-title">Projets personnels</h2>
     
-        <div class="section">
-
+        <div class="section accordion">
             <div class='section_div_header'>
                 <h4 class= "title">Telegram Bots Manager</h4>
                 <div class="row">
@@ -200,25 +215,26 @@
                     <span class="badge rounded-pill text-bg-secondary">DevOps</span>
                     
                 </div>
+                <p>Infrastructure serverless pour le déploiement et la gestion de multiples bots Telegram, utilisant AWS Lambda et API Gateway pour une solution légère et évolutive.</p>
             </div>
             <div class="section_detail">
-                <p>Webhook afin de déployer une infrastructure légère, scalable et peu coûteuse pour le développent et gestion de multiples bots Télégram.</p>
                 <ul>
                     
-                        <li> Utilisation de la bibliothèque AWS Chalice afin de mettre en place une infrastructure WEB utilisant AWS Lambda et AWS Api-Gateway.</li>
+                        <li> Utilisation de la bibliothèque AWS Chalice pour mettre en place une infrastructure WEB serverless avec AWS Lambda et API Gateway</li>
                     
-                        <li> Création d'une interface bot afin de simplifier et personaliser la manipulation des bots Télégram.</li>
+                        <li> Création d'une interface bot standardisée pour simplifier le développement et la gestion de multiples bots Telegram</li>
                     
-                        <li> Création de différents bost d'exemples utilisant divers APIs. (Openwheatermap, CoinmarketCap, Open-ai, Web3.py).</li>
+                        <li> Implémentation de bots d'exemple utilisant diverses APIs (OpenWeatherMap, CoinMarketCap, OpenAI, Web3.py)</li>
                     
-                        <li> Mise en place de workflow github CI/CD afin d'améliorer le developpement en continue (linting, test) et d'automatiser le deploiement.</li>
+                        <li> Mise en place de workflows GitHub CI/CD pour le développement continu (linting, tests) et le déploiement automatique</li>
+                    
+                        <li> Gestion sécurisée des tokens d'API via les variables d'environnement AWS</li>
                     
                 </ul>
             </div>
         </div>
     
-        <div class="section">
-
+        <div class="section accordion">
             <div class='section_div_header'>
                 <h4 class= "title">Etherum Block Explorer</h4>
                 <div class="row">
@@ -242,9 +258,9 @@
                     <span class="badge rounded-pill text-bg-secondary">Web Development</span>
                     
                 </div>
+                <p>Application Web3 afin d'explorer la blockchain Etherum et intéragir avec son portefeuille externe Metamask.</p>
             </div>
             <div class="section_detail">
-                <p>Application Web3 afin d'explorer la blockchain Etherum et intéragir avec son portefeuille externe Metamask.</p>
                 <ul>
                     
                         <li> Developpement d'une applicaton Web avec la librarie python Flask.</li>
@@ -254,6 +270,57 @@
                         <li> Développement de fonctions JavaScript pour permettre l'interaction avec des extensions de portefeuille blockchain dans le navigateur, telles que MetaMask.</li>
                     
                         <li> Implémentation de diverses fonctionnalités telles que l'exploration des blocs, les transactions sur Ethereum, et la possibilité de se connecter au portefeuille MetaMask et d'effectuer des transferts d'Ether.</li>
+                    
+                </ul>
+            </div>
+        </div>
+    
+        <div class="section accordion">
+            <div class='section_div_header'>
+                <h4 class= "title">Animation Wall</h4>
+                <div class="row">
+                    <img class="col-auto github" src="/assets/image/github.svg" alt="github_logo">
+                    <div class="col"><b>Github link : </b> <a href="https://github.com/DevRickyCst/animation_wall">https://github.com/DevRickyCst/animation_wall</a></div>
+                </div>
+                <div class="stack">
+                    
+                        <span class="badge rounded-pill text-bg-success">Rust</span>
+                    
+                        <span class="badge rounded-pill text-bg-success">Bevy Engine</span>
+                    
+                        <span class="badge rounded-pill text-bg-success">WebAssembly</span>
+                    
+                    
+                        <span class="badge rounded-pill text-bg-info">Tauri</span>
+                    
+                        <span class="badge rounded-pill text-bg-info">React</span>
+                    
+                        <span class="badge rounded-pill text-bg-info">TypeScript</span>
+                    
+                    
+                    <span class="badge rounded-pill text-bg-secondary">Game Development</span>
+                    
+                    <span class="badge rounded-pill text-bg-secondary">Desktop Development</span>
+                    
+                    <span class="badge rounded-pill text-bg-secondary">Web Development</span>
+                    
+                </div>
+                <p>Application innovante développée en Rust utilisant le moteur de jeu Bevy pour créer des animations interactives personnalisables.</p>
+            </div>
+            <div class="section_detail">
+                <ul>
+                    
+                        <li> Développement d'animations interactives avec le moteur de jeu Bevy en Rust</li>
+                    
+                        <li> Double distribution : application de bureau native (GUI) via Tauri et version web via WebAssembly</li>
+                    
+                        <li> Version web accessible directement sur devrickycst.github.io/animation_wall/</li>
+                    
+                        <li> Utilisation des fonctionnalités avancées de Bevy comme l'ECS (Entity Component System) pour une gestion efficace des animations</li>
+                    
+                        <li> Interface utilisateur moderne avec React et TypeScript pour la configuration des animations</li>
+                    
+                        <li> Optimisation des performances pour une utilisation minimale des ressources système</li>
                     
                 </ul>
             </div>
