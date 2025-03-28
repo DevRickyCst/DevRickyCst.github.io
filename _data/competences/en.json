@@ -82,6 +82,30 @@
                 ]
             }
         },
+        "Rust Development": {
+            "logo": "/assets/image/rust.svg",
+            "competences": {
+                "Rust Core": [
+                    "Ownership and Borrowing",
+                    "Lifetimes",
+                    "Traits and Generics",
+                    "Error Handling",
+                    "Concurrency"
+                ],
+                "Web Development": [
+                    "Actix-web",
+                    "RESTful APIs",
+                    "WebAssembly",
+                    "Database Integration (Diesel, SQLx)"
+                ],
+                "Systems Programming": [
+                    "Memory Management",
+                    "Performance Optimization",
+                    "Cross-compilation",
+                    "Embedded Systems"
+                ]
+            }
+        },
         "Other language": {
             "logo" : "/assets/image/programing.svg",
             "competences" : {

@@ -1,45 +1,152 @@
 @import 'vars';
 
 .navbar {
-    background-color: rgb(226, 226, 226);
-    padding: 1em 2em;
+    background-color: $background-white;
+    padding: $spacing-sm $spacing-xl;
+    box-shadow: $shadow-sm;
+    position: sticky;
+    top: 0;
+    z-index: $z-index-sticky;
+    transition: $transition-base;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    
+    &:hover {
+        box-shadow: $shadow-md;
+    }
 }
 
+// Styles pour le menu mobile
+@media (max-width: $breakpoint-md) {
+    .navbar-collapse {
+        position: absolute;
+        top: 90px;
+        left: 0;
+        right: 0;
+        background-color: $background-white;
+        padding: $spacing-md;
+        box-shadow: $shadow-sm;
+        z-index: $z-index-sticky;
+    }
+}
 
 // Padding top du menu en mode mobile pour ne pas être coller au logo
 .navbar-nav {
-  @media (max-width: $breakpoint-md) {
-    padding-top: 1em;
-  }
+    @media (max-width: $breakpoint-md) {
+        padding-top: $spacing-md;
+    }
 }
 
 //Logo pour afficher le menu en mode avion
 .navbar-toggler {
-    background-color: #ffffff;
-}
+    background-color: $background-white;
+    border: 1px solid $border-color;
+    padding: $spacing-sm;
+    border-radius: $border-radius-sm;
+    transition: $transition-base;
+    transform: scale(1);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &:hover {
+        background-color: $background-light;
+    }
+    
+    &:focus {
+        box-shadow: none;
+        outline: 2px solid $primary-light;
+    }
 
-.nav-link {
-    font-weight: bold;
-    margin: 0 2em;
-    @media (max-width: $breakpoint-lg) and (min-width: $breakpoint-md) {
-        margin: 0;
+    // Style pour l'icône hamburger
+    .navbar-toggler-icon {
+        width: 32px;  // 80% de 40px
+        height: 32px; // 80% de 40px
+        background-size: contain;
     }
 }
 
-.nav-link:hover {
-    color: $title_color;
+.nav-link {
+    font-weight: $font-weight-medium;
+    color: $text-primary;
+    margin: 0 $spacing-xl;
+    position: relative;
+    transition: $transition-base;
+    font-size: 1.25rem;
+    
+    @media (max-width: $breakpoint-lg) and (min-width: $breakpoint-md) {
+        margin: 0 $spacing-md;
+    }
+    
+    &:hover {
+        color: $primary-color;
+        
+        &::after {
+            width: 100%;
+            opacity: 1;
+        }
+    }
+    
+    &::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 3px;
+        bottom: -3px;
+        left: 0;
+        background-color: $primary-color;
+        transition: $transition-base;
+        opacity: 0;
+    }
+    
+    &.active {
+        color: $primary-color;
+        font-weight: $font-weight-bold;
+        
+        &::after {
+            width: 100%;
+            opacity: 1;
+        }
+    }
 }
 
 /* Style pour la section des drapeaux */
 .flag_div {
     text-align: center;
-    /* Centrer les éléments */
-    margin: 10px 0;
-    /* Espacement autour de la section des drapeaux */
+    margin: $spacing-lg 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: $spacing-md;
 }
 
 .swap_name {
-    display: inline-block;
-    margin: 0 10px;
-    /* Espacement horizontal entre les drapeaux */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: $spacing-md;
+    padding: $spacing-sm;
+    border-radius: $border-radius-sm;
+    transition: $transition-base;
+    width: 48px;
+    height: 48px;
+    
+    &:hover {
+        background-color: $background-light;
+    }
+    
+    img {
+        width: 44px;
+        height: 32px;
+        transition: $transition-base;
+        object-fit: cover;
+        border-radius: 4px;
+        
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
 }

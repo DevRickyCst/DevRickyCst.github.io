@@ -1,106 +1,408 @@
 @import 'vars';
 
-/* Style du titre en bleu */
+// Reset et styles de base
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $text-primary;
+  background-color: $background-white;
+}
+
+// Style du titre en bleu
 .blue {
-    color: $title_color;
-    /* Bleu LinkedIn par défaut */
+  color: $primary-color;
+  font-weight: $font-weight-bold;
+}
+
+.div_intro {
+  h1, h3 {
+    font-weight: $font-weight-bold;
+    margin-bottom: $spacing-sm;
   }
   
-.div_intro h1, h3{
-    font-weight: bold;
-}
+  h1 {
+    font-size: 2.5rem;
+    @media (max-width: $breakpoint-md) {
+      font-size: 2rem;
+    }
+  }
   
-  
-
-// Conteneur des différentes pages
-.content{
-    padding-bottom: 5%;
-    width: 80%;
-    margin: auto;
-    word-wrap: break-word;
-
+  h3 {
+    color: $text-secondary;
+    font-size: 1.25rem;
+  }
 }
 
-// IN PAGE
+// Conteneur principal
+.content {
+  padding: $spacing-md 0;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  word-wrap: break-word;
+  
+  @media (max-width: $breakpoint-md) {
+    width: 95%;
+    padding: $spacing-md 0;
+  }
+}
 
-
-
-// Titre de la page (Skills, Expériences,
+// Titre de la page
 .content-title {
-    width: 100%;
-    color: $title_color;
-    //font-weight: bold;
-    border-bottom: 2px solid black;
-    margin-bottom: 3%;
-    padding-bottom: 1%;
-    padding-left: 1%;  
+  width: 100%;
+  color: $primary-color;
+  font-weight: $font-weight-bold;
+  border-bottom: 2px solid $border-color;
+  margin-bottom: $spacing-lg;
+  padding-bottom: $spacing-sm;
+  padding-left: $spacing-sm;
+  font-size: 1.75rem;
 }
 
-/* Style des section individuelles */
+// Styles de base pour toutes les sections
 .section {
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin: 20px 0;
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: $background-white;
+  border: 1px solid $border-color;
+  padding: $spacing-lg $spacing-xl;
+  margin: $spacing-lg 0;
+  border-radius: $border-radius-lg;
+  box-shadow: $shadow-sm;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+
+  &:hover {
+    box-shadow: $shadow-md;
+    transform: translateY(-2px);
+    border-color: $primary-light;
+  }
+
+  // Styles communs pour les images
+  img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    
+    &.icon {
+      width: 48px;
+      height: 48px;
+      padding: $spacing-xs;
+      border-radius: $border-radius-sm;
+      background-color: rgba($primary-color, 0.05);
+      transition: all 0.3s ease;
+      
+      &:hover {
+        transform: scale(1.1);
+        background-color: rgba($primary-color, 0.1);
+      }
+    }
+    
+    &.github {
+      width: 24px;
+      height: 24px;      
+      &:hover {
+        opacity: 1;
+      }
+    }
+    
+    &.certificate {
+      width: 32px;
+      height: 32px;
+      margin-right: $spacing-xs;
+      vertical-align: middle;
+    }
+  }
 }
 
-.section_div_header{
-    margin-bottom: 1em;
-}
-.section_div_header .title{
-    color: $title_color;
-}
+// Styles spécifiques pour les sections accordéon (experiences et projects)
+.section.accordion {
+  cursor: pointer;
 
-.section_div_header img ,
-.section_div_header h3,h4,h5 {
-  display: inline-block;
-}
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background-color: $primary-color;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  &.active {
+    &::before {
+      opacity: 1;
+    }
+  }
+
+  .section_div_header {
+    position: relative;
+    padding-right: $spacing-xl;
   
-.section_div_header .skills_logo{
-    width: 2em;
-    height: 2em;
-    margin-right: 0.5em;
-}
+    p {
+      font-weight: $font-weight-medium;
+      color: $text-primary;
+      margin-bottom: $spacing-md;
+      margin-top: $spacing-md;
+      font-size: 1.1rem;
+    }
+  
+    &::after {
+      content: '▼';
+      position: absolute;
+      right: $spacing-md;
+      top: 50%;
+      transform: translateY(-50%);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      color: $primary-color;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
 
-.section_div_header .stack{
-    margin: 0.5em 0;
-}
+    .title-row {
+      display: flex;
+      align-items: center;
+      gap: $spacing-xs;
+      margin-bottom: $spacing-sm;
+      flex-wrap: wrap;
 
-a{
-    font-weight: bold;
-    color: $title_color; /* Couleur du texte du lien */
-    text-decoration: none; /* Supprime le soulignement par défaut */
-    transition: color 0.3s ease; /* Animation de transition pour le changement de couleur */
-}
+      .title {
+        font-size: 1.4rem;
+        color: $text-primary;
+        font-weight: $font-weight-bold;
+        margin: 0;
+        letter-spacing: -0.2px;
+      }
 
-.section_div_header a:hover{
-    color: #8bc3e9; /* Nouvelle couleur du texte lors du survol */
-}
+      .company-info {
+        color: $text-secondary;
+        font-size: 1.1rem;
+        margin: 0;
+        letter-spacing: -0.2px;
+        
+        &::before {
+          content: 'at';
+          margin-right: 4px;
+          margin-left: 4px;
+          color: $text-secondary;
+        }
+        
+        a {
+          font-weight: $font-weight-medium;
+          color: $primary-color;
+          text-decoration: none;
+          
+          &:hover {
+            color: $primary-light;
+          }
+        }
+      }
 
-.section_div_header .github{
-    padding-right: 0;
-}
+      .company-type {
+        color: $text-secondary;
+        font-size: 1rem;
+        margin: 0;
+        margin-left: 4px;
+        
+        &::before {
+          content: '(';
+        }
+        
+        &::after {
+          content: ')';
+        }
+      }
+    }
 
-// Todo: Delete (used in skills.html)
-.section2 {
-    padding: 0 2.5em;
-}
+    .date-info {
+      color: $text-secondary;
+      font-size: 0.9rem;
+      margin-bottom: $spacing-md;
+      letter-spacing: -0.2px;
+    }
 
-.section_detail ul {
-    list-style-type: circle;
-    padding-bottom: 0.5em;
+    .stack {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: $spacing-md;
+      
+      .badge {
+        padding: 4px 8px;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        font-weight: $font-weight-medium;
+        letter-spacing: 0px;
+        
+        &.text-bg-success {
+          background-color: rgba(0, 184, 148, 0.1) !important;
+          color: #00b894 !important;
+        }
+        
+        &.text-bg-info {
+          background-color: rgba(0, 206, 201, 0.1) !important;
+          color: #00cec9 !important;
+        }
+        
+        &.text-bg-secondary {
+          background-color: rgba(99, 110, 114, 0.1) !important;
+          color: #636e72 !important;
+        }
+      }
+    }
+
+    .logo-container {
+      display: inline-flex;
+      align-items: center;
+      gap: $spacing-sm;
+      margin-bottom: $spacing-sm;
+      
+      img {
+        width: 32px;
+        height: 32px;
+        object-fit: contain;
+      }
+    }
   }
 
-  .section_detail p {
-    font-weight: bold;
-    color: #3a3e41;
-    /* Couleur LinkedIn par défaut */
-    margin-bottom: 5px;
+  .section_detail {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+    margin-top: 0;
+    padding-left: $spacing-md;
+    border-left: 2px solid transparent;
   }
 
-.section_detail li {
-    margin: 5px 0;
-    color: #555;
+  &.active {
+    background-color: rgba($primary-color, 0.02);
+    
+    .section_div_header::after {
+      transform: translateY(-50%) rotate(180deg);
+      opacity: 1;
+    }
+
+    .section_detail {
+      max-height: 1000px;
+      opacity: 1;
+      margin-top: $spacing-lg;
+      border-left-color: rgba($primary-color, 0.2);
+    }
   }
+}
+
+// Styles spécifiques pour les sections normales (skills)
+.section:not(.accordion) {
+  .section_div_header {
+    margin-bottom: $spacing-md;
+  }
+
+  .section_detail {
+    opacity: 1;
+    margin-top: $spacing-sm;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: $spacing-sm;
+    margin-bottom: $spacing-sm;
+    
+    .title {
+      font-size: 1.4rem;
+      color: $text-primary;
+      font-weight: $font-weight-bold;
+      margin: 0;
+    }
+  }
+}
+
+// Style des détails dans l'accordéon
+.section_detail {
+  ul {
+    list-style-type: none;
+    padding-left: $spacing-lg;
+    
+    li {
+      position: relative;
+      margin: $spacing-sm 0;
+      color: $text-secondary;
+      line-height: 1.6;
+      
+      &::before {
+        content: '•';
+        color: $primary-color;
+        position: absolute;
+        left: -$spacing-md;
+        opacity: 0.7;
+      }
+    }
+  }
+  
+
+}
+
+// Responsive
+@media (max-width: $breakpoint-md) {
+  .section {
+    padding: $spacing-md;
+    
+    .section_div_header {
+      .title-row {
+        gap: $spacing-xs;
+        
+        .title {
+          font-size: 1.2rem;
+        }
+        
+        .company-info {
+          font-size: 1rem;
+        }
+        
+        .company-type {
+          font-size: 0.9rem;
+        }
+      }
+      
+      .stack {
+        .badge {
+          font-size: 0.8rem;
+        }
+      }
+    }
+    
+    .section_detail {
+      padding-left: $spacing-sm;
+      
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    img {
+      &.icon {
+        width: 40px;
+        height: 40px;
+      }
+      
+      &.github {
+        width: 20px;
+        height: 20px;
+      }
+      
+      &.certificate {
+        width: 28px;
+        height: 28px;
+      }
+    }
+  }
+}

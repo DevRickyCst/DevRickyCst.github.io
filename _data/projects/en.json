@@ -1,20 +1,20 @@
 {
-    "title": "Personnal Projects",
+    "title": "Personal projects",
     "projects" : {
     "Telegram Bots Manager" : {
         "link": "https://github.com/DevRickyCst/telegramBotsManager",
-        "descrition": "Webhook to deploy a lightweight, scalable and inexpensive infrastructure for the development and management of multiple Telegram bots.",
+        "descrition": "Serverless infrastructure for deploying and managing multiple Telegram bots, using AWS Lambda and API Gateway for a lightweight and scalable solution.",
         "stack": {
             "green": ["Amazon Web Service (Lambda, Gateway)"],
-            "teal": ["AWS Chalice", "python-telegram-bot", "openai", "web3.py"
-            ],
+            "teal": ["AWS Chalice", "python-telegram-bot", "openai", "web3.py"],
             "grey": ["Python development", "DevOps"]
           }, 
           "detail":[
-            "Use of the AWS Chalice library to set up a WEB infrastructure using AWS Lambda and AWS Api-Gateway",
-            "Creation of a bot interface to simplify and personalize global handling of Telegram bots",
-            "Creation of various example bosts using different APIs. (Openwheatermap, CoinmarketCap, Open-ai, Web3.py).",
-            "Implementation of github CI/CD workflows to improve continuous development (linting, testing) and automate deployment."
+            "Usage of AWS Chalice library to set up a serverless WEB infrastructure using AWS Lambda and API Gateway",
+            "Creation of a standardized bot interface to simplify the development and management of multiple Telegram bots",
+            "Implementation of example bots using various APIs (OpenWeatherMap, CoinMarketCap, OpenAI, Web3.py)",
+            "Setup of GitHub CI/CD workflows for continuous development (linting, testing) and automated deployment",
+            "Secure API token management through AWS environment variables"
         ]     
     },
     "Etherum Block Explorer" : {
@@ -30,6 +30,23 @@
             "Integration of the web3.py library to facilitate querying the Ethereum blockchain via Infura as the provider.",
             "Development of JavaScript functions to enable interaction with blockchain wallet extensions in the browser, such as MetaMask.",
             "Implementation of various features including block exploration, Ethereum transactions, and the capability to connect to a MetaMask wallet and send Ether."
+        ]
+    },
+    "Animation Wall" : {
+        "link": "https://github.com/DevRickyCst/animation_wall",
+        "descrition": "Innovative application developed in Rust using the Bevy game engine to create customizable interactive animations.",
+        "stack": {
+            "green": ["Rust", "Bevy Engine", "WebAssembly"],
+            "teal": ["Tauri", "React", "TypeScript"],
+            "grey": ["Game Development", "Desktop Development", "Web Development"]
+        },
+        "detail":[
+            "Development of interactive animations using the Bevy game engine in Rust",
+            "Dual distribution: native desktop application (GUI) via Tauri and web version via WebAssembly",
+            "Web version directly accessible at devrickycst.github.io/animation_wall/",
+            "Utilization of Bevy's advanced features like ECS (Entity Component System) for efficient animation management",
+            "Modern user interface with React and TypeScript for animation configuration",
+            "Performance optimization for minimal system resource usage"
         ]
     }
 }}

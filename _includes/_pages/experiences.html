@@ -4,14 +4,17 @@
 <div class="content">
     <h2 class="content-title"> {{ experiences.title }}</h2>
     {% for experience in experiences.experiences reversed%}
-        <div class="section">
+        <div class="section accordion">
             <div class='section_div_header'>
-                <h4 class= "title">{{ experience.title }}, </h4>
-                <b>at 
-                    <a href="{{ experience.linkedin_url }}"> {{ experience.compagny }}</a>
-                 ({{ experience.compagny_categ }})</b> 
-                <div>
-                    <b>{{ experience.from }} –>  {{ experience.to }}</b>
+                <div class="title-row">
+                    <h4 class="title">{{ experience.title }}</h4>
+                    <div class="company-info">
+                        <a href="{{ experience.linkedin_url }}">{{ experience.compagny }}</a>
+                    </div>
+                    <div class="company-type">{{ experience.compagny_categ }}</div>
+                </div>
+                <div class="date-info">
+                    <b>{{ experience.from }} –> {{ experience.to }}</b>
                 </div>
                 <div class="stack">
                     {% for stack in experience.stack.green reversed%}
@@ -21,7 +24,7 @@
                         <span class="badge rounded-pill text-bg-info">{{ stack }}</span>
                     {% endfor %}
                     {% for stack in experience.stack.grey reversed%}
-                    <span class="badge rounded-pill text-bg-secondary">{{ stack }}</span>
+                        <span class="badge rounded-pill text-bg-secondary">{{ stack }}</span>
                     {% endfor %}
                 </div>
             </div>
