@@ -34,6 +34,7 @@
     },
     "Animation Wall" : {
         "link": "https://github.com/DevRickyCst/animation_wall",
+        "demo_link": "https://devrickycst.github.io/animation_wall/",
         "descrition": "Application innovante développée en Rust utilisant le moteur de jeu Bevy pour créer des animations interactives personnalisables.",
         "stack": {
             "green": ["Rust", "Bevy Engine", "WebAssembly"],
