@@ -5,7 +5,9 @@
     },
     "download_link": "Download resume",
     "title-1":"About me",
-    "introduction": [],
+    "introduction": [
+        "Data Engineer specialized in data architecture and backend development. My core expertise lies in designing and implementing robust data pipelines, combined with strong application development skills. This dual competency allows me to create comprehensive solutions, from data ingestion to their exploitation in high-performance applications."
+    ],
     "title-2":"Education",
     "educations" : {
         "diplome": "Master of Science in applied mathematics engineering and Computer Science",

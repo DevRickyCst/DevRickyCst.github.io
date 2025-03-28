@@ -1,115 +1,88 @@
 {
     "title": "Skills",
     "competences": {
-        "Python Development": {
-            "logo" : "/assets/image/python.svg",
-            "competences" : {
-                "Python Core": [
-                    "Data Structure",
-                    "Generators",
-                    "Iterators",
-                    "Exceptions",
-                    "OOPs concepts",
-                    "Package Management"
+        "Backend Development": {
+            "logo": "/assets/image/backend.svg",
+            "competences": {
+                "Languages & Frameworks": [
+                    "Python (Django, FastAPI, Flask)",
+                    "Rust (Actix-web, Diesel)",
+                    "Node.js (Express, NestJS)"
                 ],
-                "Web development": [
-                    "Web Framework (Flask, Django, FastAPI)",
-                    "Front-end Development",
-                    "API REST",
-                    "Authentification and Authorization",
-                    "Deployment and Hosting"
+                "Databases": [
+                    "SQL (PostgreSQL, MySQL)",
+                    "NoSQL (MongoDB)",
+                    "ORM (SQLAlchemy, Diesel)",
+                    "Data Modeling"
                 ],
-                "Data Processsing": [
-                    "Data package (Pandas, Numpy, PySpark)",
-                    "Data exploration",
-                    "Data visualization (Power BI, Tableau, ...)",
-                    "ETL Development"
-                ],
-                "Blockchain": [
-                    "Web3.py",
-                    "Smart contract development with Brownies"
+                "Architecture": [
+                    "REST API",
+                    "Microservices",
+                    "Clean Architecture",
+                    "Unit & Integration Testing"
                 ]
             }
         },
         "Data Engineering": {
-            "logo" : "/assets/image/data.svg",
-            "competences" : {
-                "Data processing": [
-                    "Extract, Transform, Load (ETL)",
-                    "Data Pipelines",
-                    "SQL langage",
-                    "DBT",
-                    "Apache Airflow"
-                ],
-                "Big Data" : [
-                    "Hadoop and its ecosystem (ex. HDFS, MapReduce)",
-                    "Apache Spark",
-                    "AWS EMR"
-                ],
-                "Databases": [
-                    "Data models",
-                    "SQL",
-                    "Query Optimisation",
-                    "Database Design",
-                    "Parquet",
-                    "Schema",
-                    "Partitions"
-                ]
-            }
-        },
-        "Devops": {
-            "logo" : "/assets/image/cicd.svg",
-            "competences" : {
-                "Intégration Continue (CI)": [
-                    "CI/CD Tools (ex. Jenkins, Travis CI, GitLab CI)",
-                    "Automated Tests and Lint",
-                    "Continuous deployment strategies"
-                ],
-                "Containerization" : [
-                    "Docker and its concepts"
-                ],
-                "Collaboration Tools" : [
-                    "Github",
-                    "Slack",
-                    "Asana",
-                    "Linear"
-                ],
-                "Cloud Computing" : [
-                    "Cloud basics", 
-                    "Cloud services (AWS, Google Cloud)",
-                    "Infrastructure As A Code (Terraform, AWS Cloudformation)",
-                    "Microservices"
-                ]
-            }
-        },
-        "Rust Development": {
-            "logo": "/assets/image/rust.svg",
+            "logo": "/assets/image/data.svg",
             "competences": {
-                "Rust Core": [
-                    "Ownership and Borrowing",
-                    "Lifetimes",
-                    "Traits and Generics",
-                    "Error Handling",
-                    "Concurrency"
+                "Data Processing": [
+                    "ETL Pipelines",
+                    "Apache Spark & PySpark",
+                    "Apache Airflow",
+                    "Pandas & NumPy"
                 ],
-                "Web Development": [
-                    "Actix-web",
-                    "RESTful APIs",
-                    "WebAssembly",
-                    "Database Integration (Diesel, SQLx)"
+                "Big Data": [
+                    "Data Warehousing",
+                    "Data Lake Architecture",
+                    "AWS EMR & S3",
+                    "Hadoop Ecosystem"
                 ],
-                "Systems Programming": [
-                    "Memory Management",
-                    "Performance Optimization",
-                    "Cross-compilation",
-                    "Embedded Systems"
+                "Data Quality": [
+                    "Data Validation",
+                    "Data Cleaning",
+                    "Monitoring & Alerting",
+                    "Documentation"
                 ]
             }
         },
-        "Other language": {
-            "logo" : "/assets/image/programing.svg",
-            "competences" : {
-                "Javascript, C, Solidity, HTML/CSS, PHP, C++, Java": [
+        "DevOps & Cloud": {
+            "logo": "/assets/image/cicd.svg",
+            "competences": {
+                "CI/CD": [
+                    "GitHub Actions",
+                    "GitLab CI",
+                    "Jenkins",
+                    "Automated Testing"
+                ],
+                "Cloud & Infrastructure": [
+                    "AWS (EC2, S3, RDS, Lambda)",
+                    "Docker & Containerization",
+                    "Terraform (IaC)",
+                    "Monitoring & Logging"
+                ],
+                "Practices": [
+                    "Git Flow",
+                    "Code Review",
+                    "Documentation",
+                    "Security & Performance"
+                ]
+            }
+        },
+        "Systems Development": {
+            "logo": "/assets/image/system.svg",
+            "competences": {
+                "Rust Systems Programming": [
+                    "Memory Management",
+                    "Concurrency & Threading",
+                    "Performance Optimization",
+                    "Cross-compilation"
+                ],
+                "Low Level": [
+                    "C/C++",
+                    "Memory Management",
+                    "Systems Programming",
+                    "Optimization"
                 ]
             }
         }

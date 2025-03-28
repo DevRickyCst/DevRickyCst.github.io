@@ -1,116 +1,89 @@
 {
     "title": "Compétences",
     "competences": {
-        "Python Developpement": {
-            "logo": "/assets/image/python.svg",
-            "competences": {
-                "Python Core": [
-                    "Structure de données",
-                    "Générateurs",
-                    "Itérateurs",
-                    "Exceptions ",
-                    "Programmation orientée objet",
-                    "Création et gestion de packages"
-                ],
-                "Developpement Web": [
-                    "Framework Web (Flask, Django, FastAPI)",
-                    "Developpement Front-end",
-                    "RESTful APIs",
-                    "Authentification et authorisation",
-                    "Déploiement et hébergement"
-                ],
-                "Manipulation de donnée": [
-                    "Package Data (Pandas, Numpy, PySpark)",
-                    "Exploration de données",
-                    "Data visualisation (Power BI, Tableau, ...)",
-                    "Mise en place d'ETL"
-                ],
-                "Blockchain": [
-                    "Web3.py",
-                    "Developpement de Smart contracts avec Brownies"
-                ]
-            }
-        },
         "Data Engineering": {
             "logo": "/assets/image/data.svg",
             "competences": {
-                "Traitement de données": [
-                    "Extraction, Transformation, et Chargement (ETL)",
-                    "Pipelines de données",
-                    "Langage SQL",
-                    "DBT",
-                    "Apache Spark",
-                    "Apache Airflow"
+                "Data Processing": [
+                    "ETL Pipelines",
+                    "Apache Spark & PySpark",
+                    "Apache Airflow",
+                    "Pandas & NumPy"
                 ],
                 "Big Data": [
-                    "Hadoop et son écosystème (ex. HDFS, MapReduce)",
-                    "PySpark",
-                    "AWS EMR"
+                    "Data Warehousing",
+                    "Data Lake Architecture",
+                    "AWS EMR & S3",
+                    "Hadoop Ecosystem"
                 ],
-                "Gestion de BDD": [
-                    "Modèle de données",
-                    "SQL/NoSQL",
-                    "Optimisation de requêtes",
-                    "Design de BDD",
-                    "Parquet",
-                    "Schéma",
-                    "Partitions"
+                "Data Quality": [
+                    "Data Validation",
+                    "Data Cleaning",
+                    "Monitoring & Alerting",
+                    "Documentation"
                 ]
             }
         },
-        "Devops": {
+        "Développement Backend": {
+            "logo": "/assets/image/backend.svg",
+            "competences": {
+                "Langages & Frameworks": [
+                    "Python (Django, FastAPI, Flask)",
+                    "Rust (Actix-web, Diesel)",
+                    "Node.js (Express, NestJS)"
+                ],
+                "Base de données": [
+                    "SQL (PostgreSQL, MySQL)",
+                    "NoSQL (MongoDB)",
+                    "ORM (SQLAlchemy, Diesel)",
+                    "Modélisation de données"
+                ],
+                "Architecture": [
+                    "REST API",
+                    "Microservices",
+                    "Clean Architecture",
+                    "Tests unitaires & intégration"
+                ]
+            }
+        },
+        "DevOps & Cloud": {
             "logo": "/assets/image/cicd.svg",
             "competences": {
-                "Intégration Continue (CI)": [
-                    "Outils CI/CD (ex. Jenkins, Travis CI, GitLab CI)",
-                    "Tests et Lint automatisés",
-                    "Stratégies de déploiement continu"
+                "CI/CD": [
+                    "GitHub Actions",
+                    "GitLab CI",
+                    "Jenkins",
+                    "Tests automatisés"
                 ],
-                "Conteneurisation": [
-                    "Docker et ses concepts"
+                "Cloud & Infrastructure": [
+                    "AWS (EC2, S3, RDS, Lambda)",
+                    "Docker & Conteneurisation",
+                    "Terraform (IaC)",
+                    "Monitoring & Logging"
                 ],
-                "Outils de collaboration": [
-                    "Github",
-                    "Slack",
-                    "Asana",
-                    "Linear"
-                ],
-                "Cloud Computing": [
-                    "Concepts de base du cloud",
-                    "Services cloud (AWS, Google Cloud)",
-                    "Infrastructure As A Code (Terraform, AWS Cloudformation)",
-                    "Microservices"
+                "Pratiques": [
+                    "Git Flow",
+                    "Code Review",
+                    "Documentation",
+                    "Sécurité & Performance"
                 ]
             }
         },
-        "Rust Development": {
-            "logo": "/assets/image/rust.svg",
+        "Développement Système": {
+            "logo": "/assets/image/system.svg",
             "competences": {
-                "Rust Core": [
-                    "Ownership et Borrowing",
-                    "Lifetimes",
-                    "Traits et Generics",
-                    "Error Handling",
-                    "Concurrency"
-                ],
-                "Web Development": [
-                    "Actix-web",
-                    "RESTful APIs",
-                    "WebAssembly",
-                    "Database Integration (Diesel, SQLx)"
-                ],
-                "Systems Programming": [
+                "Rust Systems Programming": [
                     "Memory Management",
+                    "Concurrency & Threading",
                     "Performance Optimization",
-                    "Cross-compilation",
-                    "Embedded Systems"
+                    "Cross-compilation"
+                ],
+                "Bas niveau": [
+                    "C/C++",
+                    "Gestion de la mémoire",
+                    "Programmation système",
+                    "Optimisation"
                 ]
-            }
-        },
-        "Autre langage": {
-            "logo": "/assets/image/programing.svg",
-            "competences": {
-                "Javascript, C, Solidity, HTML/CSS, PHP, C++, Java": []
             }
         }
     }
