@@ -115,7 +115,7 @@
     <script>
   // Exécuté avant le chargement de la page
   (function() {
-    const savedTheme = localStorage.getItem('theme');
+    const savedTheme = localStorage.getItem('theme') || 'dark';
     if (savedTheme === 'dark') {
       document.documentElement.classList.add('dark-mode');
       document.body.classList.add('dark-mode');
