@@ -1,90 +1,101 @@
 {
-    "title": "Compétences",
-    "competences": {
-        "Data Engineering": {
-            "logo": "/assets/image/data.svg",
-            "competences": {
-                "Data Processing": [
-                    "ETL Pipelines",
-                    "Apache Spark & PySpark",
-                    "Apache Airflow",
-                    "Pandas & NumPy"
-                ],
-                "Big Data": [
-                    "Data Warehousing",
-                    "Data Lake Architecture",
-                    "AWS EMR & S3",
-                    "Hadoop Ecosystem"
-                ],
-                "Data Quality": [
-                    "Data Validation",
-                    "Data Cleaning",
-                    "Monitoring & Alerting",
-                    "Documentation"
-                ]
-            }
-        },
-        "Développement Backend": {
-            "logo": "/assets/image/backend.svg",
-            "competences": {
-                "Langages & Frameworks": [
-                    "Python (Django, FastAPI, Flask)",
-                    "Rust (Actix-web, Diesel)",
-                    "Node.js (Express, NestJS)"
-                ],
-                "Base de données": [
-                    "SQL (PostgreSQL, MySQL)",
-                    "NoSQL (MongoDB)",
-                    "ORM (SQLAlchemy, Diesel)",
-                    "Modélisation de données"
-                ],
-                "Architecture": [
-                    "REST API",
-                    "Microservices",
-                    "Clean Architecture",
-                    "Tests unitaires & intégration"
-                ]
-            }
-        },
-        "DevOps & Cloud": {
-            "logo": "/assets/image/cicd.svg",
-            "competences": {
-                "CI/CD": [
-                    "GitHub Actions",
-                    "GitLab CI",
-                    "Jenkins",
-                    "Tests automatisés"
-                ],
-                "Cloud & Infrastructure": [
-                    "AWS (EC2, S3, RDS, Lambda)",
-                    "Docker & Conteneurisation",
-                    "Terraform (IaC)",
-                    "Monitoring & Logging"
-                ],
-                "Pratiques": [
-                    "Git Flow",
-                    "Code Review",
-                    "Documentation",
-                    "Sécurité & Performance"
-                ]
-            }
-        },
-        "Développement Système": {
-            "logo": "/assets/image/system.svg",
-            "competences": {
-                "Rust Systems Programming": [
-                    "Memory Management",
-                    "Concurrency & Threading",
-                    "Performance Optimization",
-                    "Cross-compilation"
-                ],
-                "Bas niveau": [
-                    "C/C++",
-                    "Gestion de la mémoire",
-                    "Programmation système",
-                    "Optimisation"
-                ]
-            }
-        }
+  "title": "Compétences",
+  "competences": {
+    "Data Engineering": {
+      "logo": "/assets/image/data.svg",
+      "competences": {
+        "Data Processing & ETL": [
+          "Apache Airflow (Orchestration)",
+          "Apache Spark & PySpark (Traitement distribué)",
+          "dbt (Transformation)",
+          "Airbyte (Ingestion)",
+          "Pandas & Polars (Traitement)"
+        ],
+        "Data Storage & Architecture": [
+          "Data Warehouse (Redshift, BigQuery)",
+          "Data Lake (AWS S3, Apache Iceberg)",
+          "AWS EMR & Glue",
+          "Hadoop Ecosystem (HDFS, Hive)"
+        ],
+        "Data Quality & Monitoring": [
+          "Data Observability",
+          "Monitoring & Alerting",
+          "Performance Optimization"
+        ]
+      }
+    },
+    "AI & Machine Learning": {
+      "logo": "/assets/image/ai.svg",
+      "competences": {
+        "Vector Databases": [
+          "PostgreSQL (pgvector)",
+          "OpenSearch (Vector Search)",
+          "Embeddings & Similarity Search",
+          "Vector Indexing"
+        ],
+        "Machine Learning": [
+          "Scikit-learn & PyTorch",
+          "Apprentissage Supervisé & Non-supervisé",
+          "Feature Engineering & Model Evaluation",
+          "MLOps & Deployment"
+        ],
+        "Deep Learning": [
+          "Réseaux de neurones",
+          "Transformers",
+          "Computer Vision",
+          "NLP"
+        ],
+        "ML Engineering": [
+          "Feature Engineering",
+          "Model Deployment",
+          "Model Monitoring",
+          "A/B Testing"
+        ]
+      }
+    },
+    "Développement Backend": {
+      "logo": "/assets/image/backend.svg",
+      "competences": {
+        "Langages & Frameworks": [
+          "Python (Django, FastAPI, Flask)",
+          "Rust (Actix-web, Diesel)"
+        ],
+        "Base de données": [
+          "SQL (PostgreSQL, MySQL)",
+          "NoSQL (MongoDB)",
+          "ORM (SQLAlchemy, Diesel)",
+          "Modélisation de données"
+        ],
+        "Architecture": [
+          "REST API",
+          "Microservices",
+          "Clean Architecture",
+          "Tests unitaires & intégration"
+        ]
+      }
+    },
+    "DevOps & Cloud": {
+      "logo": "/assets/image/cicd.svg",
+      "competences": {
+        "CI/CD": [
+          "GitHub Actions",
+          "GitLab CI",
+          "Jenkins",
+          "Tests automatisés"
+        ],
+        "Cloud & Infrastructure": [
+          "AWS (EC2, S3, RDS, Lambda)",
+          "Docker & Conteneurisation",
+          "Terraform (IaC)",
+          "Monitoring & Logging"
+        ],
+        "Pratiques": [
+          "Git Flow",
+          "Code Review",
+          "Documentation",
+          "Sécurité & Performance"
+        ]
+      }
     }
+  }
 }
