@@ -4,23 +4,22 @@
         "Data Engineering": {
             "logo": "/assets/image/data.svg",
             "competences": {
-                "Data Processing": [
-                    "ETL Pipelines",
-                    "Apache Spark & PySpark",
-                    "Apache Airflow",
-                    "Pandas & NumPy"
+                "Entrepôts de données et stockage": [
+                    "Formats de tables ouverts (Apache Hive, Iceberg, Delta Lake)",
+                    "Entrepôts de données (BigQuery, Redshift)",
+                    "Formats de fichiers (Parquet, Avro, JSON, CSV)",
+                    "Services de stockage cloud (S3, GCS)"
                 ],
-                "Big Data": [
-                    "Data Warehousing",
-                    "Data Lake Architecture",
-                    "AWS EMR & S3",
-                    "Hadoop Ecosystem"
+                "Pipeline de données": [
+                    "Outils ETL (Airbyte, dbt, AWS Glue, PySpark)",
+                    "Orchestration de pipelines (Airflow, Dagster)",
+                    "Extraction de données depuis des API (REST, GraphQL, pagination, gestion des quotas)"
                 ],
-                "Data Quality": [
-                    "Data Validation",
-                    "Data Cleaning",
-                    "Monitoring & Alerting",
-                    "Documentation"
+                "Fiabilité et gouvernance des données": [
+                    "Conception de pipelines idempotents et maintenables",
+                    "Mécanismes de retry, stratégies de backfill, journalisation structurée",
+                    "Gestion de la traçabilité et des métadonnées (OpenLineage, Marquez, dbt docs)",
+                    "Sécurité et conformité (gestion des données personnelles, contrôle des accès, conformité RGPD)"
                 ]
             }
         },

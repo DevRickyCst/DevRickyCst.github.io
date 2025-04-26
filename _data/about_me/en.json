@@ -11,9 +11,6 @@
     "title-2":"Education",
     "educations" : {
         "diplome": "Master of Science in applied mathematics engineering and Computer Science",
-        "specialite": {
-            "Specialization": "Fintech"
-        },
         "university": "CY-Tech",
         "university_link": "https://cytech.cyu.fr/en"
     },

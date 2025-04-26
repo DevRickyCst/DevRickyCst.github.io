@@ -1,6 +1,29 @@
 {
     "title": "Skills",
     "competences": {
+        "Data Engineering": {
+            "logo": "/assets/image/data.svg",
+            "competences": {
+                "Big Data Storage": [
+                    "Open Table Formats (Apache Hive, Iceberg, Delta Lake)",
+                    "Data Warehousing (Big Query, Redshift)",
+                    "File formats (Parquet, Avro, JSON, CSV)",
+                    "Cloud Storage Services (S3, GCS)",
+                    "Data Architecture (Data Lakes, Data Warehouses, Lakehouse)"
+                ],
+                "Data Pipelines": [
+                    "ETL tools (Airbyte, DBT, Glue ETL, Pyspark)",
+                    "Data Orchestration (Airflow, Dagster)",
+                    "API data extraction (REST, GraphQL, pagination, rate limiting)"
+                ],
+                "Data Reliability & Governance": [
+                    "Idempotent and maintainable pipeline design",
+                    "Retry mechanisms, backfill strategies, structured logging",
+                    "Data lineage and metadata management (OpenLineage, Marquez, dbt docs)",
+                    "Security & compliance (PII handling, access control, GDPR readiness)"
+                ]
+            }
+        },
         "Backend Development": {
             "logo": "/assets/image/backend.svg",
             "competences": {
@@ -20,29 +43,6 @@
                     "Microservices",
                     "Clean Architecture",
                     "Unit & Integration Testing"
-                ]
-            }
-        },
-        "Data Engineering": {
-            "logo": "/assets/image/data.svg",
-            "competences": {
-                "Data Processing": [
-                    "ETL Pipelines",
-                    "Apache Spark & PySpark",
-                    "Apache Airflow",
-                    "Pandas & NumPy"
-                ],
-                "Big Data": [
-                    "Data Warehousing",
-                    "Data Lake Architecture",
-                    "AWS EMR & S3",
-                    "Hadoop Ecosystem"
-                ],
-                "Data Quality": [
-                    "Data Validation",
-                    "Data Cleaning",
-                    "Monitoring & Alerting",
-                    "Documentation"
                 ]
             }
         },

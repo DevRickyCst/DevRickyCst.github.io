@@ -44,9 +44,6 @@
                 <h4  class="content-title">{{ about_trad.title-2 }}</h4>
                 {% assign education = about_trad.educations %}
                 <b class ='degree '>{{ education.diplome }}</b>
-                {%  for specialite in education.specialite %}
-                <p> {{ specialite[0] }} : {{ specialite[1] }}</p>
-                {% endfor %}
                 <p class ='degreeschool'><a href="{{ education.university_link }}" target="_blank">{{ education.university }}</a> (Ex: EISTI)  -  2015 -> 2020</p>
                 
                 <!-- Certifications -->
