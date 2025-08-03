@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24" height="24" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Cerveau stylisé -->
+    <path d="M40 10C26 10 20 20 20 30C20 40 26 50 40 50C54 50 60 40 60 30C60 20 54 10 40 10Z" stroke="#0066FF" stroke-width="3"/>
+    <path d="M40 50C26 50 20 60 20 70C20 80 26 80 40 80C54 80 60 80 60 70C60 60 54 50 40 50Z" stroke="#0066FF" stroke-width="3"/>
+    
+    <!-- Connexions neuronales -->
+    <path d="M30 30L50 70" stroke="#0066FF" stroke-width="3"/>
+    <path d="M50 30L30 70" stroke="#0066FF" stroke-width="3"/>
+    
+    <!-- Points de connexion -->
+    <circle cx="40" cy="10" r="3" fill="#0066FF"/>
+    <circle cx="40" cy="70" r="3" fill="#0066FF"/>
+    <circle cx="10" cy="40" r="3" fill="#0066FF"/>
+    <circle cx="70" cy="40" r="3" fill="#0066FF"/>
+    
+    <!-- Détails neuronaux -->
+    <circle cx="40" cy="40" r="4" fill="#0066FF"/>
+    <circle cx="30" cy="30" r="2" fill="#0066FF"/>
+    <circle cx="50" cy="30" r="2" fill="#0066FF"/>
+    <circle cx="30" cy="50" r="2" fill="#0066FF"/>
+    <circle cx="50" cy="50" r="2" fill="#0066FF"/>
+</svg> 

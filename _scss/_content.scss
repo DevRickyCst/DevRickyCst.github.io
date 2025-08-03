@@ -304,7 +304,7 @@ body {
     }
 
     .section_detail {
-      max-height: 1000px;
+      max-height: 1300px;
       opacity: 1;
       margin-top: $spacing-lg;
       border-left-color: rgba($primary-color, 0.2);
@@ -340,9 +340,20 @@ body {
 
 // Style des détails dans l'accordéon
 .section_detail {
+  .detail-container {
+    margin-bottom: $spacing-md;
+  }
+
   ul {
     list-style-type: none;
     padding-left: $spacing-lg;
+    margin-bottom: $spacing-md;
+    
+    p {
+      font-weight: $font-weight-bold;
+      font-size: 1.1rem;
+      margin-bottom: $spacing-xs;
+    }
     
     li {
       position: relative;
@@ -359,8 +370,6 @@ body {
       }
     }
   }
-  
-
 }
 
 // Responsive
@@ -501,11 +510,14 @@ body.dark-mode {
   }
 
   .section_detail {
-    ul li {
-      color: $text-light;
+    ul {
       
-      &::before {
-        color: $dark-primary;
+      li {
+        color: $text-light;
+        
+        &::before {
+          color: $dark-primary;
+        }
       }
     }
   }
@@ -591,7 +603,7 @@ body.dark-mode {
 
         p {
             color: $text-secondary;
-            margin-bottom: $spacing-md;
+            margin-bottom: $spacing-xs;
             line-height: 1.6;
         }
 

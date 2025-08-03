@@ -1,90 +1,98 @@
 {
-    "title": "Skills",
-    "competences": {
-        "Data Engineering": {
-            "logo": "/assets/image/data.svg",
-            "competences": {
-                "Big Data Storage": [
-                    "Open Table Formats (Apache Hive, Iceberg, Delta Lake)",
-                    "Data Warehousing (Big Query, Redshift)",
-                    "File formats (Parquet, Avro, JSON, CSV)",
-                    "Cloud Storage Services (S3, GCS)",
-                    "Data Architecture (Data Lakes, Data Warehouses, Lakehouse)"
-                ],
-                "Data Pipelines": [
-                    "ETL tools (Airbyte, DBT, Glue ETL, Pyspark)",
-                    "Data Orchestration (Airflow, Dagster)",
-                    "API data extraction (REST, GraphQL, pagination, rate limiting)"
-                ],
-                "Data Reliability & Governance": [
-                    "Idempotent and maintainable pipeline design",
-                    "Retry mechanisms, backfill strategies, structured logging",
-                    "Data lineage and metadata management (OpenLineage, Marquez, dbt docs)",
-                    "Security & compliance (PII handling, access control, GDPR readiness)"
-                ]
-            }
-        },
-        "Backend Development": {
-            "logo": "/assets/image/backend.svg",
-            "competences": {
-                "Languages & Frameworks": [
-                    "Python (Django, FastAPI, Flask)",
-                    "Rust (Actix-web, Diesel)",
-                    "Node.js (Express, NestJS)"
-                ],
-                "Databases": [
-                    "SQL (PostgreSQL, MySQL)",
-                    "NoSQL (MongoDB)",
-                    "ORM (SQLAlchemy, Diesel)",
-                    "Data Modeling"
-                ],
-                "Architecture": [
-                    "REST API",
-                    "Microservices",
-                    "Clean Architecture",
-                    "Unit & Integration Testing"
-                ]
-            }
-        },
-        "DevOps & Cloud": {
-            "logo": "/assets/image/cicd.svg",
-            "competences": {
-                "CI/CD": [
-                    "GitHub Actions",
-                    "GitLab CI",
-                    "Jenkins",
-                    "Automated Testing"
-                ],
-                "Cloud & Infrastructure": [
-                    "AWS (EC2, S3, RDS, Lambda)",
-                    "Docker & Containerization",
-                    "Terraform (IaC)",
-                    "Monitoring & Logging"
-                ],
-                "Practices": [
-                    "Git Flow",
-                    "Code Review",
-                    "Documentation",
-                    "Security & Performance"
-                ]
-            }
-        },
-        "Systems Development": {
-            "logo": "/assets/image/system.svg",
-            "competences": {
-                "Rust Systems Programming": [
-                    "Memory Management",
-                    "Concurrency & Threading",
-                    "Performance Optimization",
-                    "Cross-compilation"
-                ],
-                "Low Level": [
-                    "C/C++",
-                    "Memory Management",
-                    "Systems Programming",
-                    "Optimization"
-                ]
-            }
-        }
+  "title": "Skills",
+  "competences": {
+    "Data Engineering": {
+      "logo": "/assets/image/data.svg",
+      "competences": {
+        "Big Data Storage": [
+          "Open Table Formats (Apache Hive, Iceberg, Delta Lake)",
+          "File formats (Parquet, Avro, JSON, CSV)",
+          "Cloud Storage Services (S3, GCS)",
+          "Data Architecture (Data Lakes, Data Warehouses, Lakehouse)"
+        ],
+        "Data Pipelines": [
+          "ETL tools (Airbyte, DBT, Glue ETL, Pyspark)",
+          "Data Orchestration with Airflow",
+          "API data extraction (REST, GraphQL, pagination, rate limiting)"
+        ],
+        "Data Reliability & Governance": [
+          "Idempotent and maintainable pipeline design",
+          "Retry mechanisms, backfill strategies, structured logging",
+          "Data lineage and metadata management (OpenLineage, Marquez, dbt docs)",
+          "Security & compliance (PII handling, GDPR readiness)"
+        ]
+      }
+    },
+    "Python Backend Development": {
+      "logo": "/assets/image/backend.svg",
+      "competences": {
+        "Python Core": [
+          "Data Structures: list, dict, set, tuple",
+          "Iteration Models: iterators, generators, comprehensions",
+          "Error Handling: exceptions, context managers",
+          "Programming Paradigms: OOP, functional programming",
+          "Typing & Packaging: type hints, pyproject.toml, uv, poetry"
+        ],
+        "API Development": [
+          "Frameworks: FastAPI, Flask, Chalice, Django REST Framework",
+          "Design Principles: REST, OpenAPI, versioning, idempotency",
+          "Authentication: OAuth2, JWT, API Keys",
+          "Serialization & Validation: Pydantic, Marshmallow",
+          "Testing & Documentation: pytest, httpx, Swagger, ReDoc"
+        ],
+        "Architecture": [
+          "REST API",
+          "Microservices",
+          "Clean Architecture",
+          "Unit & Integration Testing"
+        ]
+      }
+    },
+    "AI & Machine Learning": {
+      "logo": "/assets/image/ai.svg",
+      "competences": {
+        "Machine Learning Workflow": [
+          "Feature engineering, data cleaning, scaling",
+          "Model training & evaluation (cross-validation, metrics)",
+          "Hyperparameter tuning (Optuna, GridSearchCV)",
+          "Model versioning & experiment tracking (MLflow, Weights & Biases)"
+        ],
+        "MLOps & Deployment": [
+          "Model serving (FastAPI, BentoML, TorchServe)",
+          "CI/CD for ML (GitHub Actions, Docker, Terraform, Kubernetes)",
+          "Monitoring & retraining strategies (drift detection, feedback loops)",
+          "Model registry & reproducibility (MLflow, DVC)"
+        ],
+        "AI for Data Engineering": [
+          "LLMs for structured/unstructured data enrichment (OpenAI, Hugging Face)",
+          "Embedding generation & vector databases (FAISS, Weaviate)",
+          "Prompt engineering & few-shot learning",
+          "Automated labeling, classification & anomaly detection pipelines"
+        ]
+      }
+    },
+    "DevOps & Cloud": {
+      "logo": "/assets/image/cicd.svg",
+      "competences": {
+        "CI/CD": [
+          "GitHub Actions",
+          "GitLab CI",
+          "Jenkins",
+          "Automated Testing"
+        ],
+        "Cloud & Infrastructure": [
+          "AWS (EC2, S3, RDS, Lambda)",
+          "Docker & Containerization",
+          "Terraform (IaC)",
+          "Monitoring & Logging"
+        ],
+        "Practices": [
+          "Git Flow",
+          "Code Review",
+          "Documentation",
+          "Security & Performance"
+        ]
+      }
     }
+  }
 }

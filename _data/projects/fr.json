@@ -17,21 +17,6 @@
             "Gestion sécurisée des tokens d'API via les variables d'environnement AWS"
         ]
     },
-    "Etherum Block Explorer" : {
-        "link": "https://github.com/DevRickyCst/ethBlockExplorer",
-        "descrition": "Application Web3 afin d'explorer la blockchain Etherum et intéragir avec son portefeuille externe Metamask.",
-        "stack": {
-            "green": ["Python", "Etherum Blockchain", "Javascript"],
-            "teal": ["Python flask", "web3.py"],
-            "grey": ["Web Development"]
-          },
-        "detail":[
-            "Developpement d'une applicaton Web avec la librarie python Flask.",
-            "Intégration de la bibliothèque web3.py pour permettre l'interaction avec la blockchain Ethereum via Infura en tant que fournisseur.",
-            "Développement de fonctions JavaScript pour permettre l'interaction avec des extensions de portefeuille blockchain dans le navigateur, telles que MetaMask.",
-            "Implémentation de diverses fonctionnalités telles que l'exploration des blocs, les transactions sur Ethereum, et la possibilité de se connecter au portefeuille MetaMask et d'effectuer des transferts d'Ether."
-        ]
-    },
     "Animation Wall" : {
         "link": "https://github.com/DevRickyCst/animation_wall",
         "demo_link": "https://devrickycst.github.io/animation_wall/",

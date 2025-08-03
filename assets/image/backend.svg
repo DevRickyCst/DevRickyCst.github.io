@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <!-- Serveur du haut -->
-    <rect x="4" y="3" width="16" height="4" rx="1" stroke="#0066FF" stroke-width="2"/>
-    <circle cx="7" cy="5" r="1" fill="#0066FF"/>
+<svg width="24" height="24" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Serveur -->
+    <rect x="20" y="15" width="40" height="50" rx="4" stroke="#0066FF" stroke-width="3"/>
     
-    <!-- Serveur du milieu -->
-    <rect x="4" y="10" width="16" height="4" rx="1" stroke="#0066FF" stroke-width="2"/>
-    <circle cx="7" cy="12" r="1" fill="#0066FF"/>
+    <!-- Circuits serveur -->
+    <line x1="30" y1="30" x2="50" y2="30" stroke="#0066FF" stroke-width="2"/>
+    <line x1="30" y1="40" x2="50" y2="40" stroke="#0066FF" stroke-width="2"/>
+    <line x1="30" y1="50" x2="50" y2="50" stroke="#0066FF" stroke-width="2"/>
     
-    <!-- Serveur du bas -->
-    <rect x="4" y="17" width="16" height="4" rx="1" stroke="#0066FF" stroke-width="2"/>
-    <circle cx="7" cy="19" r="1" fill="#0066FF"/>
+    <!-- Points de connexion -->
+    <circle cx="40" cy="10" r="3" fill="#0066FF"/>
+    <circle cx="40" cy="70" r="3" fill="#0066FF"/>
+    <circle cx="10" cy="40" r="3" fill="#0066FF"/>
+    <circle cx="70" cy="40" r="3" fill="#0066FF"/>
     
-    <!-- Lignes de connexion -->
-    <line x1="12" y1="7" x2="12" y2="10" stroke="#0066FF" stroke-width="2"/>
-    <line x1="12" y1="14" x2="12" y2="17" stroke="#0066FF" stroke-width="2"/>
+    <!-- Connexions API -->
+    <path d="M70 30L75 30" stroke="#0066FF" stroke-width="3"/>
+    <path d="M70 40L75 40" stroke="#0066FF" stroke-width="3"/>
+    <path d="M70 50L75 50" stroke="#0066FF" stroke-width="3"/>
+    
+    <!-- Points de terminaison -->
+    <circle cx="75" cy="30" r="2" fill="#0066FF"/>
+    <circle cx="75" cy="40" r="2" fill="#0066FF"/>
+    <circle cx="75" cy="50" r="2" fill="#0066FF"/>
 </svg> 

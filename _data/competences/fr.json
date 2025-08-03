@@ -1,89 +1,68 @@
 {
-    "title": "Compétences",
-    "competences": {
-        "Data Engineering": {
-            "logo": "/assets/image/data.svg",
-            "competences": {
-                "Entrepôts de données et stockage": [
-                    "Formats de tables ouverts (Apache Hive, Iceberg, Delta Lake)",
-                    "Entrepôts de données (BigQuery, Redshift)",
-                    "Formats de fichiers (Parquet, Avro, JSON, CSV)",
-                    "Services de stockage cloud (S3, GCS)"
-                ],
-                "Pipeline de données": [
-                    "Outils ETL (Airbyte, dbt, AWS Glue, PySpark)",
-                    "Orchestration de pipelines (Airflow, Dagster)",
-                    "Extraction de données depuis des API (REST, GraphQL, pagination, gestion des quotas)"
-                ],
-                "Fiabilité et gouvernance des données": [
-                    "Conception de pipelines idempotents et maintenables",
-                    "Mécanismes de retry, stratégies de backfill, journalisation structurée",
-                    "Gestion de la traçabilité et des métadonnées (OpenLineage, Marquez, dbt docs)",
-                    "Sécurité et conformité (gestion des données personnelles, contrôle des accès, conformité RGPD)"
-                ]
-            }
-        },
-        "Développement Backend": {
-            "logo": "/assets/image/backend.svg",
-            "competences": {
-                "Langages & Frameworks": [
-                    "Python (Django, FastAPI, Flask)",
-                    "Rust (Actix-web, Diesel)",
-                    "Node.js (Express, NestJS)"
-                ],
-                "Base de données": [
-                    "SQL (PostgreSQL, MySQL)",
-                    "NoSQL (MongoDB)",
-                    "ORM (SQLAlchemy, Diesel)",
-                    "Modélisation de données"
-                ],
-                "Architecture": [
-                    "REST API",
-                    "Microservices",
-                    "Clean Architecture",
-                    "Tests unitaires & intégration"
-                ]
-            }
-        },
-        "DevOps & Cloud": {
-            "logo": "/assets/image/cicd.svg",
-            "competences": {
-                "CI/CD": [
-                    "GitHub Actions",
-                    "GitLab CI",
-                    "Jenkins",
-                    "Tests automatisés"
-                ],
-                "Cloud & Infrastructure": [
-                    "AWS (EC2, S3, RDS, Lambda)",
-                    "Docker & Conteneurisation",
-                    "Terraform (IaC)",
-                    "Monitoring & Logging"
-                ],
-                "Pratiques": [
-                    "Git Flow",
-                    "Code Review",
-                    "Documentation",
-                    "Sécurité & Performance"
-                ]
-            }
-        },
-        "Développement Système": {
-            "logo": "/assets/image/system.svg",
-            "competences": {
-                "Rust Systems Programming": [
-                    "Memory Management",
-                    "Concurrency & Threading",
-                    "Performance Optimization",
-                    "Cross-compilation"
-                ],
-                "Bas niveau": [
-                    "C/C++",
-                    "Gestion de la mémoire",
-                    "Programmation système",
-                    "Optimisation"
-                ]
-            }
-        }
+  "title": "Compétences",
+  "competences": {
+    "Data Engineering": {
+      "logo": "/assets/image/data.svg",
+      "competences": {
+        "Entrepôts de données et stockage": [
+          "Formats de tables ouverts (Apache Hive, Iceberg, Delta Lake)",
+          "Data Architecture (Data Lakes, Data Warehouses, Lakehouse)",
+          "Formats de fichiers (Parquet, Avro, JSON, CSV)",
+          "Services de stockage cloud (S3, GCS)"
+        ],
+        "Pipeline de données": [
+          "Outils ETL (Airbyte, dbt, AWS Glue, PySpark)",
+          "Orchestration de pipelines avec Airflow",
+          "Extraction de données depuis des API (REST, GraphQL, pagination, gestion des quotas)"
+        ],
+        "Fiabilité et gouvernance des données": [
+          "Conception de pipelines idempotents et maintenables",
+          "Mécanismes de retry, stratégies de backfill, journalisation structurée",
+          "Gestion de la traçabilité et des métadonnées (OpenLineage, Marquez, dbt docs)",
+          "Sécurité et conformité (gestion des données personnelles, conformité RGPD)"
+        ]
+      }
+    },
+    "Développement Backend": {
+      "logo": "/assets/image/backend.svg",
+      "competences": {
+        "Bonnes pratiques et conception logicielle": [
+          "Programmation orientée objet (OOP) et principes SOLID",
+          "Tests unitaires et TDD (pytest, unittest, coverage)",
+          "Typage statique avec `mypy`, `pyright` et modèles de données avec Pydantic",
+          "Modularité, architecture hexagonale, clean code"
+        ],
+        "Frameworks et architecture API": [
+          "Création d’APIs REST avec FastAPI, Flask, Chalice...",
+          "Validation de schéma et typage strict avec Pydantic",
+          "Structuration modulaire et découplée (routers, services, modèles)",
+          "Documentation automatique d’API avec OpenAPI / Swagger"
+        ],
+        "": ["", "", "", ""]
+      }
+    },
+    "DevOps & Cloud": {
+      "logo": "/assets/image/cicd.svg",
+      "competences": {
+        "CI/CD": [
+          "GitHub Actions",
+          "GitLab CI",
+          "Jenkins",
+          "Tests automatisés"
+        ],
+        "Cloud & Infrastructure": [
+          "AWS (EC2, S3, RDS, Lambda)",
+          "Docker & Conteneurisation",
+          "Terraform (IaC)",
+          "Monitoring & Logging"
+        ],
+        "Pratiques": [
+          "Git Flow",
+          "Code Review",
+          "Documentation",
+          "Sécurité & Performance"
+        ]
+      }
     }
+  }
 }

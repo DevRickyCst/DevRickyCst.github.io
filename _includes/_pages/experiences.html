@@ -9,14 +9,16 @@
                 <div class="title-row">
                     <h4 class="title">{{ experience.title }}</h4>
                     <div class="company-info">
-                        <a href="{{ experience.linkedin_url }}">{{ experience.compagny }}</a>
+                        <a href="{{ experience.linkedin_url }}" target="_blank">{{ experience.compagny }}</a>
                     </div>
                     <div class="company-type">{{ experience.compagny_categ }}</div>
                 </div>
                 <div class="date-info">
-                    <b>{{ experience.from }} –> {{ experience.to }}</b>
+                    <i class="date-icon">📅</i>
+                    <b>{{ experience.from }} <span class="arrow">→</span> {{ experience.to }}</b>
                 </div>
                 <div class="stack">
+                    <i class="stack-icon">🛠️ </i>
                     {% for stack in experience.stack.green reversed%}
                         <span class="badge rounded-pill text-bg-success">{{ stack }}</span>
                     {% endfor %}

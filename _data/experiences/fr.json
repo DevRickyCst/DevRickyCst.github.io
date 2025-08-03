@@ -1,114 +1,121 @@
 {
-    "title": "Expériences",
-    "experiences": [
-        {
-            "id": "0",
-            "title": "Data Scientist",
-            "compagny": "National Chiao Tung University",
-            "compagny_categ": "Internship",
-            "linkedin_url": "https://www.linkedin.com/school/national-chiao-tung-university/",
-            "from": "Juin 2018",
-            "to": "Septembre 2018",
-            "details": {
-                "Sujet : Détecter, à partir des donnée provenant de capteurs de positions placés sur un individu, quel exercice pratique t-il à la salle de sport ?": [
-                    "Analyse et compréhension du type de données coordonnées (x,y,z) en fonction du temps.",
-                    "Utilisation de la Déformation Temporelle Dynamique (ou Dynamic Time Warping) appliquée sur chaque axe comme critère de comparaison.",
-                    "Traitement en python afin de mettre en place un algorithme à partir des différentes valeurs trouvées avec DTW (pandas, numpy, dtw-python, scikit-learn)."
-                ]
-            },
-            "stack": {
-                "green": ["Python", "Machine Learning", "DTW (Dynamic Time Warping)"],
-                "teal": [ "Pandas", "Numpy"],
-                "grey": ["Data Exploration", "Data Analysis"]
-            }
-        },
-        {
-            "id": "1",
-            "title": "Développeur FullStack / Data Analyst",
-            "compagny": "T&E Vision",
-            "compagny_categ": "Internship",
-            "from": "Avril 2019",
-            "to": "Aout 2019",
-            "details": {
-                "Creation d'un MVP de reporting web d'analyse de données provenant du secteur du 'Travel & Expense'": [
-                    "Exploration, traitement de données avec python (pandas, numpy)",
-                    "Création d'une interface Web avec un système d'authentification (HTML, JS, PHP)",
-                    "Dévelopement de dashboard avec Tableau Desktop",
-                    "Allocation d'une machine virtuel dédiée connectée à un DNS afin de mettre en ligne l'interface."
-                ]
-            },
-            "stack": {
-                "green": [ "Python", "HTML/JS", "PHP", "Tableau Desktop"],
-                "teal": ["Pandas", "Numpy"],
-                "grey": ["Data Analysis", "Web Development", "Deployment"]
-            }
-        },
-        {
-            "id": "2",
-            "title": "Développeur FullStack",
-            "compagny": "Canton-Consulting",
-            "compagny_categ": "FinTech",
-            "linkedin_url": "https://www.linkedin.com/company/canton-consulting/",
-            "from": "Sept 2019",
-            "to": "Sept 2020",
-            "details": {
-                "Maintenance et mise à jour d'une application web de reporting d'analyse de frais bancaire": [
-                    "Développement de nouvelles features d'information de connexion et de gestion de compte avec un système d'authentification LDAP (Python dash, flask, python-ldap)",
-                    "Maintenance de CI/CD sur nos serveurs internes avec github CI/CD"
-                ],
-                "Installation et intégration d'un LDAP dédié à différents projets.": [
-                    "Compréhension des notions, sécurisation et installation d'un LDAP pour différents besoins",
-                    "Intégration d'un LDAP en tant que système d'authentification pour différents projets (Python, JS)"
-                ],
-                "Responsable DPO (Data Protection Officer)": [
-                    "Vérification que l'utilisation de données de projets internes soit conforme à la RGPD"
-                ],
-                "Nettoyage d'une base de donnéed lors pour une mission cliente avec python (regex, pandas, numpy)": []
-            },
-            "stack": {
-                "green": ["Python", "Linux", "LDAP"],
-                "teal": ["Flask", "Dash", "Sqlalchemy", "Pandas", "Numpy"],
-                "grey": ["Web development", "Testing", "CI/CD"]
-            }
-        },
-        {
-            "id": "3",
-            "title": "Data Engineer / Back-End Developer",
-            "compagny": "Mobsuccess",
-            "compagny_categ": "Adtech",
-            "linkedin_url": "https://www.linkedin.com/company/canton-consulting/",
-            "from": "April 2021",
-            "to": "Present",
-            "details": {
-                "Développement d'une API interne afin de partager les données Data aux équipes Back-End et Front-End." : [
-                    "Utilisation de la librairie python AWS Chalice afin de mettre en place une structure Web avec AWS Lambda et API Gateway",
-                    "Création de Blueprints et de services afin de pouvoir s'adapter aux différents besoins",
-                    "Ajout d'adapter afin de vérifier les types des paramètre d'entrée et de sortie grâce aux décorateurs"
-                ],
-                "Mise en place, développement et maintenance d'une instance MWAA (Airflow) sur AWS.": [
-                    "Développement d'une stack Airflow avec AWS Cloudformation et SAM.",
-                    "Création de scripts bash et de CI/CD afin d'automatiser le déploiement de la Stack.",
-                    "Mise en place de dag afin d'orchestrer différents jobs Data. (DBT, EMR)",
-                    "Développement de scripts afin d'importer des datas en interne venant de diverses API. (Facebook Ads, Google Ads ...)."
-                ],
-                "Création et déploiement de package interne afin d'interagir avec les librairies Facebook Ads et google Ads." : [
-                    "Développement de package en suivant les normes Python afin de l'héberger sur AWS CodeArtifact.",
-                    "Mise en place de CI/CD afin d'automatiser le déploiement et le testing."
-                ],
-                "Développement de jobs Spark afin de mettre en place des pipelines de données sur AWS EMR." : [
-                    "Création de scripts avec Pyspark afin de mettre en place différents besoins de traitement de données.",
-                    "Utilisation de EMR Studio et CloudWatch pour le développement."
-                ],
-                "Créations et déploiement de plusieurs AWS Lambda pour des besoins interne avec SAM." : [
-                    "Dans la stack MWAA, ajout d'une fonction lambda pour récupérer un token d'authentification depuis CodaArtifact pour l'enregistrer pour des besoins sur MWAA tous les 10 heures du à l'expiration du token.",
-                    "Création d'une Lambda afin de supprimer des données datant de plus de 3 mois contenant des données personnelles afin de repondre au beasoin RGPD."
-                ]
-            },
-            "stack": {
-                "green": ["AWS (Amazon Web Service)", "Python"],
-                "teal": ["Airflow", "Pyspark", "DBT"],
-                "grey": ["Microservice", "DevOps", "Data engineering", "API REST", "Packaging"]
-            }
-        }
-    ]
+  "title": "Expériences",
+  "experiences": [
+    {
+      "id": "0",
+      "title": "Data Scientist",
+      "compagny": "National Chiao Tung University",
+      "compagny_categ": "Internship",
+      "linkedin_url": "https://www.linkedin.com/school/national-chiao-tung-university/",
+      "from": "Juin 2018",
+      "to": "Septembre 2018",
+      "details": {
+        "Sujet : Détecter, à partir des donnée provenant de capteurs de positions placés sur un individu, quel exercice pratique t-il à la salle de sport ?": [
+          "Analyse et compréhension du type de données coordonnées (x,y,z) en fonction du temps.",
+          "Utilisation de la Déformation Temporelle Dynamique (ou Dynamic Time Warping) appliquée sur chaque axe comme critère de comparaison.",
+          "Traitement en python afin de mettre en place un algorithme à partir des différentes valeurs trouvées avec DTW (pandas, numpy, dtw-python, scikit-learn)."
+        ]
+      },
+      "stack": {
+        "green": ["Python", "DTW (Dynamic Time Warping)"],
+        "teal": ["Pandas", "Numpy", "Scikit-learn"],
+        "grey": ["Data Exploration", "Data Analysis", "Machine Learning"]
+      }
+    },
+    {
+      "id": "1",
+      "title": "Développeur FullStack / Data Analyst",
+      "compagny": "T&E Vision",
+      "compagny_categ": "Internship",
+      "from": "Avril 2019",
+      "to": "Aout 2019",
+      "details": {
+        "Creation d'un MVP de reporting web d'analyse de données provenant du secteur du 'Travel & Expense'": [
+          "Exploration, traitement de données avec python (pandas, numpy)",
+          "Création d'une interface Web avec un système d'authentification (HTML, JS, PHP)",
+          "Dévelopement de dashboard avec Tableau Desktop",
+          "Allocation d'une machine virtuel dédiée connectée à un DNS afin de mettre en ligne l'interface."
+        ]
+      },
+      "stack": {
+        "green": ["Python", "HTML/JS", "PHP", "Tableau Desktop"],
+        "teal": ["Pandas", "Numpy"],
+        "grey": ["Data Analysis", "Web Development", "Deployment"]
+      }
+    },
+    {
+      "id": "2",
+      "title": "Développeur FullStack",
+      "compagny": "Canton-Consulting",
+      "compagny_categ": "FinTech",
+      "linkedin_url": "https://www.linkedin.com/company/canton-consulting/",
+      "from": "Sept 2019",
+      "to": "Sept 2020",
+      "details": {
+        "Maintenance et mise à jour d'une application web de reporting d'analyse de frais bancaire": [
+          "Développement de nouvelles features d'information de connexion et de gestion de compte avec un système d'authentification LDAP (Python dash, flask, python-ldap)",
+          "Maintenance de CI/CD sur nos serveurs internes avec github CI/CD"
+        ],
+        "Installation et intégration d'un LDAP dédié à différents projets.": [
+          "Compréhension des notions, sécurisation et installation d'un LDAP pour différents besoins",
+          "Intégration d'un LDAP en tant que système d'authentification pour différents projets (Python, JS)"
+        ],
+        "Responsable DPO (Data Protection Officer)": [
+          "Vérification que l'utilisation de données de projets internes soit conforme à la RGPD"
+        ],
+        "Nettoyage d'une base de donnéed lors pour une mission cliente avec python (regex, pandas, numpy)": []
+      },
+      "stack": {
+        "green": ["LDAP", "Python"],
+        "teal": ["Flask", "Dash", "Sqlalchemy", "Pandas", "Numpy"],
+        "grey": ["FullStack development", "Testing", "CI/CD"]
+      }
+    },
+    {
+      "id": "3",
+      "title": "Data Engineer / Back-End Developer",
+      "compagny": "Mobsuccess",
+      "compagny_categ": "Adtech",
+      "linkedin_url": "https://www.linkedin.com/company/canton-consulting/",
+      "from": "April 2021",
+      "to": "Present",
+      "details": {
+        "Conception et déploiement d'une infrastructure Airflow MWAA sur AWS": [
+          "Déploiement et maintenance d'une instance MWAA (Apache Airflow géré par AWS) avec CloudFormation (IaC).",
+          "Utilisation de Airflow comme l'orchestrateur central pour les workflows data (DBT, pyspark, scripts python, etc.)",
+          "Automatisation de la création de DAGs grâce à une logique de DAG factory.",
+          "Mise en place d'une architecture de développement et de règles cursor afin de faciliter le développement de nouveaux pipelines avec l'IA."
+        ],
+        "Refonte de pipeline batch vers une architecture event-driven ACID sur Airflow 3 + Iceberg": [
+          "Remplacement du scheduling CRON par des déclenchements basés sur les `Dataset` events d’Airflow 3",
+          "Migration des tables Athena vers Iceberg (cataloguées dans AWS Glue) pour permettre la mise à jour ACID des données",
+          "Adaptation des modèles dbt vers un mode incrémental fin basé sur `updated_at`",
+          "Intégration backend → Airflow via appel d’API pour notifier l’arrivée de nouvelles données"
+        ],
+        "Développement et automatisation de pipelines d’ingestion de données avec PyAirbyte": [
+          "Implémentation de connecteurs Airbyte via le SDK PyAirbyte pour extraire et transformer des données multi-sources",
+          "Planification et orchestration des jobs d’ingestion Airbyte sur clusters AWS EMR via Apache Airflow",
+          "Conception d’une infrastructure AWS sécurisée avec CloudFormation, incluant gestion des buckets S3, utilisateurs IAM, Secrets Manager et permissions Glue pour Airbyte",
+          "Mise en place d'une bdd Aurora Postgres utilisée comme cache pour Airbyte afin d'optimiser les synchronisations incrémentales et éviter la duplication des données"
+        ],
+        "ETL & Traitement de données": [
+          "Extraction de données depuis diverses APIs (Facebook Ads, Google Ads, Snapchat Marketing...)",
+          "Développement de pipelines de données avec PySpark sur AWS EMR pour le traitement de données massives.",
+          "Migration des pipelines vers des tables Apache Iceberg via pyIceberg, PySpark & Athena",
+          "Mise en place de script sur Airflow afin d'organiser et gérer l'incremental des pipelines DBT."
+        ],
+        "Indexation de la basese de donnée creative ": [""]
+      },
+      "stack": {
+        "green": ["AWS", "Python"],
+        "teal": ["Pyspark", "DBT", "MWAA (Airflow)", "PyAirbyte"],
+        "grey": [
+          "Iceberg, S3, Glue",
+          "Cloudformation (Iac)",
+          "Github Actions",
+          "Data engineering"
+        ]
+      }
+    }
+  ]
 }
