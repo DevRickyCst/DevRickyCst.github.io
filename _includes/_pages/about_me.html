@@ -13,21 +13,23 @@
             <div class="left-block">
                 <h3 class="blue">Contact</h3>
                 <div class="contact-info">
-                  <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aymeric-creusot-099a70172/" target="_blank">Creusot Aymeric</a></p>
-                  <p><strong>Github:</strong> <a href="https://github.com/DevRickyCst" target="_blank">DevRickyCst</a></p>
-                  <p> <a href="mailto:dev.creusot.aym@gmail.com">dev.creusot.aym@gmail.com</a></p>
-                  <p><a href="tel:123-456-7890">+33 6 87 58 68 02</a></p>
-                  <p>Bordeaux, France</p>
+                    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aymeric-creusot-099a70172/"
+                            target="_blank">Creusot Aymeric</a></p>
+                    <p><strong>Github:</strong> <a href="https://github.com/DevRickyCst" target="_blank">DevRickyCst</a>
+                    </p>
+                    <p> <a href="mailto:dev.creusot.aym@gmail.com">dev.creusot.aym@gmail.com</a></p>
+                    <p><a href="tel:123-456-7890">+33 6 87 58 68 02</a></p>
+                    <p>Paris, France</p>
                 </div>
             </div>
             <div class="left-block language">
                 {% for langues in about_trad.langues %}
-                    <p><b>{{ langues[0] }} :</b> {{ langues[1] }}</p>
+                <p><b>{{ langues[0] }} :</b> {{ langues[1] }}</p>
                 {% endfor %}
             </div>
             <div class="left-block download">
                 <button class="btn btn-light">
-                    <a href="/assets/pdf/developpeurPython.pdf" target="_blank" >{{ about_trad.download_link }}</a>
+                    <a href="/assets/pdf/developpeurPython.pdf" target="_blank">{{ about_trad.download_link }}</a>
                 </button>
             </div>
         </div>
@@ -37,38 +39,36 @@
                 <!-- About me -->
                 <h2 class="content-title">{{ about_trad.title-1 }}</h2>
                 {% for paragraphe in about_trad.introduction%}
-                    <p>{{ paragraphe }}</p>
+                <p>{{ paragraphe }}</p>
                 {% endfor %}
 
-                <!-- Education -->        
-                <h4  class="content-title">{{ about_trad.title-2 }}</h4>
+                <!-- Education -->
+                <h4 class="content-title">{{ about_trad.title-2 }}</h4>
                 {% assign education = about_trad.educations %}
-                <b class ='degree '>{{ education.diplome }}</b>
-                {%  for specialite in education.specialite %}
-                <p> {{ specialite[0] }} : {{ specialite[1] }}</p>
-                {% endfor %}
-                <p class ='degreeschool'><a href="{{ education.university_link }}" target="_blank">{{ education.university }}</a> (Ex: EISTI)  -  2015 -> 2020</p>
-                
+                <b class='degree '>{{ education.diplome }}</b>
+                <p class='degreeschool'><a href="{{ education.university_link }}" target="_blank">{{
+                        education.university }}</a> (Ex: EISTI) - 2015 <span class="arrow">→</span> 2020</p>
+
                 <!-- Certifications -->
-                {% assign certifications_list = about_me.certifications %}                
+                {% assign certifications_list = about_me.certifications %}
                 <h4 class="content-title">{{ about_trad.title-3 }}</h4>
-    
+
                 {% for certification in certifications_list reversed %}
-                    <div class="row certif ">
-                            <div class="col-9">
-                                <img src="{{ certification.logo }}" class="skills_logo" alt="python_logo">
-                                <a  href="{{ certification.certif_description_url }}"  target="_blank">
-                                    <b class ='degree'>{{ certification.title }}</b>
-                                </a>
-                                <a href="{{ certification.verif_url }}", target="_blank">
-                                    <img src="/assets/image/check.svg" class="certif_logo"></img>
-                                </a>
-                            </div>
-                            <div class="col-3 right">
-                                <p>{{ certification.date[lang] }}</p>
-                            </div>
-                            <p>{{ certification.from }}</p>
+                <div class="row certif ">
+                    <div class="col-9">
+                        <img src="{{ certification.logo }}" class="skills_logo" alt="python_logo">
+                        <a href="{{ certification.certif_description_url }}" target="_blank">
+                            <b class='degree'>{{ certification.title }}</b>
+                        </a>
+                        <a href="{{ certification.verif_url }}" , target="_blank">
+                            <img src="/assets/image/check.svg" class="certif_logo"></img>
+                        </a>
                     </div>
+                    <div class="col-3 right">
+                        <p>{{ certification.date[lang] }}</p>
+                    </div>
+                    <p>{{ certification.from }}</p>
+                </div>
                 {% endfor %}
             </div>
         </div>

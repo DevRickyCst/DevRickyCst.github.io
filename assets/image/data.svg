@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <!-- Base de données du haut -->
-    <path d="M4 6C4 4.34315 7.58172 3 12 3C16.4183 3 20 4.34315 20 6C20 7.65685 16.4183 9 12 9C7.58172 9 4 7.65685 4 6Z" stroke="#0066FF" stroke-width="2"/>
+<svg width="24" height="24" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Base de données -->
+    <path d="M40 15C50 15 60 20 60 25V55C60 60 50 65 40 65C30 65 20 60 20 55V25C20 20 30 15 40 15Z" stroke="#0066FF" stroke-width="3"/>
     
-    <!-- Lignes verticales -->
-    <path d="M4 6V18C4 19.6569 7.58172 21 12 21C16.4183 21 20 19.6569 20 18V6" stroke="#0066FF" stroke-width="2"/>
+    <!-- Lignes de données -->
+    <line x1="20" y1="30" x2="60" y2="30" stroke="#0066FF" stroke-width="2"/>
+    <line x1="20" y1="40" x2="60" y2="40" stroke="#0066FF" stroke-width="2"/>
+    <line x1="20" y1="50" x2="60" y2="50" stroke="#0066FF" stroke-width="2"/>
     
-    <!-- Lignes du milieu -->
-    <path d="M4 12C4 13.6569 7.58172 15 12 15C16.4183 15 20 13.6569 20 12" stroke="#0066FF" stroke-width="2"/>
+    <!-- Points de connexion -->
+    <circle cx="40" cy="10" r="3" fill="#0066FF"/>
+    <circle cx="40" cy="70" r="3" fill="#0066FF"/>
+    <circle cx="10" cy="40" r="3" fill="#0066FF"/>
+    <circle cx="70" cy="40" r="3" fill="#0066FF"/>
     
-    <!-- Points de données -->
-    <circle cx="8" cy="6" r="1" fill="#0066FF"/>
-    <circle cx="12" cy="6" r="1" fill="#0066FF"/>
-    <circle cx="16" cy="6" r="1" fill="#0066FF"/>
+    <!-- Flux de données -->
+    <path d="M40 65L40 75" stroke="#0066FF" stroke-width="3"/>
+    <path d="M40 75L30 85" stroke="#0066FF" stroke-width="3"/>
+    <path d="M40 75L50 85" stroke="#0066FF" stroke-width="3"/>
 </svg>

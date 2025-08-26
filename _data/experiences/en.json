@@ -17,9 +17,9 @@
         ]
       },
       "stack": {
-        "green": ["Python", "Machine Learning", "DTW (Dynamic Time Warping)"],
-        "teal": ["Pandas", "Numpy"],
-        "grey": ["Data Exploration", "Data Analysis"]
+        "green": ["Python", "DTW (Dynamic Time Warping)"],
+        "teal": ["Pandas", "Numpy", "Scikit-learn"],
+        "grey": ["Data Exploration", "Data Analysis", "Machine Learning"]
       }
     },
     {
@@ -65,9 +65,9 @@
         "Cleaning of a database for a client needs using python (regex, pandas, numpy)": []
       },
       "stack": {
-        "green": ["Python","Linux","LDAP" ],
-        "teal": ["Flask","Dash","Sqlalchemy","Pandas","Numpy"],
-        "grey": ["Web development","Testing","CI/CD"]
+        "green": ["LDAP", "Python"],
+        "teal": ["Flask", "Dash", "Sqlalchemy", "Pandas", "Numpy"],
+        "grey": ["FullStack development", "Testing", "CI/CD"]
       }
     },
     {
@@ -75,39 +75,45 @@
       "title": "Data Engineer / Back-End Developer",
       "compagny": "Mobsuccess",
       "compagny_categ": "Adtech",
-      "linkedin_url": "https://www.linkedin.com/company/canton-consulting/",
+      "linkedin_url": "https://www.linkedin.com/company/mobsuccess/",
       "from": "April 2021",
       "to": "Present",
       "details": {
-        "Development of an internal API to share data with Back-End and Front-End teams": [
-            "Usage of the Python library AWS Chalice to set up a web structure with AWS Lambda and API Gateway.",
-            "Designed blueprints and services to accommodate diverse needs.",
-            "Implemented adapters to validate input and output parameter types using decorators."
+        "Design and Deployment of an Airflow MWAA Infrastructure on AWS": [
+          "Deployment and maintenance of an MWAA instance (AWS Managed Apache Airflow) with CloudFormation (IaC).",
+          "Use of Airflow as the central orchestrator for data workflows (DBT, PySpark, Python scripts, etc.)",
+          "Automation of DAG creation using a DAG factory logic.",
+          "Implementation of a development architecture and cursor rules to facilitate the development of new AI-powered pipelines."
         ],
-        "Setup, development, and maintenance of an MWAA (Airflow) instance on AWS": [
-            "Development of an Airflow stack with AWS CloudFormation and SAM.",
-            "Creation of bash scripts and CI/CD to automate the deployment of the stack.",
-            "Implementation of DAGs to orchestrate various data jobs (DBT, EMR).",
-            "Development of scripts to import internal data from various APIs (Facebook Ads, Google Ads, etc.)."
+        "Refactoring Batch Pipelines into an Event-Driven ACID Architecture with Airflow 3 + Iceberg": [
+          "Replacement of CRON scheduling with Airflow 3 `Dataset` event triggers",
+          "Migration of Athena tables to Iceberg (cataloged in AWS Glue) to enable ACID data updates",
+          "Adaptation of dbt models to a fine-grained incremental mode based on `updated_at`",
+          "Backend → Airflow integration via API call to notify the arrival of new data"
         ],
-        "Creation and deployment of internal packages to interact with Facebook Ads and Google Ads libraries": [
-            "Development of packages following Python standards to host them on AWS CodeArtifact.",
-            "Establishment of CI/CD to automate deployment and testing."
+        "Development and Automation of Data Ingestion Pipelines with PyAirbyte": [
+          "Implementation of Airbyte connectors via the PyAirbyte SDK to extract and transform multi-source data",
+          "Scheduling and orchestration of Airbyte ingestion jobs on AWS EMR clusters via Apache Airflow",
+          "Design of a secure AWS infrastructure with CloudFormation, including S3 bucket management, IAM users, Secrets Manager, and Glue permissions for Airbyte",
+          "Implementation of an Aurora Postgres database used as a cache for Airbyte to optimize incremental syncs and avoid data duplication"
         ],
-        "Development of Spark jobs to set up data pipelines on AWS EMR": [
-            "Creation of scripts with Pyspark to meet various data processing needs.",
-            "Use of EMR Studio and CloudWatch for development."
-        ],
-        "Creation and deployment of AWS Lambdas for internal needs with SAM": [
-          "In the MWAA stack, deployed a Lambda function to fetch an authentication token from AWS CodeArtifact and save it for MWAA integration every 10 hours due to token expiration.",
-          "Creating a Lambda function to delete data older than 3 months containing personal information in order to comply with GDPR requirements."
+        "ETL & Data Processing": [
+          "Data extraction from various APIs (Facebook Ads, Google Ads, Snapchat Marketing...)",
+          "Development of data pipelines with PySpark on AWS EMR for large-scale data processing",
+          "Migration of pipelines to Apache Iceberg tables via pyIceberg, PySpark & Athena",
+          "Implementation of Airflow scripts to organize and manage dbt pipeline incrementality"
         ]
-    }
-    ,
+      },
       "stack": {
         "green": ["AWS (Amazon Web Service)", "Python"],
-        "teal": ["Airflow", "AWS Chalice", "Pyspark" ],
-        "grey": ["Microservice", "DevOps", "Data engineering", "API REST", "Packaging"]
+        "teal": ["Airflow", "AWS Chalice", "Pyspark"],
+        "grey": [
+          "Microservice",
+          "DevOps",
+          "Data engineering",
+          "API REST",
+          "ETL"
+        ]
       }
     }
   ]

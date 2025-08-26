@@ -10,10 +10,7 @@
     ],
     "title-2":"Formation",
     "educations" : {
-        "diplome": "Ingénieur en mathématiques appliquées et Informatique",
-        "specialite": {
-            "Spécialité": "Fintech"
-        },        
+        "diplome": "Ingénieur en mathématiques appliquées et Informatique",     
         "university": "CY-Tech",
         "university_link": "https://cytech.cyu.fr/formations-cy-tech/ingenieurs"
     },
