@@ -23,7 +23,7 @@
         ]
       }
     },
-    "Python Backend Development": {
+    "Python Development": {
       "logo": "/assets/image/backend.svg",
       "competences": {
         "Python Core": [
@@ -35,39 +35,9 @@
         ],
         "API Development": [
           "Frameworks: FastAPI, Flask, Chalice, Django REST Framework",
-          "Design Principles: REST, OpenAPI, versioning, idempotency",
           "Authentication: OAuth2, JWT, API Keys",
           "Serialization & Validation: Pydantic, Marshmallow",
-          "Testing & Documentation: pytest, httpx, Swagger, ReDoc"
-        ],
-        "Architecture": [
-          "REST API",
-          "Microservices",
-          "Clean Architecture",
-          "Unit & Integration Testing"
-        ]
-      }
-    },
-    "AI & Machine Learning": {
-      "logo": "/assets/image/ai.svg",
-      "competences": {
-        "Machine Learning Workflow": [
-          "Feature engineering, data cleaning, scaling",
-          "Model training & evaluation (cross-validation, metrics)",
-          "Hyperparameter tuning (Optuna, GridSearchCV)",
-          "Model versioning & experiment tracking (MLflow, Weights & Biases)"
-        ],
-        "MLOps & Deployment": [
-          "Model serving (FastAPI, BentoML, TorchServe)",
-          "CI/CD for ML (GitHub Actions, Docker, Terraform, Kubernetes)",
-          "Monitoring & retraining strategies (drift detection, feedback loops)",
-          "Model registry & reproducibility (MLflow, DVC)"
-        ],
-        "AI for Data Engineering": [
-          "LLMs for structured/unstructured data enrichment (OpenAI, Hugging Face)",
-          "Embedding generation & vector databases (FAISS, Weaviate)",
-          "Prompt engineering & few-shot learning",
-          "Automated labeling, classification & anomaly detection pipelines"
+          "Testing & Documentation: pytest, Postman"
         ]
       }
     },

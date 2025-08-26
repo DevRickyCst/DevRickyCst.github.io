@@ -76,7 +76,7 @@
       "title": "Data Engineer / Back-End Developer",
       "compagny": "Mobsuccess",
       "compagny_categ": "Adtech",
-      "linkedin_url": "https://www.linkedin.com/company/canton-consulting/",
+      "linkedin_url": "https://www.linkedin.com/company/mobsuccess/",
       "from": "April 2021",
       "to": "Present",
       "details": {
@@ -103,8 +103,7 @@
           "Développement de pipelines de données avec PySpark sur AWS EMR pour le traitement de données massives.",
           "Migration des pipelines vers des tables Apache Iceberg via pyIceberg, PySpark & Athena",
           "Mise en place de script sur Airflow afin d'organiser et gérer l'incremental des pipelines DBT."
-        ],
-        "Indexation de la basese de donnée creative ": [""]
+        ]
       },
       "stack": {
         "green": ["AWS", "Python"],

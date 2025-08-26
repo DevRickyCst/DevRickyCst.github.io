@@ -75,27 +75,33 @@
       "title": "Data Engineer / Back-End Developer",
       "compagny": "Mobsuccess",
       "compagny_categ": "Adtech",
-      "linkedin_url": "https://www.linkedin.com/company/canton-consulting/",
+      "linkedin_url": "https://www.linkedin.com/company/mobsuccess/",
       "from": "April 2021",
       "to": "Present",
       "details": {
-        "Migration from batch pipelines to an event-driven ACID architecture with Airflow 3 + Iceberg": [
-          "Replaced CRON-based scheduling with event-driven execution using Airflow 3 `Dataset` triggers",
-          "Adopted the Iceberg table format to enable ACID-compliant data handling on S3 (via Glue Catalog)",
-          "Refactored dbt models to use fine-grained incremental logic based on `updated_at` timestamps",
-          "Integrated backend with Airflow via API calls to trigger DAGs upon new data arrival"
+        "Design and Deployment of an Airflow MWAA Infrastructure on AWS": [
+          "Deployment and maintenance of an MWAA instance (AWS Managed Apache Airflow) with CloudFormation (IaC).",
+          "Use of Airflow as the central orchestrator for data workflows (DBT, PySpark, Python scripts, etc.)",
+          "Automation of DAG creation using a DAG factory logic.",
+          "Implementation of a development architecture and cursor rules to facilitate the development of new AI-powered pipelines."
         ],
-        "Development and automation of data ingestion pipelines using PyAirbyte on AWS EMR": [
-          "Implemented Airbyte connectors via the PyAirbyte SDK to extract and transform data from multiple sources",
-          "Scheduled and orchestrated Airbyte ingestion jobs on AWS EMR clusters using Apache Airflow",
-          "Designed a secure AWS infrastructure with CloudFormation, including S3 buckets, IAM users, Secrets Manager, and Glue permissions for Airbyte",
-          "Utilized Airbyte Postgres cache to optimize incremental syncs and prevent data duplication"
+        "Refactoring Batch Pipelines into an Event-Driven ACID Architecture with Airflow 3 + Iceberg": [
+          "Replacement of CRON scheduling with Airflow 3 `Dataset` event triggers",
+          "Migration of Athena tables to Iceberg (cataloged in AWS Glue) to enable ACID data updates",
+          "Adaptation of dbt models to a fine-grained incremental mode based on `updated_at`",
+          "Backend → Airflow integration via API call to notify the arrival of new data"
         ],
-        "Setup, development, and maintenance of an MWAA (Airflow) instance on AWS": [
-          "Development of an Airflow stack with AWS CloudFormation and SAM.",
-          "Creation of bash scripts and CI/CD to automate the deployment of the stack.",
-          "Implementation of DAGs to orchestrate various data jobs (DBT, EMR).",
-          "Development of scripts to import internal data from various APIs (Facebook Ads, Google Ads, etc.)."
+        "Development and Automation of Data Ingestion Pipelines with PyAirbyte": [
+          "Implementation of Airbyte connectors via the PyAirbyte SDK to extract and transform multi-source data",
+          "Scheduling and orchestration of Airbyte ingestion jobs on AWS EMR clusters via Apache Airflow",
+          "Design of a secure AWS infrastructure with CloudFormation, including S3 bucket management, IAM users, Secrets Manager, and Glue permissions for Airbyte",
+          "Implementation of an Aurora Postgres database used as a cache for Airbyte to optimize incremental syncs and avoid data duplication"
+        ],
+        "ETL & Data Processing": [
+          "Data extraction from various APIs (Facebook Ads, Google Ads, Snapchat Marketing...)",
+          "Development of data pipelines with PySpark on AWS EMR for large-scale data processing",
+          "Migration of pipelines to Apache Iceberg tables via pyIceberg, PySpark & Athena",
+          "Implementation of Airflow scripts to organize and manage dbt pipeline incrementality"
         ]
       },
       "stack": {

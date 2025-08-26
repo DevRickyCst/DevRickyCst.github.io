@@ -23,22 +23,22 @@
         ]
       }
     },
-    "Développement Backend": {
+    "Développement Python": {
       "logo": "/assets/image/backend.svg",
       "competences": {
-        "Bonnes pratiques et conception logicielle": [
-          "Programmation orientée objet (OOP) et principes SOLID",
-          "Tests unitaires et TDD (pytest, unittest, coverage)",
-          "Typage statique avec `mypy`, `pyright` et modèles de données avec Pydantic",
-          "Modularité, architecture hexagonale, clean code"
+        "Python Core": [
+          "Structures de données : liste, dictionnaire, tuple",
+          "Modèles d’itération : itérateurs, générateurs, compréhensions",
+          "Gestion des erreurs : exceptions, gestionnaires de contexte",
+          "Paradigmes de programmation : POO, programmation fonctionnelle",
+          "Typage et packaging : type hints, pyproject.toml, uv, poetry"
         ],
         "Frameworks et architecture API": [
           "Création d’APIs REST avec FastAPI, Flask, Chalice...",
           "Validation de schéma et typage strict avec Pydantic",
           "Structuration modulaire et découplée (routers, services, modèles)",
           "Documentation automatique d’API avec OpenAPI / Swagger"
-        ],
-        "": ["", "", "", ""]
+        ]
       }
     },
     "DevOps & Cloud": {
